@@ -1,0 +1,56 @@
+body {
+    #menu {
+        position: fixed;
+        z-index: 999;
+        background-color: black;
+        -webkit-padding-start: 0px;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        .active {
+            color: red;
+        }
+        li {
+            transform: rotate(-90deg);
+            padding: 50px 8px;
+            text-transform: uppercase;
+            a {
+                text-decoration: none;
+                color: white;
+                font-size: 1vw;
+                font-family: sans-serif;
+                &:hover {
+                    color: blue;
+                }
+            }
+        }
+    }
+    #pagepiling {
+        .section {
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: right;
+            background-color: black;
+        }
+        #section1 {
+            background-image: url(../assets/imgs/overwatch-1610865_1920.jpg);
+        }
+        #section2 {
+            background-image: url(../assets/imgs/joystick-2346237_1920.jpg);
+            background-position: right;
+        }
+        #section4 {
+            background-image: url(../assets/imgs/mouse-439593_1920.jpg);
+        }
+        #section5 {
+            background-image: url(../assets/imgs/boxer-1984344_1920.jpg);
+        }
+    }
+    .section {
+        width: 99vw;
+        margin-left: 4.4vw;
+    }
+}
