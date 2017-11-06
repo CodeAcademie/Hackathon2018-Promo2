@@ -1,29 +1,37 @@
 body {
+    font-family: "Open Sans";
     #menu {
         position: fixed;
         z-index: 999;
         background-color: black;
         -webkit-padding-start: 0px;
         height: 100vh;
+        width: 6vw;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         margin: 0;
         .active {
-            color: red;
+            color: #FF5722;
         }
         li {
             transform: rotate(-90deg);
-            padding: 50px 8px;
+            padding: 70px 0px;
             text-transform: uppercase;
+            color: white;
+            list-style: none;
+            font-weight: 600;
+            text-align: center;
             a {
                 text-decoration: none;
                 color: white;
-                font-size: 1vw;
-                font-family: sans-serif;
+                font-size: 0.8vw;
                 &:hover {
-                    color: blue;
+                    color: #FF5722;
+                }
+                &:focus {
+                    color: #FF5722;
                 }
             }
         }
@@ -37,6 +45,18 @@ body {
         }
         #section1 {
             background-image: url(../assets/imgs/overwatch-1610865_1920.jpg);
+            text-transform: uppercase;
+            color: white;
+            text-align: center;
+            
+            h1 {
+                font-size: 8vw;
+                margin: 0;
+            }
+            h2 {
+                font-size: 2.9vw;
+                margin: 0;
+            }
         }
         #section2 {
             background-image: url(../assets/imgs/joystick-2346237_1920.jpg);
@@ -49,8 +69,17 @@ body {
             background-image: url(../assets/imgs/boxer-1984344_1920.jpg);
         }
     }
-    .section {
-        width: 99vw;
-        margin-left: 4.4vw;
+}
+
+@media screen and (width: 600px) {
+    body {
+        #menu {
+            display: none;
+        }
+        #pagepiling {
+            .section {
+                background-size: cover;
+            }
+        }
     }
 }

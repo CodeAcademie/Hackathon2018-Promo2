@@ -1,43 +1,63 @@
-body #menu {
-  position: fixed;
-  z-index: 999;
-  background-color: black;
-  -webkit-padding-start: 0px;
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin: 0; }
-  body #menu .active {
-    color: red; }
-  body #menu li {
-    transform: rotate(-90deg);
-    padding: 50px 8px;
-    text-transform: uppercase; }
-    body #menu li a {
-      text-decoration: none;
+body {
+  font-family: "Open Sans"; }
+  body #menu {
+    position: fixed;
+    z-index: 999;
+    background-color: black;
+    -webkit-padding-start: 0px;
+    height: 100vh;
+    width: 6vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0; }
+    body #menu .active {
+      color: #FF5722; }
+    body #menu li {
+      transform: rotate(-90deg);
+      padding: 70px 0px;
+      text-transform: uppercase;
       color: white;
-      font-size: 1vw;
-      font-family: sans-serif; }
-      body #menu li a:hover {
-        color: blue; }
-body #pagepiling .section {
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: right;
-  background-color: black; }
-body #pagepiling #section1 {
-  background-image: url(../assets/imgs/overwatch-1610865_1920.jpg); }
-body #pagepiling #section2 {
-  background-image: url(../assets/imgs/joystick-2346237_1920.jpg);
-  background-position: right; }
-body #pagepiling #section4 {
-  background-image: url(../assets/imgs/mouse-439593_1920.jpg); }
-body #pagepiling #section5 {
-  background-image: url(../assets/imgs/boxer-1984344_1920.jpg); }
-body .section {
-  width: 99vw;
-  margin-left: 4.4vw; }
+      list-style: none;
+      font-weight: 600;
+      text-align: center; }
+      body #menu li a {
+        text-decoration: none;
+        color: white;
+        font-size: 0.8vw; }
+        body #menu li a:hover {
+          color: #FF5722; }
+        body #menu li a:focus {
+          color: #FF5722; }
+  body #pagepiling .section {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-color: black; }
+  body #pagepiling #section1 {
+    background-image: url(../assets/imgs/overwatch-1610865_1920.jpg);
+    text-transform: uppercase;
+    color: white;
+    text-align: center; }
+    body #pagepiling #section1 h1 {
+      font-size: 8vw;
+      margin: 0; }
+    body #pagepiling #section1 h2 {
+      font-size: 2.9vw;
+      margin: 0; }
+  body #pagepiling #section2 {
+    background-image: url(../assets/imgs/joystick-2346237_1920.jpg);
+    background-position: right; }
+  body #pagepiling #section4 {
+    background-image: url(../assets/imgs/mouse-439593_1920.jpg); }
+  body #pagepiling #section5 {
+    background-image: url(../assets/imgs/boxer-1984344_1920.jpg); }
+
+@media screen and (width: 600px) {
+  body #menu {
+    display: none; }
+  body #pagepiling .section {
+    background-size: cover; } }
 
 /*# sourceMappingURL=style.css.map */
