@@ -99,7 +99,6 @@ body {
     background-position: right; }
     html #pagepiling #section2 section,
     body #pagepiling #section2 section {
-      height: auto;
       width: 90vw;
       margin: auto;
       padding: 3%;
@@ -110,12 +109,13 @@ body {
         height: 100%; }
         html #pagepiling #section2 section div article,
         body #pagepiling #section2 section div article {
-          height: auto; }
+          height: 40%;
+          max-height: 45%; }
           html #pagepiling #section2 section div article h3,
           body #pagepiling #section2 section div article h3 {
             font-weight: bold;
-            font-size: 1.4em;
-            margin: 20px;
+            font-size: 1.1vw;
+            margin: 1vw;
             width: 90%;
             text-transform: uppercase; }
             html #pagepiling #section2 section div article h3 img,
@@ -128,13 +128,13 @@ body {
             width: 90%;
             height: 2px;
             background-color: #FF5722;
-            margin: 20px; }
+            margin: 1vw; }
           html #pagepiling #section2 section div article p,
           body #pagepiling #section2 section div article p {
             text-align: left;
             width: 90%;
-            font-size: 1.1em;
-            margin: 20px; }
+            font-size: 0.8vw;
+            margin: 1vw; }
         html #pagepiling #section2 section div article:last-child,
         body #pagepiling #section2 section div article:last-child {
           border-top: 2px solid whitesmoke; }
@@ -151,9 +151,12 @@ body {
           html #pagepiling #section2 section div .orange div,
           body #pagepiling #section2 section div .orange div {
             background-color: whitesmoke; }
-      html #pagepiling #section2 section div iframe,
-      body #pagepiling #section2 section div iframe {
-        margin: 0px 20px; }
+      html #pagepiling #section2 section div:last-child,
+      body #pagepiling #section2 section div:last-child {
+        background-color: transparent; }
+        html #pagepiling #section2 section div:last-child iframe,
+        body #pagepiling #section2 section div:last-child iframe {
+          max-height: 85%; }
   html #pagepiling #section4,
   body #pagepiling #section4 {
     background-image: url(../assets/imgs/mouse-439593_1920.jpg); }
