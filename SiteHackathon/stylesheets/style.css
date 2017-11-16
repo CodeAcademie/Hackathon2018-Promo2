@@ -39,7 +39,7 @@ body {
     transition: all 1s; }
     html nav .menu,
     body nav .menu {
-      width: 15em;
+      width: 15vw;
       margin: 1em auto;
       margin-top: 30%;
       padding-left: 0;
