@@ -1,20 +1,16 @@
-@charset "UTF-8";
 /* COLORS */
 * {
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  margin: 0px; }
 
 html,
 body {
   width: 100% !important;
   height: 100% !important;
-  margin: 0px;
   padding: 0px !important;
+  margin: 0px !important;
   font-family: "Open Sans";
   color: whitesmoke; }
-  html div[class^=“col”],
-  body div[class^=“col”] {
-    margin: 0px;
-    padding: 0px; }
   html #mostrar-nav,
   body #mostrar-nav {
     position: absolute;
@@ -88,7 +84,8 @@ body {
     html #pagepiling #section1 h1,
     body #pagepiling #section1 h1 {
       font-size: 5em;
-      margin: 0;
+      font-weight: bold;
+      margin: 20px;
       color: #FF5722; }
     html #pagepiling #section1 h2,
     body #pagepiling #section1 h2 {
@@ -102,11 +99,10 @@ body {
     background-position: right; }
     html #pagepiling #section2 section,
     body #pagepiling #section2 section {
-      height: 100vh;
+      height: auto;
       width: 90vw;
       margin: auto;
       padding: 3%;
-      background-color: rgba(17, 17, 17, 0.5);
       color: whitesmoke; }
       html #pagepiling #section2 section div,
       body #pagepiling #section2 section div {
@@ -114,13 +110,19 @@ body {
         height: 100%; }
         html #pagepiling #section2 section div article,
         body #pagepiling #section2 section div article {
-          height: 40vh; }
+          height: auto; }
           html #pagepiling #section2 section div article h3,
           body #pagepiling #section2 section div article h3 {
             font-weight: bold;
             font-size: 1.4em;
             margin: 20px;
-            width: 90%; }
+            width: 90%;
+            text-transform: uppercase; }
+            html #pagepiling #section2 section div article h3 img,
+            body #pagepiling #section2 section div article h3 img {
+              width: 1em;
+              padding: 0px;
+              margin: 0px 10px 0px 10px; }
           html #pagepiling #section2 section div article div,
           body #pagepiling #section2 section div article div {
             width: 90%;
@@ -129,13 +131,29 @@ body {
             margin: 20px; }
           html #pagepiling #section2 section div article p,
           body #pagepiling #section2 section div article p {
-            text-align: justify;
+            text-align: left;
             width: 90%;
-            font-size: 1em;
+            font-size: 1.1em;
             margin: 20px; }
-      html #pagepiling #section2 section video iframe,
-      body #pagepiling #section2 section video iframe {
-        margin: 0 auto; }
+        html #pagepiling #section2 section div article:last-child,
+        body #pagepiling #section2 section div article:last-child {
+          border-top: 2px solid whitesmoke; }
+        html #pagepiling #section2 section div article:nth-child(4),
+        html #pagepiling #section2 section div article:nth-child(1),
+        body #pagepiling #section2 section div article:nth-child(4),
+        body #pagepiling #section2 section div article:nth-child(1) {
+          border-right: 2px solid whitesmoke; }
+        html #pagepiling #section2 section div .orange,
+        body #pagepiling #section2 section div .orange {
+          background-color: #FF5722;
+          background: linear-gradient(45deg, #bf3e17 95%, #ff5722 95%, #ff5722 50%, #ff5722 66%);
+          box-shadow: 5px 0px 5px 0px rgba(0, 0, 0, 0.5); }
+          html #pagepiling #section2 section div .orange div,
+          body #pagepiling #section2 section div .orange div {
+            background-color: whitesmoke; }
+      html #pagepiling #section2 section div iframe,
+      body #pagepiling #section2 section div iframe {
+        margin: 0px 20px; }
   html #pagepiling #section4,
   body #pagepiling #section4 {
     background-image: url(../assets/imgs/mouse-439593_1920.jpg); }
