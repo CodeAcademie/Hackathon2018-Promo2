@@ -107,7 +107,7 @@ body {
       background-color: transparent; }
       html #pagepiling #section2 section div:last-child iframe,
       body #pagepiling #section2 section div:last-child iframe {
-        max-height: 83%;
+        max-height: 80%;
         margin: 1vw; }
   html #pagepiling #section4,
   body #pagepiling #section4 {
@@ -191,12 +191,12 @@ body {
           body #pagepiling .section section div article h3 img {
             width: 1em;
             padding: 0px;
-            margin: 0px 10px 4px 10px; }
+            margin: 0px 10px 4px 0px; }
         html #pagepiling .section section div article div,
         body #pagepiling .section section div article div {
-          width: 100%;
+          width: 90%;
           height: 2px;
-          margin: 1vh auto; }
+          margin: 1vw; }
         html #pagepiling .section section div article p,
         body #pagepiling .section section div article p {
           text-align: left;
