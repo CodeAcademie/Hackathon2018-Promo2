@@ -114,25 +114,52 @@ body {
     background-image: url(../assets/imgs/mouse-439593_1920.jpg); }
     html #pagepiling #section4 section div article,
     body #pagepiling #section4 section div article {
-      min-height: 100%;
-      max-height: 100%;
-      background-color: gray; }
+      height: 100%;
+      background-color: #FF5722;
+      background: linear-gradient(45deg, #bf3e17 95%, #ff5722 95%, #ff5722 50%, #ff5722 66%);
+      box-shadow: 5px 0px 5px 0px rgba(0, 0, 0, 0.5); }
       html #pagepiling #section4 section div article div,
       body #pagepiling #section4 section div article div {
-        background-color: #FF5722; }
+        background-color: whitesmoke; }
       html #pagepiling #section4 section div article form,
       body #pagepiling #section4 section div article form {
         margin: 1vw;
         width: 90%; }
         html #pagepiling #section4 section div article form label,
         body #pagepiling #section4 section div article form label {
-          width: 100%; }
+          width: 100%;
+          font-size: 1.2em;
+          margin: 15px 0 10px 0; }
         html #pagepiling #section4 section div article form input,
         body #pagepiling #section4 section div article form input {
-          width: 100%; }
+          width: 100%;
+          background-color: black;
+          border: 1px solid whitesmoke;
+          height: 5vh; }
+        html #pagepiling #section4 section div article form textarea,
+        body #pagepiling #section4 section div article form textarea {
+          width: 100%;
+          background-color: black;
+          border: 1px solid whitesmoke;
+          height: 15vh;
+          max-width: 100%;
+          min-width: 100%;
+          max-height: 15vh; }
         html #pagepiling #section4 section div article form button,
         body #pagepiling #section4 section div article form button {
-          width: 100%; }
+          width: 50%;
+          height: 5vh;
+          margin: 15px 0 10px 0;
+          background-color: whitesmoke;
+          color: #FF5722;
+          border: none;
+          font-size: 1.5em;
+          text-align: center;
+          font-weight: bold; }
+          html #pagepiling #section4 section div article form button:hover,
+          body #pagepiling #section4 section div article form button:hover {
+            background-color: black;
+            color: whitesmoke; }
   html #pagepiling #section5,
   body #pagepiling #section5 {
     background-image: url(../assets/imgs/boxer-1984344_1920.jpg); }
