@@ -178,6 +178,29 @@ body {
         }
         #section5 {
             background-image: url(../assets/imgs/boxer-1984344_1920.jpg);
+            section {
+                div {
+                    article {
+                        height: 100%;
+                        div {
+/*
+                            background-color: $orange;
+*/
+                        }
+                        div:last-child {
+                            height: auto;
+                        }
+                    }
+                    .orange {
+                        div {
+                            background-color: $white;
+                        }
+                        background-color: $orange;
+                        background: linear-gradient(45deg, rgba(191, 62, 23, 1) 95%, rgba(255, 87, 34, 1) 95%, rgba(255, 87, 34, 1) 50%, rgba(255, 87, 34, 1) 66%);
+                        box-shadow: 5px 0px 5px 0px rgba(0, 0, 0, 0.5);
+                    }
+                }
+            }
         }
         .section {
             background-color: black;

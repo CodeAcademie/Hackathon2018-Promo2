@@ -163,6 +163,25 @@ body {
   html #pagepiling #section5,
   body #pagepiling #section5 {
     background-image: url(../assets/imgs/boxer-1984344_1920.jpg); }
+    html #pagepiling #section5 section div article,
+    body #pagepiling #section5 section div article {
+      height: 100%; }
+      html #pagepiling #section5 section div article div,
+      body #pagepiling #section5 section div article div {
+        /*
+                                    background-color: $orange;
+        */ }
+      html #pagepiling #section5 section div article div:last-child,
+      body #pagepiling #section5 section div article div:last-child {
+        height: auto; }
+    html #pagepiling #section5 section div .orange,
+    body #pagepiling #section5 section div .orange {
+      background-color: #FF5722;
+      background: linear-gradient(45deg, #bf3e17 95%, #ff5722 95%, #ff5722 50%, #ff5722 66%);
+      box-shadow: 5px 0px 5px 0px rgba(0, 0, 0, 0.5); }
+      html #pagepiling #section5 section div .orange div,
+      body #pagepiling #section5 section div .orange div {
+        background-color: whitesmoke; }
   html #pagepiling .section,
   body #pagepiling .section {
     background-color: black;
