@@ -1,0 +1,20 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    Lise POIRIER    -   as Front End Developper
+    Erwann DUCLOS   -   as Back End Developper
+
+# THANKS
+
+Special thanks to all active members of the organizing hackathon team!
+
+#CONTACTS
+
+For any questions, please contact us as codeacademie@fondationface.org
+
+# TECHNOLOGY COLOPHON
+
+    CSS3, HTML5
+    
