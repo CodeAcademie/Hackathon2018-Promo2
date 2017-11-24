@@ -19,7 +19,7 @@ $("#mostrar-nav").on("click", function () {
 
 
 // EFFET TEXTE TITLE
-var myText = 'organisé par la Code Académie',
+var myText = "organisé par la Code Académie et l'Epita",
     i = 0;
 window.onload = function () {
     var typeWriter = setInterval(function () {
