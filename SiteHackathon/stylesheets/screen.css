@@ -1,6 +1,6 @@
 /*
 Error: File to import not found or unreadable: compass/reset.
-       Load path: /var/www/html/Hackathon/SiteHackathon/sass
+       Load path: /var/www/html/Hackathon/Hackathon/SiteHackathon/sass
         on line 6 of sass/screen.scss
 
 1: /* Welcome to Compass.
@@ -56,4 +56,4 @@ sass/screen.scss:6
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: File to import not found or unreadable: compass/reset.\A        Load path: /var/www/html/Hackathon/SiteHackathon/sass\A         on line 6 of sass/screen.scss\A \A 1: /* Welcome to Compass.\A 2:  * In this file you should write your main styles. (or centralize your imports)\A 3:  * Import this file using the following HTML or equivalent:\A 4:  * <link href=\"/stylesheets/screen.css\" media=\"screen, projection\" rel=\"stylesheet\" type=\"text/css\" /> */\A 5: \A 6: @import \"compass/reset\";"; }
+  content: "Error: File to import not found or unreadable: compass/reset.\A        Load path: /var/www/html/Hackathon/Hackathon/SiteHackathon/sass\A         on line 6 of sass/screen.scss\A \A 1: /* Welcome to Compass.\A 2:  * In this file you should write your main styles. (or centralize your imports)\A 3:  * Import this file using the following HTML or equivalent:\A 4:  * <link href=\"/stylesheets/screen.css\" media=\"screen, projection\" rel=\"stylesheet\" type=\"text/css\" /> */\A 5: \A 6: @import \"compass/reset\";"; }

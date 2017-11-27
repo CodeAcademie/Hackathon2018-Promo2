@@ -68,32 +68,71 @@ body {
   body #pagepiling #section1 {
     background-image: url(../assets/imgs/overwatch-1610865_1920.jpg);
     text-transform: uppercase;
-    text-align: center; }
-    html #pagepiling #section1 img,
-    body #pagepiling #section1 img {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    html #pagepiling #section1 .logotype-header,
+    body #pagepiling #section1 .logotype-header {
+      display: block;
+      width: auto;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
       width: 30%;
-      border-bottom: 1px solid whitesmoke; }
+      margin: 0 auto;
+      background: linear-gradient(to bottom, #ff5622 0%, #ff1491 25%, #00468b 50%, #2e8b56 75%, firebrick 100%); }
+      html #pagepiling #section1 .logotype-header div,
+      body #pagepiling #section1 .logotype-header div {
+        width: 99%;
+        height: 99%;
+        background-color: black; }
+        html #pagepiling #section1 .logotype-header div img,
+        body #pagepiling #section1 .logotype-header div img {
+          margin: 0px;
+          width: 18vw; }
+        html #pagepiling #section1 .logotype-header div img:first-child,
+        body #pagepiling #section1 .logotype-header div img:first-child {
+          padding-top: 4vh;
+          padding-bottom: 4vh;
+          opacity: 0.8; }
+        html #pagepiling #section1 .logotype-header div img:last-child,
+        body #pagepiling #section1 .logotype-header div img:last-child {
+          opacity: 0.8; }
     html #pagepiling #section1 h1,
     body #pagepiling #section1 h1 {
-      font-size: 5em;
+      font-size: 10em;
+      text-transform: uppercase;
       font-weight: bold;
-      margin: 20px;
-      color: #FF5722; }
+      padding: 3vh 0 1vh 0; }
     html #pagepiling #section1 h2,
     body #pagepiling #section1 h2 {
-      font-family: "VT323";
-      letter-spacing: 0.2em;
-      font-size: 2em;
-      margin: 0; }
+      margin: 0;
+      padding: 0;
+      font-family: 'VT323';
+      color: #FF5722; }
+    html #pagepiling #section1 ul li img,
+    body #pagepiling #section1 ul li img {
+      width: 1vw;
+      background-color: transparent; }
   html #pagepiling #section2,
   body #pagepiling #section2 {
-    background-image: url(../assets/imgs/joystick-2346237_1920.jpg); }
-    html #pagepiling #section2 section div article,
-    body #pagepiling #section2 section div article {
-      height: 50%; }
-      html #pagepiling #section2 section div article div,
-      body #pagepiling #section2 section div article div {
-        background-color: #FF5722; }
+    background-image: url(../assets/imgs/lol2.jpeg); }
+    html #pagepiling #section2 section div article #orange,
+    body #pagepiling #section2 section div article #orange {
+      background-color: #FF5722; }
+    html #pagepiling #section2 section div article #pink,
+    body #pagepiling #section2 section div article #pink {
+      background-color: deeppink; }
+    html #pagepiling #section2 section div article #blue,
+    body #pagepiling #section2 section div article #blue {
+      background-color: #00458B; }
+    html #pagepiling #section2 section div article #green,
+    body #pagepiling #section2 section div article #green {
+      background-color: seagreen; }
+    html #pagepiling #section2 section div article #red,
+    body #pagepiling #section2 section div article #red {
+      background-color: firebrick; }
     html #pagepiling #section2 section div .orange,
     body #pagepiling #section2 section div .orange {
       background-color: #FF5722;
@@ -102,13 +141,9 @@ body {
       html #pagepiling #section2 section div .orange div,
       body #pagepiling #section2 section div .orange div {
         background-color: whitesmoke; }
-    html #pagepiling #section2 section div:last-child,
-    body #pagepiling #section2 section div:last-child {
-      background-color: transparent; }
-      html #pagepiling #section2 section div:last-child iframe,
-      body #pagepiling #section2 section div:last-child iframe {
-        max-height: 80%;
-        margin: 1vw; }
+    html #pagepiling #section2 section div:last-child iframe,
+    body #pagepiling #section2 section div:last-child iframe {
+      max-height: 100%; }
   html #pagepiling #section4,
   body #pagepiling #section4 {
     background-image: url(../assets/imgs/mouse-439593_1920.jpg); }
@@ -168,9 +203,9 @@ body {
       height: 100%; }
       html #pagepiling #section5 section div article div,
       body #pagepiling #section5 section div article div {
-        /*
-                                    background-color: $orange;
-        */ }
+                            /*
+                            background-color: $orange;
+*/ }
       html #pagepiling #section5 section div article div:last-child,
       body #pagepiling #section5 section div article div:last-child {
         height: auto; }
@@ -191,10 +226,10 @@ body {
     top: 0px; }
     html #pagepiling .section section,
     body #pagepiling .section section {
-      width: 90%;
+      width: 95%;
       height: 92vh;
-      margin: 4vh auto;
-      padding: 0 3%; }
+      margin: 0 0 0 2.5%;
+      padding: 5%; }
       html #pagepiling .section section div,
       body #pagepiling .section section div {
         width: 100%;
@@ -203,24 +238,32 @@ body {
         body #pagepiling .section section div article h3 {
           font-weight: bold;
           font-size: 1.1vw;
-          margin: 1vw;
-          width: 90%;
+          margin-bottom: 1vh;
+          width: 100%;
           text-transform: uppercase; }
           html #pagepiling .section section div article h3 img,
           body #pagepiling .section section div article h3 img {
-            width: 1em;
+            width: 1.5vw;
             padding: 0px;
             margin: 0px 10px 4px 0px; }
         html #pagepiling .section section div article div,
         body #pagepiling .section section div article div {
           width: 90%;
           height: 2px;
-          margin: 1vw; }
+          margin-bottom: 2vh; }
         html #pagepiling .section section div article p,
         body #pagepiling .section section div article p {
           text-align: left;
           width: 90%;
           font-size: 0.8vw;
-          margin: 1vw; }
+          margin-bottom: 3vh; }
+          html #pagepiling .section section div article p a,
+          body #pagepiling .section section div article p a {
+            text-decoration: none;
+            color: #FF5722;
+            font-weight: bold; }
+            html #pagepiling .section section div article p a:hover,
+            body #pagepiling .section section div article p a:hover {
+              font-size: 1.1em; }
 
 /*# sourceMappingURL=style.css.map */
