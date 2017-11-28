@@ -19,7 +19,7 @@ $("#mostrar-nav").on("click", function () {
 
 
 // EFFET TEXTE TITLE
-var myText = "Ici on inscrit les dates du Hackathon",
+var myText = "Du 16 au 18 Février 2018",
     i = 0;
 window.onload = function () {
     var typeWriter = setInterval(function () {
