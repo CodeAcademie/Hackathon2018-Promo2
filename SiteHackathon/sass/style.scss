@@ -16,61 +16,164 @@ body {
     margin: 0px !important;
     font-family: "Open Sans";
     color: $white;
-    #mostrar-nav {
-        position: absolute;
-        top: 1em;
-        left: 1em;
+    
+    .animate {
         z-index: 999;
-        width: 4vw;
-        height: 4vh;
-        background: url(../assets/imgs/game-controller.svg);
-        background-repeat: no-repeat;
-        background-size: contain;
-        cursor: pointer;
-    }
-    nav.mostrar {
-        left: 0;
-    }
-    nav {
-        position: absolute;
-        top: 0;
-        left: -32em;
-        z-index: 998;
-        height: 100%;
-        padding-top: 1em;
-        background: rgba(50, 50, 50, 0.3);
-        border-right: 0.5px solid $orange;
-        transition: all 1s;
-        .menu {
-            width: 20em;
-            margin: 1em auto;
-            margin-top: 30%;
-            padding-left: 0;
-            font-family: "VT323";
-            list-style: none;
-            line-height: 40px;
-            li {
-                a {
-                    color: $white;
-                    text-decoration: none;
-                    text-transform: uppercase;
-                    display: block;
-                    width: 100%;
-                    padding-left: 1em;
-                    font-size: 1.5em;
-                    &:hover {
-                        margin-left: 1em;
-                        --webkit-transition: all .5s;
-                        -o-transition: all .5s;
-                        transition: all .5s;
-                    }
-                }
-                &:hover {
-                    box-shadow: 30em 0 $orange inset;
-                }
-            }
-        }
-    }
+		-webkit-transition: all 0.3s ease-in-out;
+		-moz-transition: all 0.3s ease-in-out;
+		-o-transition: all 0.3s ease-in-out;
+		-ms-transition: all 0.3s ease-in-out;
+		transition: all 0.3s ease-in-out;
+	}
+
+	.navbar-fixed-left {
+		position: fixed;
+		top: 0px;
+		left: 0px;
+		border-radius: 0px;
+	}
+
+	.navbar-minimal {
+		width: 60px;		
+		min-height: 60px;
+		max-height: 100%;
+		border-width: 0px;
+		z-index: 1000;
+	}
+
+	.navbar-minimal > .navbar-toggler {
+		position: relative;
+		min-height: 60px;
+		z-index: 100;
+		cursor: pointer;
+	}
+
+	.navbar-minimal.open > .navbar-toggler,
+	.navbar-minimal > .navbar-toggler:hover {
+		background-color: $orange;
+	}
+
+	.navbar-minimal > .navbar-toggler > span {
+		position: absolute;
+		top: 50%;
+		right: 50%;
+		margin: -8px -8px 0 0;
+		width: 16px;
+		height: 16px;
+		background-repeat: no-repeat;
+		background-position: 0 0;
+		-webkit-transition: -webkit-transform .3s ease-out 0s;
+		-moz-transition: -moz-transform .3s ease-out 0s;
+		-o-transition: -moz-transform .3s ease-out 0s;
+		-ms-transition: -ms-transform .3s ease-out 0s;
+		transition: transform .3s ease-out 0s;
+		-webkit-transform: rotate(0deg);
+		-moz-transform: rotate(0deg);
+		-o-transform: rotate(0deg);
+		-ms-transform: rotate(0deg);
+		transform: rotate(0deg);
+	}
+
+	.navbar-minimal > .navbar-menu {
+		position: absolute;
+		top: -1000px;
+		left: 0px;
+		margin: 0px;
+		padding: 0px;
+		list-style: none;
+		z-index: 50;
+	
+	}
+	.navbar-minimal > .navbar-menu > li {
+		margin: 0px;
+		padding: 0px;
+		border-width: 0px;
+		height: 54px;
+	}
+	.navbar-minimal > .navbar-menu > li > a {
+		position: relative;
+		display: inline-block;
+		color: rgb(255, 255, 255);
+		padding: 20px 23px;
+		text-align: left;
+		cursor: pointer;
+		border-bottom: 1px solid rgb(81, 81, 81);
+		width: 100%;
+		text-decoration: none;
+		margin: 0px;
+	}
+
+	.navbar-minimal > .navbar-menu > li > a:last-child {
+		border-bottom-width: 0px;
+	}
+	.navbar-minimal > .navbar-menu > li > a:hover {
+		background-color: $orange;
+	}
+	.navbar-minimal > .navbar-menu > li > a > .glyphicon {
+		float: right;
+	}
+
+	.navbar-minimal.open {
+		width: 320px;
+	}
+
+	.navbar-minimal.open > .navbar-toggler > span {
+		background-position: 0 -16px;
+		-webkit-transform: rotate(-180deg);
+		-moz-transform: rotate(-180deg);
+		-o-transform: rotate(-180deg);
+		-ms-transform: rotate(-180deg);
+		transform: rotate(-180deg);
+	}
+
+	.navbar-minimal.open > .navbar-menu {
+		top: 60px;
+		width: 100%;
+		min-height: 100%;
+	}
+
+	@media (min-width: 768px) {
+		.navbar-minimal.open {
+			width: 60px;
+		}
+		.navbar-minimal.open > .navbar-menu {
+			overflow: visible;
+		}
+		.navbar-minimal > .navbar-menu > li > a > .desc {
+			position: absolute;
+			display: inline-block;
+			top: 50%;
+			left: 130px;
+			margin-top: -20px;
+			margin-left: 20px;
+			text-align: left;
+			white-space: nowrap;
+			padding: 10px 13px;
+			border-width: 0px !important;
+			background-color: rgb(51, 51, 51);
+			background-color: rgba(51, 51, 51, 0.8);
+			opacity: 0;
+		}
+		.navbar-minimal > .navbar-menu > li > a > .desc:after {
+			z-index: -1;
+			position: absolute;
+			top: 50%;
+			left: -10px;
+			margin-top: -10px;
+			content:'';
+			width: 0;
+			height: 0;
+			border-top: 10px solid transparent;
+			border-bottom: 10px solid transparent; 	
+			border-right: 10px solid rgb(51, 51, 51);
+			border-right-color: rgba(51, 51, 51, 0.8);
+		}
+		.navbar-minimal > .navbar-menu > li > a:hover > .desc {
+			left: 60px;
+			opacity: 1;
+		}
+	}
+    
     #pagepiling {
         #section1 {
             background-image: url(../assets/imgs/overwatch-1610865_1920.jpg);
@@ -95,14 +198,11 @@ body {
                     img {
                         margin: 0px;
                         width: 18vw;
+                        opacity: 0.6;
                     }
                     img:first-child {
                         padding-top: 4vh;
                         padding-bottom: 4vh;
-                        opacity: 0.8;
-                    }
-                    img:last-child {
-                        opacity: 0.8;
                     }
                 }
             }
@@ -110,14 +210,38 @@ body {
                 font-size: 10em;
                 text-transform: uppercase;
                 font-weight: bold;
-                padding: 3vh 0 1vh 0;
+                padding: 3vh 0 0 0;
+                margin: 0;
+                span {
+                    font-weight: normal;
+                    color: $white;
+                }
             }
             h2 {
                 margin: 0;
                 padding: 0;
+                font-size: 3em;
                 font-family: 'VT323';
-                color: $orange;
             }
+            h3 {
+                font-size: 3em;
+                color: $white;
+                padding: 2vh;
+                font-weight: bold;
+                span:nth-child(1) {
+                    color: deeppink;
+                } 
+                span:nth-child(2) {
+                    color: #00458b;
+                } 
+                span:nth-child(3) {
+                    color: seagreen;
+                } 
+                span:nth-child(4) {
+                    color: firebrick;
+                } 
+            }
+      
             ul {
                 li {
                     img {
@@ -224,8 +348,8 @@ body {
                             width: 45%;
                             display: inline-block;
                             margin: 2vh 0px;
-                    }
                         }
+                    }
                 }
             }
         }

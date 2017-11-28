@@ -1,47 +1,75 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title>HACKATHON</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="stylesheets/jquery.pagepiling.css" />
-    <link rel="stylesheet" href="stylesheets/style.css">
-    <!--    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
-    
-    <!-- Latest compiled and minified CSS -->
 
+    <link rel="stylesheet" type="text/css" href="stylesheets/jquery.pagepiling.css" />
+    <link rel="stylesheet" href="bibli/bootstrap-3.3.7-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="stylesheets/style.css">
     <link href="https://fonts.googleapis.com/css?family=VT323" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
 
-
-
+    <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+    <script src="bibli/bootstrap-3.3.7-dist/js/bootstrap.js"></script>
+    <script type="text/javascript" src="js/jquery.pagepiling.min.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
 </head>
 
 <body class="container-fluid">
-
-    <div id="mostrar-nav"></div>
-    <nav>
-        <ul class="menu">
-            <li data-menuanchor="page1" class="active"><a href="#page1">Accueil</a></li>
-            <li data-menuanchor="page2"><a href="#page2">Qui Propos</a></li>
-            <li data-menuanchor="page4"><a href="#page4">Programme</a></li>
-            <li data-menuanchor="page3"><a href="#page3">Inscription + Où Matcher</a></li>
-            <li data-menuanchor="page5"><a href="#page5">Partenaires</a></li>
+    <nav class="navbar navbar-fixed-left navbar-minimal animate" role="navigation">
+        <div class="navbar-toggler animate">
+            <span class="menu-icon glyphicon glyphicon-menu-hamburger"></span>
+        </div>
+        <ul class="navbar-menu animate">
+            <li>
+                <a href="#page1" class="animate">
+                    <span class="desc animate">Accueil</span>
+                    <span class="glyphicon glyphicon-home"></span>
+                </a>
+            </li>
+            <li>
+                <a href="#page2" class="animate">
+                    <span class="desc animate">Qui propos</span>
+                    <span class="glyphicon glyphicon-off">
+					</span>
+                </a>
+            </li>
+            <li>
+                <a href="#page3" class="animate">
+                    <span class="desc animate">Agenda</span>
+                    <span class="glyphicon glyphicon-calendar"></span>
+                </a>
+            </li>
+            <li>
+                <a href="#page4" class="animate">
+                    <span class="desc animate">Contact - Carte</span>
+                    <span class="glyphicon glyphicon-envelope"></span>
+                </a>
+            </li>
+            <li>
+                <a href="#page5" class="animate">
+                    <span class="desc animate">Partenaires</span>
+                    <span class="glyphicon glyphicon-bookmark"></span>
+                </a>
+            </li>
         </ul>
     </nav>
-
-
-
     <div id="pagepiling">
         <div class="section" id="section1">
             <div class="logotype-header">
                 <div>
                     <img src="assets/imgs/EPITA_LOGO_DEF.png" alt="" id="epita">
-                    <img src="assets/imgs/logo-codeacademie.png" alt="" id="code-academie">
+                    <img src="assets/imgs/logo-codeacademie.svg" alt="" id="code-academie">
                 </div>
             </div>
-            <h1>hackathon</h1>
+            <h1> <span>&#x3c;&#x2f;</span> hackathon <span></span>&#x3e;</h1>
+            <h3 id="count">
+                <span id="day"></span>
+                <span id="hour"></span>
+                <span id="minutes"></span>
+                <span id="secondes"></span>
+            </h3>
             <h2 id="text"></h2>
         </div>
         <div class="section" id="section2">
@@ -127,11 +155,11 @@
                         </form>
                     </article>
                     <article class="col-md-6">
-                        
+
                         <h3><img src="assets/imgs/003-triangle-button.svg" alt="">Où matcher</h3>
                         <div id="green"></div>
                         <p>Les inscriptions sont obligatoires ! Veuilez vous inscire au sein du formulaire ci-dessous.</p>
-                       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2626.9101187507667!2d-1.691041700000001!3d48.10357770000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x480edfd3c61bdc0b%3A0x233abe41efa1abc9!2sEPITA+Rennes!5e0!3m2!1sfr!2sfr!4v1511795691748" width="90%" height="575" frameborder="0" style="border:0" allowfullscreen></iframe>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2626.9101187507667!2d-1.691041700000001!3d48.10357770000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x480edfd3c61bdc0b%3A0x233abe41efa1abc9!2sEPITA+Rennes!5e0!3m2!1sfr!2sfr!4v1511795691748" width="90%" height="575" frameborder="0" style="border:0" allowfullscreen></iframe>
                     </article>
                 </div>
             </section>
@@ -139,7 +167,7 @@
         </div>
         <div class="section" id="section5">
             <section>
-                 <div class="row">
+                <div class="row">
                     <article class="col-md-4">
                         <h3><img src="assets/imgs/001-square-button.svg" alt="">Partenaires 1</h3>
                         <div id="pink"></div>
@@ -148,7 +176,7 @@
                         <img src="assets/imgs/Logo-lorem.png" alt="" class="logo-partenaire">
                         <img src="assets/imgs/Logo-lorem.png" alt="" class="logo-partenaire">
                         <img src="assets/imgs/Logo-lorem.png" alt="" class="logo-partenaire">
-                        <img src="assets/imgs/Logo-lorem.png" alt="" class="logo-partenaire">   
+                        <img src="assets/imgs/Logo-lorem.png" alt="" class="logo-partenaire">
                     </article>
                     <article class="col-md-4">
                         <h3><img src="assets/imgs/002-cross-button.svg" alt="">Partenaires 2</h3>
@@ -177,13 +205,5 @@
 
 
 </body>
-
-
-<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
-<script type="text/javascript" src="js/jquery.pagepiling.min.js">
-</script>
-<script type="text/javascript" src="js/script.js"></script>
-<script>
-</script>
 
 </html>
