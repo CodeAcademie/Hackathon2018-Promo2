@@ -25,7 +25,8 @@ $(function () {
 
 
 // EFFET TEXTE TITLE
-var myText = "Du 16 février à 17h00 au 18 à 17h00",
+
+var myText = "Du 16 au 18 Février 2018",
     i = 0;
 window.onload = function () {
     var typeWriter = setInterval(function () {
