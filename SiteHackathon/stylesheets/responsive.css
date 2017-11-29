@@ -2,168 +2,23 @@
   /* COLORS */
   * {
     box-sizing: border-box;
-    margin: 0px;
-    /*  #pagepiling {
-          overflow: inherit;
-      }*/ }
+    margin: 0px; }
     * html,
     * body {
       padding: 0px !important;
       margin: 0px !important;
       font-family: "Orbitron";
       color: whitesmoke; }
-      * html .animate,
-      * body .animate {
-        z-index: 999;
-        -webkit-transition: all 0.3s ease-in-out;
-        -moz-transition: all 0.3s ease-in-out;
-        -o-transition: all 0.3s ease-in-out;
-        -ms-transition: all 0.3s ease-in-out;
-        transition: all 0.3s ease-in-out; }
-      * html .navbar-fixed-left,
-      * body .navbar-fixed-left {
-        position: fixed;
-        top: 0px;
-        left: 0px;
-        border-radius: 0px; }
-      * html .navbar-minimal,
-      * body .navbar-minimal {
-        width: 60px;
-        min-height: 60px;
-        max-height: 100%;
-        border-width: 0px;
-        z-index: 1000; }
-      * html .navbar-minimal > .navbar-toggler,
-      * body .navbar-minimal > .navbar-toggler {
-        position: relative;
-        min-height: 60px;
-        z-index: 100;
-        cursor: pointer; }
-      * html .navbar-minimal.open > .navbar-toggler,
-      * html .navbar-minimal > .navbar-toggler:hover,
-      * body .navbar-minimal.open > .navbar-toggler,
-      * body .navbar-minimal > .navbar-toggler:hover {
-        background-color: #FF5722; }
-      * html .navbar-minimal > .navbar-toggler > span,
-      * body .navbar-minimal > .navbar-toggler > span {
-        position: inherit;
-        top: 50%;
-        right: 50%;
-        margin: -8px -8px 0 0;
-        width: 16px;
-        height: 16px;
-        background-repeat: no-repeat;
-        background-position: 0 0;
-        -webkit-transition: -webkit-transform .3s ease-out 0s;
-        -moz-transition: -moz-transform .3s ease-out 0s;
-        -o-transition: -moz-transform .3s ease-out 0s;
-        -ms-transition: -ms-transform .3s ease-out 0s;
-        transition: transform .3s ease-out 0s;
-        -webkit-transform: rotate(0deg);
-        -moz-transform: rotate(0deg);
-        -o-transform: rotate(0deg);
-        -ms-transform: rotate(0deg);
-        transform: rotate(0deg); }
-      * html .navbar-minimal > .navbar-menu,
-      * body .navbar-minimal > .navbar-menu {
-        position: inherit;
-        top: -1000px;
-        left: 0px;
-        margin: 0px;
-        padding: 0px;
-        list-style: none;
-        z-index: 50; }
-      * html .navbar-minimal > .navbar-menu > li,
-      * body .navbar-minimal > .navbar-menu > li {
-        margin: 0px;
-        padding: 0px;
-        border-width: 0px;
-        height: 54px; }
-      * html .navbar-minimal > .navbar-menu > li > a,
-      * body .navbar-minimal > .navbar-menu > li > a {
-        position: relative;
-        display: inline-block;
-        color: white;
-        padding: 20px 23px;
-        text-align: left;
-        cursor: pointer;
-        border-bottom: 1px solid #515151;
-        width: 100%;
-        text-decoration: none;
-        margin: 0px; }
-      * html .navbar-minimal > .navbar-menu > li > a:last-child,
-      * body .navbar-minimal > .navbar-menu > li > a:last-child {
-        border-bottom-width: 0px; }
-      * html .navbar-minimal > .navbar-menu > li > a:hover,
-      * body .navbar-minimal > .navbar-menu > li > a:hover {
-        background-color: #FF5722; }
-      * html .navbar-minimal > .navbar-menu > li > a > .glyphicon,
-      * body .navbar-minimal > .navbar-menu > li > a > .glyphicon {
-        float: right; }
-      * html .navbar-minimal.open,
-      * body .navbar-minimal.open {
-        width: 320px; }
-      * html .navbar-minimal.open > .navbar-toggler > span,
-      * body .navbar-minimal.open > .navbar-toggler > span {
-        background-position: 0 -16px;
-        -webkit-transform: rotate(-180deg);
-        -moz-transform: rotate(-180deg);
-        -o-transform: rotate(-180deg);
-        -ms-transform: rotate(-180deg);
-        transform: rotate(-180deg); }
-      * html .navbar-minimal.open > .navbar-menu,
-      * body .navbar-minimal.open > .navbar-menu {
-        top: 60px;
-        width: 100%;
-        min-height: 100%; } }
-    @media (max-width: 699px) and (min-width: 768px) {
-      * html .navbar-minimal.open,
-      * body .navbar-minimal.open {
-        width: 60px; }
-      * html .navbar-minimal.open > .navbar-menu,
-      * body .navbar-minimal.open > .navbar-menu {
-        overflow: visible; }
-      * html .navbar-minimal > .navbar-menu > li > a > .desc,
-      * body .navbar-minimal > .navbar-menu > li > a > .desc {
-        position: inherit;
-        display: inline-block;
-        top: 50%;
-        left: 130px;
-        margin-top: -20px;
-        margin-left: 20px;
-        text-align: left;
-        white-space: nowrap;
-        padding: 10px 13px;
-        border-width: 0px !important;
-        background-color: #333333;
-        background-color: rgba(51, 51, 51, 0.8);
-        opacity: 0; }
-      * html .navbar-minimal > .navbar-menu > li > a > .desc:after,
-      * body .navbar-minimal > .navbar-menu > li > a > .desc:after {
-        z-index: -1;
-        position: inherit;
-        top: 50%;
-        left: -10px;
-        margin-top: -10px;
-        content: '';
-        width: 0;
-        height: 0;
-        border-top: 10px solid transparent;
-        border-bottom: 10px solid transparent;
-        border-right: 10px solid #333333;
-        border-right-color: rgba(51, 51, 51, 0.8); }
-      * html .navbar-minimal > .navbar-menu > li > a:hover > .desc,
-      * body .navbar-minimal > .navbar-menu > li > a:hover > .desc {
-        left: 60px;
-        opacity: 1; } }
-@media (max-width: 699px) {
+      * html .navbar,
+      * body .navbar {
+        display: none; }
       * html #pagepiling .section,
       * body #pagepiling .section {
         background-size: cover; }
         * html #pagepiling .section section,
         * body #pagepiling .section section {
           width: 100%;
-          margin: 0 0 0 2.5%;
+          margin: 0;
           padding: 5%;
           height: auto; }
           * html #pagepiling .section section div,
@@ -227,14 +82,11 @@
             background-color: rgba(0, 0, 0, 0.7); }
             * html #pagepiling #section1 .logotype-header div img,
             * body #pagepiling #section1 .logotype-header div img {
-              width: 50vw; }
-            * html #pagepiling #section1 .logotype-header div img:last-child,
-            * body #pagepiling #section1 .logotype-header div img:last-child {
-              padding-top: 0vh;
-              padding-bottom: 2vh; }
+              width: 50vw;
+              padding: 2vh; }
         * html #pagepiling #section1 h1,
         * body #pagepiling #section1 h1 {
-          font-size: 3em;
+          font-size: 2.5em;
           margin-top: 8vh; }
         * html #pagepiling #section1 h2,
         * body #pagepiling #section1 h2 {
@@ -246,24 +98,10 @@
         * body #pagepiling #section1 h3 {
           font-size: 1em;
           padding: 2vh 0 2vh 0; }
-      * html #pagepiling #section2 section article span,
-      * body #pagepiling #section2 section article span {
-        display: none; }
-      * html #pagepiling #section2 section article:last-child h3,
-      * body #pagepiling #section2 section article:last-child h3 {
-        display: none; }
-      * html #pagepiling #section2 section article:last-child #red,
-      * html #pagepiling #section2 section article:last-child #green,
-      * html #pagepiling #section2 section article:last-child div:last-child,
-      * body #pagepiling #section2 section article:last-child #red,
-      * body #pagepiling #section2 section article:last-child #green,
-      * body #pagepiling #section2 section article:last-child div:last-child {
-        display: none; }
-      * html #pagepiling #section3 section div article,
-      * body #pagepiling #section3 section div article {
-                                /*
-                                display: flex;
-*/ }
+      * html #pagepiling #section3 section,
+      * body #pagepiling #section3 section {
+        background-image: none;
+        background-color: #222; }
         * html #pagepiling #section3 section div article .img-calendar,
         * body #pagepiling #section3 section div article .img-calendar {
           display: none; }
@@ -273,8 +111,7 @@
           background-color: rgba(250, 250, 250, 0.8);
           color: black;
           width: 30%;
-          padding: 1vh 0;
-          margin: 0.5vh;
+          padding: 2vh;
           text-align: center; }
         * html #pagepiling #section3 section div article P,
         * body #pagepiling #section3 section div article P {
@@ -322,18 +159,14 @@
           border: 0; }
       * html #pagepiling #section4 section iframe,
       * body #pagepiling #section4 section iframe {
-        -webkit-filter: invert(100%);
-        filter: invert(100%); }
-      * html #pagepiling #section5,
-      * body #pagepiling #section5 {
-        background-image: url(../assets/imgs/boxer-1984344_1920.jpg); }
-        * html #pagepiling #section5 section div article .logo-partenaire,
-        * body #pagepiling #section5 section div article .logo-partenaire {
-          width: 45%;
-          display: inline-block;
-          margin: 2vh 0px; }
+        display: none; }
       * html #pp-nav,
       * body #pp-nav {
         display: none; } }
+* html #pagepiling .section section div,
+* body #pagepiling .section section div,
+* html #pagepiling .section section div,
+* body #pagepiling .section section div {
+  width: auto !important; }
 
 /*# sourceMappingURL=responsive.css.map */
