@@ -1,19 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title>HACKATHON >> 16-18 Fevrier 2018</title>
-
-    <link rel="stylesheet" type="text/css" href="stylesheets/jquery.pagepiling.css" />
+    
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="stylesheets/jquery.pagepiling.css" media="screen and (min-width: 699px)" />
     <link rel="stylesheet" href="bibli/bootstrap-3.3.7-dist/css/bootstrap.css">
     <link rel="stylesheet" href="stylesheets/style.css">
+    <link rel="stylesheet" href="stylesheets/responsive.css">
+
+    <!-- TYPOGRAPHIE -->
     <link href="https://fonts.googleapis.com/css?family=VT323" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Orbitron:400,700" rel="stylesheet">
 
+    <!-- SCRIPT -->
     <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="js/responsive.js"></script>
     <script src="bibli/bootstrap-3.3.7-dist/js/bootstrap.js"></script>
-    <script type="text/javascript" src="js/jquery.pagepiling.min.js"></script>
+    
     <script type="text/javascript" src="js/script.js"></script>
+
 </head>
 
 <body class="container-fluid">
@@ -63,14 +72,14 @@
                     <img src="assets/imgs/logo-codeacademie.svg" alt="" id="code-academie">
                 </div>
             </div>
-            <h1> <span>&#x3c;&#x2f;</span> hackathon <span></span>&#x3e;</h1>
+            <h1>hackathon</h1>
+            <h2 id="text"></h2>
             <h3 id="count">
                 <span id="day"></span>
                 <span id="hour"></span>
                 <span id="minutes"></span>
                 <span id="secondes"></span>
             </h3>
-            <h2 id="text"></h2>
         </div>
         <div class="section" id="section2">
             <section>
@@ -78,7 +87,7 @@
                     <article class="col-md-6">
                         <h3><img src="assets/imgs/005-shield.svg" alt=""> Présentation </h3>
                         <div id="orange"></div>
-                        <p>Bienvenue à la seconde édition de ce Hackathon qui vous est proposé par <a href="http://code-academie.fr/" target="_blank">la Code Académie</a> et <a href="http://www.epita.fr/">l'EPITA</a>. Rejoignez-nous le temps d'un week-end pour exploiter les données de l'e-sport : innovons et concevons des applications à loisir! C'est un challenge multi-compétences qui fait la part belle au travail d'équipe, à la communication et à la créativité... Sans oublier une bonne dose de technique pour donner vie à vos projets. Le meilleur projet aura droit à une distinction et un cadeau mystère... A vos ordis, prêt ? Inscrivez-vous!</p>
+                        <p>Bienvenue à la seconde édition de ce Hackathon qui vous est proposé par <a href="http://code-academie.fr/" target="_blank">la Code Académie</a> et <a href="http://www.epita.fr/">l'EPITA</a>. Rejoignez-nous le temps d'un week-end pour exploiter les données de l'e-sport : innovons et concevons des applications à loisir ! C'est un challenge multi-compétences qui fait la part belle au travail d'équipe, à la communication et à la créativité... Sans oublier une bonne dose de technique pour donner vie à vos projets. Le meilleur projet aura droit à une distinction et un cadeau mystère... A vos ordis, prêt ? Inscrivez-vous !</p>
                         <h3><img src="assets/imgs/001-square-button.svg" alt=""> Un Hackathon ? C'est quoi ? </h3>
                         <div id="pink"></div>
                         <p>Le mot Hackathon est la combinaison de deux notions : hack et marathon. Un hack, en dépit de sa connotation négative initiale, est désormais le fait de détourner un objet/principe de son utilisation basique pour nous faciliter la vie (d'ailleurs on vous recommande fortement de faire un petit tour sur youtube et de chercher des <a href="https://www.youtube.com/watch?v=567Hkus_MVs" target="_blank">life hack</a>... ça pourrait vous changer la vie dans certaines occasions!). Dans notre cadre, ce sont les données de l'e-sport à hacker pour en tirer applications peut-être? Vous n'êtes pas limité.e.s dans la finalité de vos applications. La deuxième notion derrière le hackathon est le marathon. Vous allez devoir coder/designer/échanger/créer et surtout vous éclater pendant 48h non-stop! (sisi, vous avez le droit de dormir quand même). Le but est que vous fournissiez le projet le plus abouti dans un laps de temps très court et que vous le présentiez à un jury et devant les autres participant.e.s.</p>
@@ -106,35 +115,36 @@
                 <div class="row">
                     <article class="col-md-4">
                         <img src="assets/imgs/lorem-ipsum1.jpg" alt="" class="img-calendar">
-                        <h3><img src="assets/imgs/001-square-button.svg" alt="">Vendredi 16/02</h3>
+                        <h3><img src="assets/imgs/001-square-button.svg" alt="">Vendredi 16 &#8226; 02</h3>
                         <div id="pink"></div>
-                       
+
                         <h4>17:00</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. !</p>
+                        <p>Lorem ipsum dolor sit amet consectetur.</p>
                         <h4>19:00</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. !</p>
-                        <h4>21:00</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. !</p>
+                        <p>Lorem ipsum dolor sit amet consectetur.</p>
                         <h4>23:00</h4>
                         <p>Fermeture des locaux</p>
                     </article>
                     <article class="col-md-4">
                         <img src="assets/imgs/lorem-ipsum1.jpg" alt="" class="img-calendar">
-                        <h3><img src="assets/imgs/002-cross-button.svg" alt="">Samedi 17/02</h3>
+                        <h3><img src="assets/imgs/002-cross-button.svg" alt="">Samedi 17 &#8226; 02</h3>
                         <div id="blue"></div>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil quibusdam nulla cupiditate illum ducimus, doloribus, quo voluptatum saepe, incidunt vitae at. Perferendis, nam esse natus earum laudantium rerum deleniti alias!</p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil quibusdam nulla cupiditate illum ducimus, doloribus, quo voluptatum saepe, incidunt vitae at. Perferendis, nam esse natus earum laudantium rerum deleniti alias!</p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil quibusdam nulla cupiditate illum ducimus, doloribus, quo voluptatum saepe, incidunt vitae at. Perferendis, nam esse natus earum laudantium rerum deleniti alias!</p>
+                        <h4>09:00</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur.</p>
+                        <h4>23:00</h4>
+                        <p>Fermeture des locaux</p>
 
                     </article>
                     <article class="col-md-4">
                         <img src="assets/imgs/lorem-ipsum1.jpg" alt="" class="img-calendar">
-                        <h3><img src="assets/imgs/003-triangle-button.svg" alt="">Dimanche 18/02</h3>
+                        <h3><img src="assets/imgs/003-triangle-button.svg" alt="">Dimanche 18 &#8226; 02</h3>
                         <div id="green"></div>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil quibusdam nulla cupiditate illum ducimus, doloribus, quo voluptatum saepe, incidunt vitae at. Perferendis, nam esse natus earum laudantium rerum deleniti alias!</p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil quibusdam nulla cupiditate illum ducimus, doloribus, quo voluptatum saepe, incidunt vitae at. Perferendis, nam esse natus earum laudantium rerum deleniti alias!</p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil quibusdam nulla cupiditate illum ducimus, doloribus, quo voluptatum saepe, incidunt vitae at. Perferendis, nam esse natus earum laudantium rerum deleniti alias!</p>
-
+                        <h4>09:00</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur.</p>
+                        <h4>21:00</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur.</p>
+                        <h4>23:00</h4>
+                        <p>Fermeture des locaux</p>
                     </article>
                 </div>
             </section>
@@ -164,7 +174,7 @@
 
                         <h3><img src="assets/imgs/003-triangle-button.svg" alt="">Où matcher</h3>
                         <div id="green"></div>
-                       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2626.9101187507667!2d-1.691041700000001!3d48.10357770000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x480edfd3c61bdc0b%3A0x233abe41efa1abc9!2sEPITA+Rennes!5e0!3m2!1sfr!2sfr!4v1511795691748" width="90%" height="575" frameborder="0" style="border:0" allowfullscreen></iframe>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2626.9101187507667!2d-1.691041700000001!3d48.10357770000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x480edfd3c61bdc0b%3A0x233abe41efa1abc9!2sEPITA+Rennes!5e0!3m2!1sfr!2sfr!4v1511795691748" width="90%" height="575" frameborder="0" style="border:0" allowfullscreen></iframe>
                     </article>
                 </div>
             </section>
