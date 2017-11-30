@@ -1,174 +1,170 @@
 @media (max-width: 700px) {
   /* COLORS */
-  * {
-    box-sizing: border-box;
-    margin: 0px; }
-    * html,
-    * body {
-      padding: 0px !important;
-      margin: 0px !important;
-      font-family: "Orbitron";
-      color: whitesmoke; }
-      * html .navbar,
-      * body .navbar {
-        display: none; }
-      * html #pagepiling .section,
-      * body #pagepiling .section {
-        background-size: cover; }
-        * html #pagepiling .section section,
-        * body #pagepiling .section section {
-          width: 100%;
-          margin: 0;
-          padding: 5%;
-          height: auto; }
-          * html #pagepiling .section section div,
-          * body #pagepiling .section section div {
-            width: 100%; }
-            * html #pagepiling .section section div article h3,
-            * body #pagepiling .section section div article h3 {
-              font-weight: bold;
-              font-size: 1em;
-              margin-bottom: 1vh;
-              width: 100%;
-              text-transform: uppercase; }
-              * html #pagepiling .section section div article h3 img,
-              * body #pagepiling .section section div article h3 img {
-                width: 5vw;
-                padding: 0px;
-                margin: 0px 10px 4px 0px; }
-            * html #pagepiling .section section div article #orange,
-            * body #pagepiling .section section div article #orange {
-              background-color: #FF5722; }
-            * html #pagepiling .section section div article #pink,
-            * body #pagepiling .section section div article #pink {
-              background-color: deeppink; }
-            * html #pagepiling .section section div article #blue,
-            * body #pagepiling .section section div article #blue {
-              background-color: #00458B; }
-            * html #pagepiling .section section div article #green,
-            * body #pagepiling .section section div article #green {
-              background-color: seagreen; }
-            * html #pagepiling .section section div article #red,
-            * body #pagepiling .section section div article #red {
-              background-color: firebrick; }
-            * html #pagepiling .section section div article div,
-            * body #pagepiling .section section div article div {
-              width: 100%;
-              height: 2px;
-              margin-bottom: 2vh; }
-            * html #pagepiling .section section div article p,
-            * body #pagepiling .section section div article p {
-              text-align: left;
-              width: 100%;
-              font-size: 0.9em;
-              margin-bottom: 3vh;
-              font-family: "Open Sans"; }
-              * html #pagepiling .section section div article p a,
-              * body #pagepiling .section section div article p a {
-                text-decoration: none;
-                color: #FF5722;
-                font-weight: bold; }
-      * html #pagepiling #section1,
-      * body #pagepiling #section1 {
-        height: 100vh;
-        display: flex;
-        flex-direction: column; }
-        * html #pagepiling #section1 .logotype-header,
-        * body #pagepiling #section1 .logotype-header {
-          width: 60vw;
-          background: transparent; }
-          * html #pagepiling #section1 .logotype-header div,
-          * body #pagepiling #section1 .logotype-header div {
-            background-color: rgba(0, 0, 0, 0.7); }
-            * html #pagepiling #section1 .logotype-header div img,
-            * body #pagepiling #section1 .logotype-header div img {
-              width: 50vw;
-              padding: 2vh; }
-        * html #pagepiling #section1 h1,
-        * body #pagepiling #section1 h1 {
-          font-size: 2.5em;
-          margin-top: 8vh; }
-        * html #pagepiling #section1 h2,
-        * body #pagepiling #section1 h2 {
-          font-size: 1.5em;
-          width: 50%;
-          margin: 0 auto;
-          line-height: 5vh; }
-        * html #pagepiling #section1 h3,
-        * body #pagepiling #section1 h3 {
-          font-size: 1em;
-          padding: 2vh 0 2vh 0; }
-      * html #pagepiling #section2,
-      * body #pagepiling #section2 {
-        background-image: url(../assets/imgs/lol2.jpeg); }
-        * html #pagepiling #section2 section div:last-child iframe,
-        * body #pagepiling #section2 section div:last-child iframe {
-          max-height: 100%; }
-      * html #pagepiling #section3 section,
-      * body #pagepiling #section3 section {
-        background-image: none;
-        background-color: #222; }
-        * html #pagepiling #section3 section div article .img-calendar,
-        * body #pagepiling #section3 section div article .img-calendar {
-          display: none; }
-        * html #pagepiling #section3 section div article h4,
-        * body #pagepiling #section3 section div article h4 {
-          font-size: 0.9em;
-          background-color: rgba(250, 250, 250, 0.8);
-          color: black;
-          width: 30%;
-          padding: 2vh;
-          text-align: center; }
-        * html #pagepiling #section3 section div article P,
-        * body #pagepiling #section3 section div article P {
-          margin-bottom: 1vh; }
-      * html #pagepiling #section4 section div article form,
-      * body #pagepiling #section4 section div article form {
+  * html .navbar,
+  * body .navbar {
+    display: none; }
+  * html #pagepiling .section,
+  * body #pagepiling .section {
+    background-size: cover; }
+    * html #pagepiling .section section,
+    * body #pagepiling .section section {
+      width: 100%;
+      margin: 0;
+      padding: 5%;
+      height: auto; }
+      * html #pagepiling .section section div,
+      * body #pagepiling .section section div {
         width: 100%; }
-        * html #pagepiling #section4 section div article form label,
-        * html #pagepiling #section4 section div article form input,
-        * html #pagepiling #section4 section div article form textarea,
-        * body #pagepiling #section4 section div article form label,
-        * body #pagepiling #section4 section div article form input,
-        * body #pagepiling #section4 section div article form textarea {
-          width: 100%;
-          margin-bottom: 0.5vh;
-          padding: 5px; }
-        * html #pagepiling #section4 section div article form input:nth-child(2),
-        * body #pagepiling #section4 section div article form input:nth-child(2) {
-          border: 1px solid #FF5722;
-          background-color: transparent; }
-        * html #pagepiling #section4 section div article form input:nth-child(4),
-        * body #pagepiling #section4 section div article form input:nth-child(4) {
-          border: 1px solid deeppink;
-          background-color: transparent; }
-        * html #pagepiling #section4 section div article form input:nth-child(6),
-        * body #pagepiling #section4 section div article form input:nth-child(6) {
-          border: 1px solid #00458B;
-          background-color: transparent; }
-        * html #pagepiling #section4 section div article form input:nth-child(8),
-        * body #pagepiling #section4 section div article form input:nth-child(8) {
-          border: 1px solid seagreen;
-          background-color: transparent; }
-        * html #pagepiling #section4 section div article form textarea,
-        * body #pagepiling #section4 section div article form textarea {
-          border: 1px solid firebrick;
-          background-color: transparent; }
-        * html #pagepiling #section4 section div article form button,
-        * body #pagepiling #section4 section div article form button {
+        * html #pagepiling .section section div article h3,
+        * body #pagepiling .section section div article h3 {
           font-weight: bold;
-          padding: 10px;
-          background-color: #FF5722;
-          margin-top: 1vh;
-          color: whitesmoke;
-          width: 50%;
-          border: 0; }
-      * html #pagepiling #section4 section iframe,
-      * body #pagepiling #section4 section iframe {
-        display: none; }
-      * html #pp-nav,
-      * body #pp-nav {
-        display: none; } }
+          font-size: 1em;
+          margin-bottom: 1vh;
+          width: 100%;
+          text-transform: uppercase; }
+          * html #pagepiling .section section div article h3 img,
+          * body #pagepiling .section section div article h3 img {
+            width: 5vw;
+            padding: 0px;
+            margin: 0px 10px 4px 0px; }
+        * html #pagepiling .section section div article #orange,
+        * body #pagepiling .section section div article #orange {
+          background-color: #FF5722; }
+        * html #pagepiling .section section div article #pink,
+        * body #pagepiling .section section div article #pink {
+          background-color: deeppink; }
+        * html #pagepiling .section section div article #blue,
+        * body #pagepiling .section section div article #blue {
+          background-color: #00458B; }
+        * html #pagepiling .section section div article #green,
+        * body #pagepiling .section section div article #green {
+          background-color: seagreen; }
+        * html #pagepiling .section section div article #red,
+        * body #pagepiling .section section div article #red {
+          background-color: firebrick; }
+        * html #pagepiling .section section div article div,
+        * body #pagepiling .section section div article div {
+          width: 100%;
+          height: 2px;
+          margin-bottom: 2vh; }
+        * html #pagepiling .section section div article p,
+        * body #pagepiling .section section div article p {
+          text-align: left;
+          width: 100%;
+          font-size: 0.9em;
+          margin-bottom: 3vh;
+          font-family: "Open Sans"; }
+          * html #pagepiling .section section div article p a,
+          * body #pagepiling .section section div article p a {
+            text-decoration: none;
+            color: #FF5722;
+            font-weight: bold; }
+  * html #pagepiling #section1,
+  * body #pagepiling #section1 {
+    height: 100vh;
+    display: flex;
+    flex-direction: column; }
+    * html #pagepiling #section1 .logotype-header,
+    * body #pagepiling #section1 .logotype-header {
+      width: 60vw;
+      background: transparent; }
+      * html #pagepiling #section1 .logotype-header div,
+      * body #pagepiling #section1 .logotype-header div {
+        background-color: rgba(0, 0, 0, 0.7); }
+        * html #pagepiling #section1 .logotype-header div img,
+        * body #pagepiling #section1 .logotype-header div img {
+          width: 50vw;
+          padding: 2vh; }
+    * html #pagepiling #section1 h1,
+    * body #pagepiling #section1 h1 {
+      font-size: 2.5em;
+      margin-top: 8vh; }
+    * html #pagepiling #section1 h2,
+    * body #pagepiling #section1 h2 {
+      font-size: 1.5em;
+      width: 50%;
+      margin: 0 auto;
+      line-height: 5vh; }
+    * html #pagepiling #section1 h3,
+    * body #pagepiling #section1 h3 {
+      font-size: 1em;
+      padding: 2vh 0 2vh 0; }
+  * html #pagepiling #section2,
+  * body #pagepiling #section2 {
+    background-image: url(../assets/imgs/lol2.jpeg); }
+    * html #pagepiling #section2 section div:last-child iframe,
+    * body #pagepiling #section2 section div:last-child iframe {
+      max-height: 100%; }
+  * html #pagepiling #section3 section,
+  * body #pagepiling #section3 section {
+    background-image: none;
+    background-color: #222; }
+    * html #pagepiling #section3 section div article .img-calendar,
+    * body #pagepiling #section3 section div article .img-calendar {
+      display: none; }
+    * html #pagepiling #section3 section div article h4,
+    * body #pagepiling #section3 section div article h4 {
+      font-size: 0.9em;
+      background-color: rgba(250, 250, 250, 0.8);
+      color: black;
+      width: 30%;
+      padding: 2vh;
+      text-align: center; }
+    * html #pagepiling #section3 section div article P,
+    * body #pagepiling #section3 section div article P {
+      margin-bottom: 1vh; }
+  * html #pagepiling #section4 section div article form,
+  * body #pagepiling #section4 section div article form {
+    width: 100%; }
+    * html #pagepiling #section4 section div article form label,
+    * html #pagepiling #section4 section div article form input,
+    * html #pagepiling #section4 section div article form textarea,
+    * body #pagepiling #section4 section div article form label,
+    * body #pagepiling #section4 section div article form input,
+    * body #pagepiling #section4 section div article form textarea {
+      width: 100%;
+      margin-bottom: 0.5vh;
+      padding: 5px; }
+    * html #pagepiling #section4 section div article form input:nth-child(2),
+    * body #pagepiling #section4 section div article form input:nth-child(2) {
+      border: 1px solid #FF5722;
+      background-color: transparent; }
+    * html #pagepiling #section4 section div article form input:nth-child(4),
+    * body #pagepiling #section4 section div article form input:nth-child(4) {
+      border: 1px solid deeppink;
+      background-color: transparent; }
+    * html #pagepiling #section4 section div article form input:nth-child(6),
+    * body #pagepiling #section4 section div article form input:nth-child(6) {
+      border: 1px solid #00458B;
+      background-color: transparent; }
+    * html #pagepiling #section4 section div article form input:nth-child(8),
+    * body #pagepiling #section4 section div article form input:nth-child(8) {
+      border: 1px solid seagreen;
+      background-color: transparent; }
+    * html #pagepiling #section4 section div article form textarea,
+    * body #pagepiling #section4 section div article form textarea {
+      border: 1px solid firebrick;
+      background-color: transparent; }
+    * html #pagepiling #section4 section div article form button,
+    * body #pagepiling #section4 section div article form button {
+      font-weight: bold;
+      padding: 10px;
+      background-color: #FF5722;
+      margin-top: 1vh;
+      color: whitesmoke;
+      width: 50%;
+      border: 0; }
+  * html #pagepiling #section4 section iframe,
+  * body #pagepiling #section4 section iframe {
+    display: none; }
+  * html #pagepiling #section5 section div article .logo-partenaire,
+  * body #pagepiling #section5 section div article .logo-partenaire {
+    width: 40%;
+    display: inline-block;
+    margin: 2vh 2.5%; }
+  * html #pp-nav,
+  * body #pp-nav {
+    display: none; } }
 * html #pagepiling .section section div,
 * body #pagepiling .section section div,
 * html #pagepiling .section section div,

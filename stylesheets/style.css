@@ -247,7 +247,7 @@
         font-size: 10em;
         text-transform: uppercase;
         font-weight: bold;
-        margin-top: 12vh;
+        margin-top: 10vh;
         text-shadow: 1px 2px 3px #666; }
       * html #pagepiling #section1 h2,
       * body #pagepiling #section1 h2 {
@@ -312,6 +312,11 @@
         * body #pagepiling #section4 section div article form select,
         * body #pagepiling #section4 section div article form textarea {
           margin-top: 0; }
+        * html #pagepiling #section4 section div article form textarea,
+        * body #pagepiling #section4 section div article form textarea {
+          width: 100%;
+          margin-bottom: 1vh;
+          padding: 5px; }
         * html #pagepiling #section4 section div article form input:nth-child(2),
         * body #pagepiling #section4 section div article form input:nth-child(2) {
           border: 1px solid #FF5722;
@@ -344,8 +349,8 @@
           color: whitesmoke;
           width: 50%;
           border: 0; }
-      * html #pagepiling #section4 section iframe,
-      * body #pagepiling #section4 section iframe {
+      * html #pagepiling #section4 section div iframe,
+      * body #pagepiling #section4 section div iframe {
         -webkit-filter: invert(100%);
         filter: invert(100%); }
     * html #pagepiling #section5,
@@ -353,8 +358,8 @@
       background-image: url(../assets/imgs/boxer-1984344_1920.jpg); }
       * html #pagepiling #section5 section div article .logo-partenaire,
       * body #pagepiling #section5 section div article .logo-partenaire {
-        width: 45%;
+        width: 40%;
         display: inline-block;
-        margin: 2vh 0px; }
+        margin: 2vh 2.5%; }
 
 /*# sourceMappingURL=style.css.map */

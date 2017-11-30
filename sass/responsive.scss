@@ -8,22 +8,11 @@
     $brick: firebrick;
     $degrade: linear-gradient(to bottom, rgba(255, 86, 34, 1) 0%, rgba(255, 20, 145, 1) 25%, rgba(0, 70, 139, 1) 50%, rgba(46, 139, 86, 1) 75%, rgba(178, 34, 34, 1) 100%);
     * {
-        box-sizing: border-box;
-        margin: 0px;
         html,
         body {
-            padding: 0px !important;
-            margin: 0px !important;
-            font-family: "Orbitron";
-            color: $white;
-            // ======================== //
-            // ======== NAVBAR ======== //
-            // ======================== //
-          
             .navbar {
                 display: none;
             }
-            
             // ======================== //
             // ======== CONTENU ======= //
             // ======================== //
@@ -118,17 +107,17 @@
                         padding: 2vh 0 2vh 0;
                     }
                 }
-                  // ====== PAGE PRÉSENTATION ====== //
-            #section2 {
-                background-image: url(../assets/imgs/lol2.jpeg);
-                section {
-                    div:last-child {
-                        iframe {
-                            max-height: 100%;
+                // ====== PAGE PRÉSENTATION ====== //
+                #section2 {
+                    background-image: url(../assets/imgs/lol2.jpeg);
+                    section {
+                        div:last-child {
+                            iframe {
+                                max-height: 100%;
+                            }
                         }
                     }
                 }
-            }
                 // ====== PAGE CALENDRIER ====== //
                 #section3 {
                     section {
@@ -203,6 +192,20 @@
                         }
                         iframe {
                             display: none;
+                        }
+                    }
+                }
+                // ====== PARTENAIRES ====== //
+                #section5 {
+                    section {
+                        div {
+                            article {
+                                .logo-partenaire {
+                                    width: 40%;
+                                    display: inline-block;
+                                    margin: 2vh 2.5%;
+                                }
+                            }
                         }
                     }
                 }

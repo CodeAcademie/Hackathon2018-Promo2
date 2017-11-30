@@ -1,4 +1,4 @@
-    var PP = $('#pagepiling');
+/*    var PP = $('#pagepiling');
     var DESTROYED =             'pp-destroyed';
     var VIEWING_PREFIX =        'pp-viewing';
     var $window = $(window);
@@ -71,4 +71,4 @@
         })
         
         $('#pp-nav').remove();
-    }
+    }*/

@@ -24,7 +24,6 @@
  })*/
 
 
-
  //NAVBAR
  $(function () {
      /* START OF DEMO JS - NOT NEEDED */
