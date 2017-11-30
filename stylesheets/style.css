@@ -1,0 +1,360 @@
+/* COLORS */
+* {
+  box-sizing: border-box;
+  margin: 0px; }
+  * html,
+  * body {
+    padding: 0px !important;
+    margin: 0px !important;
+    font-family: "Orbitron";
+    color: whitesmoke; }
+    * html .animate,
+    * body .animate {
+      z-index: 999;
+      -webkit-transition: all 0.3s ease-in-out;
+      -moz-transition: all 0.3s ease-in-out;
+      -o-transition: all 0.3s ease-in-out;
+      -ms-transition: all 0.3s ease-in-out;
+      transition: all 0.3s ease-in-out; }
+    * html .navbar-fixed-left,
+    * body .navbar-fixed-left {
+      position: fixed;
+      top: 0px;
+      left: 0px;
+      border-radius: 0px; }
+    * html .navbar-minimal,
+    * body .navbar-minimal {
+      width: 60px;
+      min-height: 60px;
+      max-height: 100%;
+      border-width: 0px;
+      z-index: 1000; }
+    * html .navbar-minimal > .navbar-toggler,
+    * body .navbar-minimal > .navbar-toggler {
+      position: relative;
+      min-height: 60px;
+      z-index: 100;
+      cursor: pointer; }
+    * html .navbar-minimal.open > .navbar-toggler,
+    * html .navbar-minimal > .navbar-toggler:hover,
+    * body .navbar-minimal.open > .navbar-toggler,
+    * body .navbar-minimal > .navbar-toggler:hover {
+      background-color: #FF5722; }
+    * html .navbar-minimal > .navbar-toggler > span,
+    * body .navbar-minimal > .navbar-toggler > span {
+      position: absolute;
+      top: 50%;
+      right: 50%;
+      margin: -8px -8px 0 0;
+      width: 16px;
+      height: 16px;
+      background-repeat: no-repeat;
+      background-position: 0 0;
+      -webkit-transition: -webkit-transform .3s ease-out 0s;
+      -moz-transition: -moz-transform .3s ease-out 0s;
+      -o-transition: -moz-transform .3s ease-out 0s;
+      -ms-transition: -ms-transform .3s ease-out 0s;
+      transition: transform .3s ease-out 0s;
+      -webkit-transform: rotate(0deg);
+      -moz-transform: rotate(0deg);
+      -o-transform: rotate(0deg);
+      -ms-transform: rotate(0deg);
+      transform: rotate(0deg); }
+    * html .navbar-minimal > .navbar-menu,
+    * body .navbar-minimal > .navbar-menu {
+      position: absolute;
+      top: -1000px;
+      left: 0px;
+      margin: 0px;
+      padding: 0px;
+      list-style: none;
+      z-index: 50; }
+    * html .navbar-minimal > .navbar-menu > li,
+    * body .navbar-minimal > .navbar-menu > li {
+      margin: 0px;
+      padding: 0px;
+      border-width: 0px;
+      height: 54px; }
+    * html .navbar-minimal > .navbar-menu > li > a,
+    * body .navbar-minimal > .navbar-menu > li > a {
+      position: relative;
+      display: inline-block;
+      color: white;
+      padding: 20px 23px;
+      text-align: left;
+      cursor: pointer;
+      border-bottom: 1px solid #515151;
+      width: 100%;
+      text-decoration: none;
+      margin: 0px; }
+    * html .navbar-minimal > .navbar-menu > li > a:last-child,
+    * body .navbar-minimal > .navbar-menu > li > a:last-child {
+      border-bottom-width: 0px; }
+    * html .navbar-minimal > .navbar-menu > li > a:hover,
+    * body .navbar-minimal > .navbar-menu > li > a:hover {
+      background-color: #FF5722; }
+    * html .navbar-minimal > .navbar-menu > li > a > .glyphicon,
+    * body .navbar-minimal > .navbar-menu > li > a > .glyphicon {
+      float: right; }
+    * html .navbar-minimal.open,
+    * body .navbar-minimal.open {
+      width: 320px; }
+    * html .navbar-minimal.open > .navbar-toggler > span,
+    * body .navbar-minimal.open > .navbar-toggler > span {
+      background-position: 0 -16px;
+      -webkit-transform: rotate(-180deg);
+      -moz-transform: rotate(-180deg);
+      -o-transform: rotate(-180deg);
+      -ms-transform: rotate(-180deg);
+      transform: rotate(-180deg); }
+    * html .navbar-minimal.open > .navbar-menu,
+    * body .navbar-minimal.open > .navbar-menu {
+      top: 60px;
+      width: 100%;
+      min-height: 100%; }
+    @media (min-width: 768px) {
+      * html .navbar-minimal.open,
+      * body .navbar-minimal.open {
+        width: 60px; }
+      * html .navbar-minimal.open > .navbar-menu,
+      * body .navbar-minimal.open > .navbar-menu {
+        overflow: visible; }
+      * html .navbar-minimal > .navbar-menu > li > a > .desc,
+      * body .navbar-minimal > .navbar-menu > li > a > .desc {
+        position: absolute;
+        display: inline-block;
+        top: 50%;
+        left: 130px;
+        margin-top: -20px;
+        margin-left: 20px;
+        text-align: left;
+        white-space: nowrap;
+        padding: 10px 13px;
+        border-width: 0px !important;
+        background-color: #333333;
+        background-color: rgba(51, 51, 51, 0.8);
+        opacity: 0; }
+      * html .navbar-minimal > .navbar-menu > li > a > .desc:after,
+      * body .navbar-minimal > .navbar-menu > li > a > .desc:after {
+        z-index: -1;
+        position: absolute;
+        top: 50%;
+        left: -10px;
+        margin-top: -10px;
+        content: '';
+        width: 0;
+        height: 0;
+        border-top: 10px solid transparent;
+        border-bottom: 10px solid transparent;
+        border-right: 10px solid #333333;
+        border-right-color: rgba(51, 51, 51, 0.8); }
+      * html .navbar-minimal > .navbar-menu > li > a:hover > .desc,
+      * body .navbar-minimal > .navbar-menu > li > a:hover > .desc {
+        left: 60px;
+        opacity: 1; } }
+    * html #pagepiling .section,
+    * body #pagepiling .section {
+      background-color: black;
+      background-size: contain;
+      background-position: right;
+      background-repeat: no-repeat;
+      top: 0px; }
+      * html #pagepiling .section section,
+      * body #pagepiling .section section {
+        width: 95%;
+        height: 92vh;
+        margin: 0 0 0 2.5%;
+        padding: 5%; }
+        * html #pagepiling .section section div,
+        * body #pagepiling .section section div {
+          width: 100%;
+          height: 100%; }
+          * html #pagepiling .section section div article h3,
+          * body #pagepiling .section section div article h3 {
+            font-weight: bold;
+            font-size: 1.1vw;
+            margin-bottom: 1vh;
+            width: 100%;
+            text-transform: uppercase; }
+            * html #pagepiling .section section div article h3 img,
+            * body #pagepiling .section section div article h3 img {
+              width: 1.5vw;
+              padding: 0px;
+              margin: 0px 10px 4px 0px; }
+          * html #pagepiling .section section div article #orange,
+          * body #pagepiling .section section div article #orange {
+            background-color: #FF5722; }
+          * html #pagepiling .section section div article #pink,
+          * body #pagepiling .section section div article #pink {
+            background-color: deeppink; }
+          * html #pagepiling .section section div article #blue,
+          * body #pagepiling .section section div article #blue {
+            background-color: #00458B; }
+          * html #pagepiling .section section div article #green,
+          * body #pagepiling .section section div article #green {
+            background-color: seagreen; }
+          * html #pagepiling .section section div article #red,
+          * body #pagepiling .section section div article #red {
+            background-color: firebrick; }
+          * html #pagepiling .section section div article div,
+          * body #pagepiling .section section div article div {
+            width: 90%;
+            height: 2px;
+            margin-bottom: 2vh; }
+          * html #pagepiling .section section div article p,
+          * body #pagepiling .section section div article p {
+            text-align: left;
+            width: 90%;
+            font-size: 0.8vw;
+            margin-bottom: 3vh;
+            font-family: "Open Sans"; }
+            * html #pagepiling .section section div article p a,
+            * body #pagepiling .section section div article p a {
+              text-decoration: none;
+              color: #FF5722;
+              font-weight: bold; }
+    * html #pagepiling #section1,
+    * body #pagepiling #section1 {
+      background-image: url(../assets/imgs/overwatch-1610865_1920.jpg);
+      text-transform: uppercase;
+      text-align: center;
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+      * html #pagepiling #section1 .logotype-header,
+      * body #pagepiling #section1 .logotype-header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 30%;
+        margin: 0 auto;
+        background: linear-gradient(to bottom, #ff5622 0%, #ff1491 25%, #00468b 50%, #2e8b56 75%, firebrick 100%); }
+        * html #pagepiling #section1 .logotype-header div,
+        * body #pagepiling #section1 .logotype-header div {
+          width: 99%;
+          height: 99%;
+          background-color: black; }
+          * html #pagepiling #section1 .logotype-header div img,
+          * body #pagepiling #section1 .logotype-header div img {
+            margin: 0px;
+            width: 18vw; }
+          * html #pagepiling #section1 .logotype-header div img:first-child,
+          * body #pagepiling #section1 .logotype-header div img:first-child {
+            padding-top: 4vh;
+            padding-bottom: 4vh; }
+      * html #pagepiling #section1 h1,
+      * body #pagepiling #section1 h1 {
+        font-size: 10em;
+        text-transform: uppercase;
+        font-weight: bold;
+        margin-top: 12vh;
+        text-shadow: 1px 2px 3px #666; }
+      * html #pagepiling #section1 h2,
+      * body #pagepiling #section1 h2 {
+        margin: 0;
+        padding: 0;
+        font-size: 3em; }
+      * html #pagepiling #section1 h3,
+      * body #pagepiling #section1 h3 {
+        font-size: 2em;
+        padding: 3vh 0 2vh 0;
+        font-weight: bold;
+        position: absolute;
+        bottom: 0px;
+        background-color: rgba(20, 20, 20, 0.5);
+        margin-bottom: 0px;
+        border-top: 1px solid #00458B;
+        width: 100%;
+        opacity: 0.5; }
+    * html #pagepiling #section2,
+    * body #pagepiling #section2 {
+      background-image: url(../assets/imgs/lol2.jpeg); }
+      * html #pagepiling #section2 section div:last-child iframe,
+      * body #pagepiling #section2 section div:last-child iframe {
+        max-height: 70%; }
+    * html #pagepiling #section3,
+    * body #pagepiling #section3 {
+      background-image: url(../assets/imgs/joystick-2346237_1920.jpg); }
+      * html #pagepiling #section3 section div article .img-calendar,
+      * body #pagepiling #section3 section div article .img-calendar {
+        width: 90%;
+        margin-bottom: 2vh; }
+      * html #pagepiling #section3 section div article h4,
+      * body #pagepiling #section3 section div article h4 {
+        font-size: 0.9em;
+        background-color: rgba(250, 250, 250, 0.8);
+        color: black;
+        width: 10%;
+        padding: 0.5vh 0;
+        text-align: center; }
+    * html #pagepiling #section4,
+    * body #pagepiling #section4 {
+      background-image: url(../assets/imgs/mouse-439593_1920.jpg); }
+      * html #pagepiling #section4 section div article form,
+      * body #pagepiling #section4 section div article form {
+        width: 90%; }
+        * html #pagepiling #section4 section div article form label,
+        * html #pagepiling #section4 section div article form input,
+        * html #pagepiling #section4 section div article form select,
+        * html #pagepiling #section4 section div article form textarea,
+        * body #pagepiling #section4 section div article form label,
+        * body #pagepiling #section4 section div article form input,
+        * body #pagepiling #section4 section div article form select,
+        * body #pagepiling #section4 section div article form textarea {
+          width: 100%;
+          margin-bottom: 0vh;
+          margin-top: 1vh;
+          padding: 5px; }
+        * html #pagepiling #section4 section div article form input,
+        * html #pagepiling #section4 section div article form select,
+        * html #pagepiling #section4 section div article form textarea,
+        * body #pagepiling #section4 section div article form input,
+        * body #pagepiling #section4 section div article form select,
+        * body #pagepiling #section4 section div article form textarea {
+          margin-top: 0; }
+        * html #pagepiling #section4 section div article form input:nth-child(2),
+        * body #pagepiling #section4 section div article form input:nth-child(2) {
+          border: 1px solid #FF5722;
+          background-color: transparent; }
+        * html #pagepiling #section4 section div article form input:nth-child(4),
+        * body #pagepiling #section4 section div article form input:nth-child(4) {
+          border: 1px solid deeppink;
+          background-color: transparent; }
+        * html #pagepiling #section4 section div article form input:nth-child(6),
+        * body #pagepiling #section4 section div article form input:nth-child(6) {
+          border: 1px solid #00458B;
+          background-color: transparent; }
+        * html #pagepiling #section4 section div article form select,
+        * body #pagepiling #section4 section div article form select {
+          border: 1px solid seagreen;
+          background-color: transparent; }
+          * html #pagepiling #section4 section div article form select option,
+          * body #pagepiling #section4 section div article form select option {
+            background-color: black; }
+        * html #pagepiling #section4 section div article form textarea,
+        * body #pagepiling #section4 section div article form textarea {
+          border: 1px solid firebrick;
+          background-color: transparent; }
+        * html #pagepiling #section4 section div article form button,
+        * body #pagepiling #section4 section div article form button {
+          font-weight: bold;
+          padding: 10px;
+          background-color: #FF5722;
+          margin-top: 1vh;
+          color: whitesmoke;
+          width: 50%;
+          border: 0; }
+      * html #pagepiling #section4 section iframe,
+      * body #pagepiling #section4 section iframe {
+        -webkit-filter: invert(100%);
+        filter: invert(100%); }
+    * html #pagepiling #section5,
+    * body #pagepiling #section5 {
+      background-image: url(../assets/imgs/boxer-1984344_1920.jpg); }
+      * html #pagepiling #section5 section div article .logo-partenaire,
+      * body #pagepiling #section5 section div article .logo-partenaire {
+        width: 45%;
+        display: inline-block;
+        margin: 2vh 0px; }
+
+/*# sourceMappingURL=style.css.map */

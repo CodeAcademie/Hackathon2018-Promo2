@@ -1,0 +1,222 @@
+@media (max-width: 700px) {
+    /* COLORS */
+    $white: whitesmoke;
+    $orange: #FF5722;
+    $blue: #00458B;
+    $pink: deeppink;
+    $green: seagreen;
+    $brick: firebrick;
+    $degrade: linear-gradient(to bottom, rgba(255, 86, 34, 1) 0%, rgba(255, 20, 145, 1) 25%, rgba(0, 70, 139, 1) 50%, rgba(46, 139, 86, 1) 75%, rgba(178, 34, 34, 1) 100%);
+    * {
+        box-sizing: border-box;
+        margin: 0px;
+        html,
+        body {
+            padding: 0px !important;
+            margin: 0px !important;
+            font-family: "Orbitron";
+            color: $white;
+            // ======================== //
+            // ======== NAVBAR ======== //
+            // ======================== //
+          
+            .navbar {
+                display: none;
+            }
+            
+            // ======================== //
+            // ======== CONTENU ======= //
+            // ======================== //
+            #pagepiling {
+                // ====== SECTION GLOBALE ====== //
+                .section {
+                    background-size: cover;
+                    section {
+                        width: 100%;
+                        margin: 0;
+                        padding: 5%;
+                        height: auto;
+                        div {
+                            width: 100%;
+                            article {
+                                h3 {
+                                    font-weight: bold;
+                                    font-size: 1em;
+                                    margin-bottom: 1vh;
+                                    width: 100%;
+                                    text-transform: uppercase;
+                                    img {
+                                        width: 5vw;
+                                        padding: 0px;
+                                        margin: 0px 10px 4px 0px;
+                                    }
+                                }
+                                #orange {
+                                    background-color: $orange;
+                                }
+                                #pink {
+                                    background-color: $pink;
+                                }
+                                #blue {
+                                    background-color: $blue;
+                                }
+                                #green {
+                                    background-color: $green;
+                                }
+                                #red {
+                                    background-color: $brick;
+                                }
+                                div {
+                                    width: 100%;
+                                    height: 2px;
+                                    margin-bottom: 2vh;
+                                }
+                                p {
+                                    text-align: left;
+                                    width: 100%;
+                                    font-size: 0.9em;
+                                    margin-bottom: 3vh;
+                                    font-family: "Open Sans";
+                                    a {
+                                        text-decoration: none;
+                                        color: $orange;
+                                        font-weight: bold;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                // ====== PAGE HOME ====== //
+                #section1 {
+                    height: 100vh;
+                    display: flex;
+                    flex-direction: column;
+                    .logotype-header {
+                        width: 60vw;
+                        background: transparent;
+                        div {
+                            background-color: rgba(0, 0, 0, 0.7);
+                            img {
+                                width: 50vw;
+                                padding: 2vh;
+                            }
+                        }
+                    }
+                    h1 {
+                        font-size: 2.5em;
+                        margin-top: 8vh;
+                    }
+                    h2 {
+                        font-size: 1.5em;
+                        width: 50%;
+                        margin: 0 auto;
+                        line-height: 5vh;
+                    }
+                    h3 {
+                        font-size: 1em;
+                        padding: 2vh 0 2vh 0;
+                    }
+                }
+                  // ====== PAGE PRÉSENTATION ====== //
+            #section2 {
+                background-image: url(../assets/imgs/lol2.jpeg);
+                section {
+                    div:last-child {
+                        iframe {
+                            max-height: 100%;
+                        }
+                    }
+                }
+            }
+                // ====== PAGE CALENDRIER ====== //
+                #section3 {
+                    section {
+                        background-image: none;
+                        background-color: #222;
+                        div {
+                            article {
+                                .img-calendar {
+                                    display: none;
+                                }
+                                h4 {
+                                    font-size: 0.9em;
+                                    background-color: rgba(250, 250, 250, 0.8);
+                                    color: black;
+                                    width: 30%;
+                                    padding: 2vh;
+                                    text-align: center;
+                                }
+                                P {
+                                    margin-bottom: 1vh;
+                                }
+                            }
+                        }
+                    }
+                }
+                // ====== CONTACT ====== //
+                #section4 {
+                    section {
+                        div {
+                            article {
+                                form {
+                                    width: 100%;
+                                    label,
+                                    input,
+                                    textarea {
+                                        width: 100%;
+                                        margin-bottom: 0.5vh;
+                                        padding: 5px;
+                                    }
+                                    input:nth-child(2) {
+                                        border: 1px solid $orange;
+                                        background-color: transparent;
+                                    }
+                                    input:nth-child(4) {
+                                        border: 1px solid $pink;
+                                        background-color: transparent;
+                                    }
+                                    input:nth-child(6) {
+                                        border: 1px solid $blue;
+                                        background-color: transparent;
+                                    }
+                                    input:nth-child(8) {
+                                        border: 1px solid $green;
+                                        background-color: transparent;
+                                    }
+                                    textarea {
+                                        border: 1px solid $brick;
+                                        background-color: transparent;
+                                    }
+                                    button {
+                                        font-weight: bold;
+                                        padding: 10px;
+                                        background-color: $orange;
+                                        margin-top: 1vh;
+                                        ;
+                                        color: $white;
+                                        width: 50%;
+                                        border: 0;
+                                    }
+                                }
+                            }
+                        }
+                        iframe {
+                            display: none;
+                        }
+                    }
+                }
+            }
+            #pp-nav {
+                display: none;
+            }
+        }
+    }
+}
+
+* html #pagepiling .section section div,
+* body #pagepiling .section section div,
+* html #pagepiling .section section div,
+* body #pagepiling .section section div {
+    width: auto !important;
+}

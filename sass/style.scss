@@ -1,0 +1,402 @@
+/* COLORS */
+$white: whitesmoke;
+$orange: #FF5722;
+$blue: #00458B;
+$pink: deeppink;
+$green: seagreen;
+$brick: firebrick;
+$degrade: linear-gradient(to bottom, rgba(255, 86, 34, 1) 0%, rgba(255, 20, 145, 1) 25%, rgba(0, 70, 139, 1) 50%, rgba(46, 139, 86, 1) 75%, rgba(178, 34, 34, 1) 100%);
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    html,
+    body {
+        padding: 0px !important;
+        margin: 0px !important;
+        font-family: "Orbitron";
+        color: $white;
+        // ======================== //
+        // ======== NAVBAR ======== //
+        // ======================== //
+        .animate {
+            z-index: 999;
+            -webkit-transition: all 0.3s ease-in-out;
+            -moz-transition: all 0.3s ease-in-out;
+            -o-transition: all 0.3s ease-in-out;
+            -ms-transition: all 0.3s ease-in-out;
+            transition: all 0.3s ease-in-out;
+        }
+        .navbar-fixed-left {
+            position: fixed;
+            top: 0px;
+            left: 0px;
+            border-radius: 0px;
+        }
+        .navbar-minimal {
+            width: 60px;
+            min-height: 60px;
+            max-height: 100%;
+            border-width: 0px;
+            z-index: 1000;
+        }
+        .navbar-minimal>.navbar-toggler {
+            position: relative;
+            min-height: 60px;
+            z-index: 100;
+            cursor: pointer;
+        }
+        .navbar-minimal.open>.navbar-toggler,
+        .navbar-minimal>.navbar-toggler:hover {
+            background-color: $orange;
+        }
+        .navbar-minimal>.navbar-toggler>span {
+            position: absolute;
+            top: 50%;
+            right: 50%;
+            margin: -8px -8px 0 0;
+            width: 16px;
+            height: 16px;
+            background-repeat: no-repeat;
+            background-position: 0 0;
+            -webkit-transition: -webkit-transform .3s ease-out 0s;
+            -moz-transition: -moz-transform .3s ease-out 0s;
+            -o-transition: -moz-transform .3s ease-out 0s;
+            -ms-transition: -ms-transform .3s ease-out 0s;
+            transition: transform .3s ease-out 0s;
+            -webkit-transform: rotate(0deg);
+            -moz-transform: rotate(0deg);
+            -o-transform: rotate(0deg);
+            -ms-transform: rotate(0deg);
+            transform: rotate(0deg);
+        }
+        .navbar-minimal>.navbar-menu {
+            position: absolute;
+            top: -1000px;
+            left: 0px;
+            margin: 0px;
+            padding: 0px;
+            list-style: none;
+            z-index: 50;
+        }
+        .navbar-minimal>.navbar-menu>li {
+            margin: 0px;
+            padding: 0px;
+            border-width: 0px;
+            height: 54px;
+        }
+        .navbar-minimal>.navbar-menu>li>a {
+            position: relative;
+            display: inline-block;
+            color: rgb(255, 255, 255);
+            padding: 20px 23px;
+            text-align: left;
+            cursor: pointer;
+            border-bottom: 1px solid rgb(81, 81, 81);
+            width: 100%;
+            text-decoration: none;
+            margin: 0px;
+        }
+        .navbar-minimal>.navbar-menu>li>a:last-child {
+            border-bottom-width: 0px;
+        }
+        .navbar-minimal>.navbar-menu>li>a:hover {
+            background-color: $orange;
+        }
+        .navbar-minimal>.navbar-menu>li>a>.glyphicon {
+            float: right;
+        }
+        .navbar-minimal.open {
+            width: 320px;
+        }
+        .navbar-minimal.open>.navbar-toggler>span {
+            background-position: 0 -16px;
+            -webkit-transform: rotate(-180deg);
+            -moz-transform: rotate(-180deg);
+            -o-transform: rotate(-180deg);
+            -ms-transform: rotate(-180deg);
+            transform: rotate(-180deg);
+        }
+        .navbar-minimal.open>.navbar-menu {
+            top: 60px;
+            width: 100%;
+            min-height: 100%;
+        }
+        @media (min-width: 768px) {
+            .navbar-minimal.open {
+                width: 60px;
+            }
+            .navbar-minimal.open>.navbar-menu {
+                overflow: visible;
+            }
+            .navbar-minimal>.navbar-menu>li>a>.desc {
+                position: absolute;
+                display: inline-block;
+                top: 50%;
+                left: 130px;
+                margin-top: -20px;
+                margin-left: 20px;
+                text-align: left;
+                white-space: nowrap;
+                padding: 10px 13px;
+                border-width: 0px !important;
+                background-color: rgb(51, 51, 51);
+                background-color: rgba(51, 51, 51, 0.8);
+                opacity: 0;
+            }
+            .navbar-minimal>.navbar-menu>li>a>.desc:after {
+                z-index: -1;
+                position: absolute;
+                top: 50%;
+                left: -10px;
+                margin-top: -10px;
+                content: '';
+                width: 0;
+                height: 0;
+                border-top: 10px solid transparent;
+                border-bottom: 10px solid transparent;
+                border-right: 10px solid rgb(51, 51, 51);
+                border-right-color: rgba(51, 51, 51, 0.8);
+            }
+            .navbar-minimal>.navbar-menu>li>a:hover>.desc {
+                left: 60px;
+                opacity: 1;
+            }
+        }
+        // ======================== //
+        // ======== CONTENU ======= //
+        // ======================== //
+        #pagepiling {
+            // ====== SECTION GLOBALE ====== //
+            .section {
+                background-color: black;
+                background-size: contain;
+                background-position: right;
+                background-repeat: no-repeat;
+                top: 0px;
+                section {
+                    width: 95%;
+                    height: 92vh;
+                    margin: 0 0 0 2.5%;
+                    padding: 5%;
+                    div {
+                        width: 100%;
+                        height: 100%;
+                        article {
+                            h3 {
+                                font-weight: bold;
+                                font-size: 1.1vw;
+                                margin-bottom: 1vh;
+                                width: 100%;
+                                text-transform: uppercase;
+                                img {
+                                    width: 1.5vw;
+                                    padding: 0px;
+                                    margin: 0px 10px 4px 0px;
+                                }
+                            }
+                            #orange {
+                                background-color: $orange;
+                            }
+                            #pink {
+                                background-color: $pink;
+                            }
+                            #blue {
+                                background-color: $blue;
+                            }
+                            #green {
+                                background-color: $green;
+                            }
+                            #red {
+                                background-color: $brick;
+                            }
+                            div {
+                                width: 90%;
+                                height: 2px;
+                                margin-bottom: 2vh;
+                            }
+                            p {
+                                text-align: left;
+                                width: 90%;
+                                font-size: 0.8vw;
+                                margin-bottom: 3vh;
+                                font-family: "Open Sans";
+                                a {
+                                    text-decoration: none;
+                                    color: $orange;
+                                    font-weight: bold;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            // ====== PAGE HOME ====== //
+            #section1 {
+                background-image: url(../assets/imgs/overwatch-1610865_1920.jpg);
+                text-transform: uppercase;
+                text-align: center;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                .logotype-header {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    width: 30%;
+                    margin: 0 auto;
+                    background: $degrade;
+                    div {
+                        width: 99%;
+                        height: 99%;
+                        background-color: black;
+                        img {
+                            margin: 0px;
+                            width: 18vw;
+                        }
+                        img:first-child {
+                            padding-top: 4vh;
+                            padding-bottom: 4vh;
+                        }
+                    }
+                }
+                h1 {
+                    font-size: 10em;
+                    text-transform: uppercase;
+                    font-weight: bold;
+                    margin-top: 12vh;
+                    text-shadow: 1px 2px 3px #666;
+                }
+                h2 {
+                    margin: 0;
+                    padding: 0;
+                    font-size: 3em;
+                }
+                h3 {
+                    font-size: 2em;
+                    padding: 3vh 0 2vh 0;
+                    font-weight: bold;
+                    position: absolute;
+                    bottom: 0px;
+                    background-color: rgba(20, 20, 20, 0.5);
+                    margin-bottom: 0px;
+                    border-top: 1px solid $blue;
+                    width: 100%;
+                    opacity: 0.5;
+                }
+            }
+            // ====== PAGE PRÉSENTATION ====== //
+            #section2 {
+                background-image: url(../assets/imgs/lol2.jpeg);
+                section {
+                    div:last-child {
+                        iframe {
+                            max-height: 70%;
+                        }
+                    }
+                }
+            }
+            // ====== PAGE CALENDRIER ====== //
+            #section3 {
+                background-image: url(../assets/imgs/joystick-2346237_1920.jpg);
+                section {
+                    div {
+                        article {
+                            .img-calendar {
+                                width: 90%;
+                                margin-bottom: 2vh;
+                            }
+                            h4 {
+                                font-size: 0.9em;
+                                background-color: rgba(250, 250, 250, 0.8);
+                                color: black;
+                                width: 10%;
+                                padding: 0.5vh 0;
+                                text-align: center;
+                            }
+                        }
+                    }
+                }
+            }
+            // ====== CONTACT ====== //
+            #section4 {
+                background-image: url(../assets/imgs/mouse-439593_1920.jpg);
+                section {
+                    div {
+                        article {
+                            form {
+                                width: 90%;
+                                label,
+                                input,
+                                select,
+                                textarea {
+                                    width: 100%;
+                                    margin-bottom: 0vh;
+                                    margin-top: 1vh;
+                                    padding: 5px;
+                                }
+                                input,
+                                select,
+                                textarea{
+                                    margin-top: 0;
+                                }
+                                input:nth-child(2) {
+                                    border: 1px solid $orange;
+                                    background-color: transparent;
+                                }
+                                input:nth-child(4) {
+                                    border: 1px solid $pink;
+                                    background-color: transparent;
+                                }
+                                input:nth-child(6) {
+                                    border: 1px solid $blue;
+                                    background-color: transparent;
+                                }
+                                select {
+                                    border: 1px solid $green;
+                                    background-color: transparent;
+                                    option {
+                                        background-color: black;
+                                    }
+                                }
+                                textarea {
+                                    border: 1px solid $brick;
+                                    background-color: transparent;
+                                }
+                                button {
+                                    font-weight: bold;
+                                    padding: 10px;
+                                    background-color: $orange;
+                                    margin-top: 1vh;
+                                    ;
+                                    color: $white;
+                                    width: 50%;
+                                    border: 0;
+                                }
+                                ifram {}
+                            }
+                        }
+                    }
+                    iframe {
+                        -webkit-filter: invert(100%);
+                        filter: invert(100%);
+                    }
+                }
+            }
+            // ====== PARTENAIRES ====== //
+            #section5 {
+                background-image: url(../assets/imgs/boxer-1984344_1920.jpg);
+                section {
+                    div {
+                        article {
+                            .logo-partenaire {
+                                width: 45%;
+                                display: inline-block;
+                                margin: 2vh 0px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
