@@ -89,3 +89,9 @@
          }, 1000);
      }
  }, 1000);
+
+
+//FORMULAIRE
+function validerForm(){
+    document.getElementById("formulaire").submit();
+}
