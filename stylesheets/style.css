@@ -308,7 +308,7 @@
           width: 100%;
           margin-bottom: 0;
           margin-top: 15px;
-          padding: 5px 0;
+          padding: 5px 5px;
           font-size: 0.8em; }
         * html #pagepiling #section4 section div article form input,
         * html #pagepiling #section4 section div article form select,
@@ -336,11 +336,11 @@
         * html #pagepiling #section4 section div article form select,
         * body #pagepiling #section4 section div article form select {
           border: 1px solid seagreen;
-          background-color: transparent;
-          padding: 15px; }
+          background-color: transparent; }
           * html #pagepiling #section4 section div article form select option,
           * body #pagepiling #section4 section div article form select option {
-            background-color: black; }
+            background-color: black;
+            font-size: 1.5em; }
         * html #pagepiling #section4 section div article form textarea,
         * body #pagepiling #section4 section div article form textarea {
           border: 1px solid firebrick;
