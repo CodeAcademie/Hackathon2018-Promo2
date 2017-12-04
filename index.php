@@ -115,7 +115,6 @@
                         <img src="assets/imgs/lorem-ipsum1.jpg" alt="" class="img-calendar">
                         <h3><img src="assets/imgs/001-square-button.svg" alt=""> JOUR 1</h3>
                         <div id="pink"></div>
-
                         <h4><img src="assets/imgs/invaders.svg" alt="">17:00</h4>
                         <p>Lorem ipsum dolor sit amet consectetur.</p>
                         <h4><img src="assets/imgs/invaders.svg" alt="">19:00</h4>
@@ -132,7 +131,6 @@
                         <p>Lorem ipsum dolor sit amet consectetur.</p>
                         <h4><img src="assets/imgs/invaders.svg" alt="">23:00</h4>
                         <p>Fermeture des locaux</p>
-
                     </article>
                     <article class="col-md-4">
                         <img src="assets/imgs/lorem-ipsum1.jpg" alt="" class="img-calendar">
@@ -172,15 +170,9 @@
                                 <option value="Ecole 6">Ecole 6</option>
                             </select>
                             <label for="Commentaire">Commentaire</label>
-                      <textarea type="text" name="sujet" value="" cols="40" rows="20" maxlength="200"></textarea>
-
-                            <button type="submit" name="envoyer" value="Envoyer">Pouet</button>
-
+                            <textarea type="text" name="sujet" value="" cols="40" rows="20" maxlength="200"></textarea>
+                            <button type="submit" name="envoyer" value="Envoyer">Envoyer</button>
                         </form>
-
-
-
-
                     </article>
                     <article class="col-md-6">
                         <h3><img src="assets/imgs/003-triangle-button.svg" alt=""> Lieu de matchmaking</h3>
@@ -237,7 +229,6 @@
             </section>
         </div>
     </div>
-
 
     <!-- SCRIPT -->
     <script type="text/javascript" src="js/jquery-3.2.1.js"></script>
