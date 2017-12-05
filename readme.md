@@ -12,7 +12,9 @@
 | Annexes    | Contenu brut du site          | Logos partenaires /
 
 ---
+
 <br>
+
 #### Remarques :
 
 - Si il y a des remarques ou autres suggestions, on peut éventuellement les glisser ici. 
