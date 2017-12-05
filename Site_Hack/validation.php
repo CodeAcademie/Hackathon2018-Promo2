@@ -1,7 +1,6 @@
 <?php
  header('Content-Type: text/html;charset=UTF-8');
 
-
     $to = 'adressedelacodeac';
     $name = $_POST['name'];
     $firstname = $_POST['firstname'];
