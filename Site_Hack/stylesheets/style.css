@@ -282,8 +282,8 @@
         position: absolute;
         bottom: 0px;
         background-color: rgba(20, 20, 20, 0.5);
-        margin-bottom: 0px;
         border-top: 1px solid #555;
+        margin-bottom: 0px;
         width: 100%;
         opacity: 0.5; }
     * html #pagepiling #section2,
@@ -395,5 +395,60 @@
         width: 15%;
         display: inline-block;
         margin: 2%; }
+    * html #pagepiling footer,
+    * body #pagepiling footer {
+      position: absolute;
+      bottom: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-top: 1px solid #555;
+      margin-top: 2vh;
+      height: 8vh;
+      width: 100%;
+      font-family: "Open Sans", sans-serif;
+      background-color: rgba(20, 20, 20, 0.5);
+      opacity: 0.5; }
+      * html #pagepiling footer button,
+      * body #pagepiling footer button {
+        width: auto;
+        margin: 0px 10px;
+        background-color: transparent;
+        border-right: 1px solid whitesmoke;
+        color: whitesmoke;
+        text-transform: uppercase;
+        font-size: 0.8em;
+        border-radius: 0 !important; }
+        * html #pagepiling footer button:hover,
+        * body #pagepiling footer button:hover {
+          background-color: whitesmoke;
+          color: black; }
+      * html #pagepiling footer div .modal-dialog .modal-header,
+      * body #pagepiling footer div .modal-dialog .modal-header {
+        display: flex;
+        justify-content: space-around;
+        align-items: center; }
+        * html #pagepiling footer div .modal-dialog .modal-header button,
+        * body #pagepiling footer div .modal-dialog .modal-header button {
+          font-size: 3em;
+          border: 0; }
+      * html #pagepiling footer div .modal-dialog .modal-content,
+      * body #pagepiling footer div .modal-dialog .modal-content {
+        background-color: black; }
+        * html #pagepiling footer div .modal-dialog .modal-content button,
+        * body #pagepiling footer div .modal-dialog .modal-content button {
+          margin: 0px; }
+        * html #pagepiling footer div .modal-dialog .modal-content .modal-body,
+        * body #pagepiling footer div .modal-dialog .modal-content .modal-body {
+          height: 50vh; }
+          * html #pagepiling footer div .modal-dialog .modal-content .modal-body h2,
+          * body #pagepiling footer div .modal-dialog .modal-content .modal-body h2 {
+            font-size: 0.9em; }
+          * html #pagepiling footer div .modal-dialog .modal-content .modal-body p,
+          * body #pagepiling footer div .modal-dialog .modal-content .modal-body p {
+            margin: 0; }
+      * html #pagepiling footer p,
+      * body #pagepiling footer p {
+        margin: 0; }
 
 /*# sourceMappingURL=style.css.map */

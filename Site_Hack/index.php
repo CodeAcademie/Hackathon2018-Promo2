@@ -71,10 +71,10 @@
             </div>
             <h1>hackathon</h1>
             <h2 id="text"></h2>
-         <!--  ============================= -->
-         <!--  A DÉCOMMENTER POUR ACTIVER !! -->
-         <!--  ============================= -->
-         <!--   
+            <!--  ============================= -->
+            <!--  A DÉCOMMENTER POUR ACTIVER !! -->
+            <!--  ============================= -->
+            <!--   
                <button type="button"><a href="#inscription" class="js-scrollTo">Inscription</a></button>
                 <button type="button"><a href="#page4">Inscription</a></button>
          -->
@@ -165,14 +165,14 @@
                     <article class="col-md-6">
                         <h3><img src="assets/imgs/001-square-button.svg" alt=""> formulaire d'inscription</h3>
                         <div id="pink"></div>
-                    <!--  ============================= -->
-                    <!--  A RETIRER POUR ACTIVER !! -->
-                    <!--  ============================= -->
+                        <!--  ============================= -->
+                        <!--  A RETIRER POUR ACTIVER !! -->
+                        <!--  ============================= -->
                         <h1>Les inscriptions ne sont pas encores ouvertes.</h1>
-                    <!--  ============================= -->
-                    <!--  A DÉCOMMENTER POUR ACTIVER !! -->
-                    <!--  ============================= -->
-                    <!--    <form name="inscription" method="POST" action="validation.php">
+                        <!--  ============================= -->
+                        <!--  A DÉCOMMENTER POUR ACTIVER !! -->
+                        <!--  ============================= -->
+                        <!--    <form name="inscription" method="POST" action="validation.php">
                             <label for="name">Nom</label>
                             <input type="text" name="name" value="" required>
                             <label for="firstname">Prénom</label>
@@ -220,6 +220,46 @@
                     </article>
                 </div>
             </section>
+            <footer>
+                <!-- Trigger the modal with a button -->
+                <button type="button" class="btn" data-toggle="modal" data-target="#myModal">Mentions légales</button>
+                <!-- Modal -->
+                <div class="modal fade" id="myModal" role="dialog">
+                    <div class="modal-dialog">
+                        <!-- Modal content-->
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h4 class="modal-title">Mentions légales</h4>
+                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            </div>
+                            <div class="modal-body">
+                                <h2>Editeur du site</h2>
+                                <p>Association FACE Rennes : 23 rue d’Aiguillon, 35200 Rennes</p>
+                                <p>E-mail : codeacademie@fondationface.org</p>
+                                <p>Site Web : www.face.bzh</p>
+                                <p>Siret : 42894713900047</p>
+                                <p>Tel : 02.99.86.89.26</p>
+                                <p>Directeur de publication : Erwann DUCLOS</p>
+
+                                <h2>Hébergement :</h2>
+                                <p>OVH</p>
+                                <p>2 rue Kellermann</p>
+                                <p>BP 80157</p>
+                                <p>59053 ROUBAIX Cedex 1</p>
+                                <p>Tél : +33 (0)8 203 203 63</p>
+                                <p>mail : support@ovh.com</p>
+
+                                <h2>Indisponibilité du site</h2>
+                                <p>la code académie s’engage à faire ses meilleurs efforts pour assurer aux utilisateurs une accessibilité du site à tout moment. La code académie ne pourra être tenue pour responsable, en cas d’indisponibilité du site, pour quelque cause que ce soit.</p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <p>Copyright &#9679; Code Academie</p>
+            </footer>
         </div>
     </div>
 

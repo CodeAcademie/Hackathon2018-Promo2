@@ -120,6 +120,34 @@
   * html #pagepiling #section5 section div article .logo-partenaire,
   * body #pagepiling #section5 section div article .logo-partenaire {
     width: 25%; }
+  * html #pagepiling #section5 footer,
+  * body #pagepiling #section5 footer {
+    position: inherit;
+    opacity: 1; }
+    * html #pagepiling #section5 footer div .modal-dialog .modal-header,
+    * body #pagepiling #section5 footer div .modal-dialog .modal-header {
+      display: flex;
+      justify-content: space-around;
+      align-items: center; }
+    * html #pagepiling #section5 footer div .modal-dialog .modal-content,
+    * body #pagepiling #section5 footer div .modal-dialog .modal-content {
+      background-color: black; }
+      * html #pagepiling #section5 footer div .modal-dialog .modal-content button,
+      * body #pagepiling #section5 footer div .modal-dialog .modal-content button {
+        margin: 0px; }
+      * html #pagepiling #section5 footer div .modal-dialog .modal-content .modal-body,
+      * body #pagepiling #section5 footer div .modal-dialog .modal-content .modal-body {
+        height: auto; }
+        * html #pagepiling #section5 footer div .modal-dialog .modal-content .modal-body h2,
+        * body #pagepiling #section5 footer div .modal-dialog .modal-content .modal-body h2 {
+          font-size: 0.9em; }
+        * html #pagepiling #section5 footer div .modal-dialog .modal-content .modal-body p,
+        * body #pagepiling #section5 footer div .modal-dialog .modal-content .modal-body p {
+          font-family: "Open Sans", sans-serif;
+          margin: 0; }
+      * html #pagepiling #section5 footer div .modal-dialog .modal-content .modal-footer button,
+      * body #pagepiling #section5 footer div .modal-dialog .modal-content .modal-footer button {
+        display: none; }
   * html #pp-nav,
   * body #pp-nav {
     display: none; } }

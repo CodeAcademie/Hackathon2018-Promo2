@@ -1,183 +1,216 @@
         @media (max-width: 1025px) {
-    /* COLORS */
-    $white: whitesmoke;
-    $orange: #FF5722;
-    $blue: #00458B;
-    $pink: deeppink;
-    $green: seagreen;
-    $brick: firebrick;
-    $degrade: linear-gradient(to bottom, rgba(255, 86, 34, 1) 0%, rgba(255, 20, 145, 1) 25%, rgba(0, 70, 139, 1) 50%, rgba(46, 139, 86, 1) 75%, rgba(178, 34, 34, 1) 100%);
-    * {
-        html,
-        body {
-            .navbar {
-                display: none;
-            }
-            // ======================== //
-            // ======== CONTENU ======= //
-            // ======================== //
-            #pagepiling {
-                // ====== SECTION GLOBALE ====== //
-                .section {
-                    background-size: cover;
-                    section {
-                        width: 100%;
-                        margin: 0;
-                        padding: 5%;
-                        height: auto;
-                        div {
-                            width: 100%;
-                            article {
-                                h3 {
-                                    font-size: 0.7em;
-                                    img {
-                                        width: 5vw;
-                                        padding: 0px;
-                                        margin: 0px;
-                                    }
-                                }
-                                #orange {
-                                    background-color: $orange;
-                                }
-                                #pink {
-                                    background-color: $pink;
-                                }
-                                #blue {
-                                    background-color: $blue;
-                                }
-                                #green {
-                                    background-color: $green;
-                                }
-                                #red {
-                                    background-color: $brick;
-                                }
+            /* COLORS */
+            $white: whitesmoke;
+            $orange: #FF5722;
+            $blue: #00458B;
+            $pink: deeppink;
+            $green: seagreen;
+            $brick: firebrick;
+            $degrade: linear-gradient(to bottom, rgba(255, 86, 34, 1) 0%, rgba(255, 20, 145, 1) 25%, rgba(0, 70, 139, 1) 50%, rgba(46, 139, 86, 1) 75%, rgba(178, 34, 34, 1) 100%);
+            * {
+                html,
+                body {
+                    .navbar {
+                        display: none;
+                    }
+                    // ======================== //
+                    // ======== CONTENU ======= //
+                    // ======================== //
+                    #pagepiling {
+                        // ====== SECTION GLOBALE ====== //
+                        .section {
+                            background-size: cover;
+                            section {
+                                width: 100%;
+                                margin: 0;
+                                padding: 5%;
+                                height: auto;
                                 div {
                                     width: 100%;
-                                    height: 2px;
-                                    margin-bottom: 2vh;
+                                    article {
+                                        h3 {
+                                            font-size: 0.7em;
+                                            img {
+                                                width: 5vw;
+                                                padding: 0px;
+                                                margin: 0px;
+                                            }
+                                        }
+                                        #orange {
+                                            background-color: $orange;
+                                        }
+                                        #pink {
+                                            background-color: $pink;
+                                        }
+                                        #blue {
+                                            background-color: $blue;
+                                        }
+                                        #green {
+                                            background-color: $green;
+                                        }
+                                        #red {
+                                            background-color: $brick;
+                                        }
+                                        div {
+                                            width: 100%;
+                                            height: 2px;
+                                            margin-bottom: 2vh;
+                                        }
+                                        p {
+                                            text-align: left;
+                                            width: 100%;
+                                            font-size: 0.9em;
+                                            margin-bottom: 3vh;
+                                            font-family: "Open Sans";
+                                            a {
+                                                text-decoration: none;
+                                                color: $orange;
+                                                font-weight: bold;
+                                            }
+                                        }
+                                    }
                                 }
-                                p {
-                                    text-align: left;
-                                    width: 100%;
-                                    font-size: 0.9em;
-                                    margin-bottom: 3vh;
-                                    font-family: "Open Sans";
-                                    a {
-                                        text-decoration: none;
-                                        color: $orange;
-                                        font-weight: bold;
+                            }
+                        }
+                        // ====== PAGE HOME ====== //
+                        #section1 {
+                            height: 100vh;
+                            display: flex;
+                            flex-direction: column;
+                            .logotype-header {
+                                width: 100%;
+                                background-color: transparent;
+                                div {
+                                    background-color: transparent;
+                                    height: auto;
+                                    width: auto;
+                                    img {
+                                        width: 35%;
+                                    }
+                                }
+                            }
+                            h1 {
+                                font-size: 2.5em;
+                                margin-top: 5vh;
+                            }
+                            h2 {
+                                font-size: 1em;
+                                width: 50%;
+                                margin: 0 auto;
+                                line-height: 5vh;
+                            }
+                            button:nth-child(4) {
+                                display: block;
+                            }
+                            button:nth-child(5) {
+                                display: none;
+                            }
+                            h3 {
+                                font-size: 1.2em;
+                                padding: 2vh 0;
+                            }
+                        }
+                        // ====== PAGE PRÉSENTATION ====== //
+                        #section2 {
+                            background-image: url(../assets/imgs/lol2.jpeg);
+                            section {
+                                div:last-child {
+                                    iframe {
+                                        max-height: 100%;
+                                    }
+                                }
+                            }
+                        }
+                        // ====== PAGE CALENDRIER ====== //
+                        #section3 {
+                            section {
+                                background-image: none;
+                                background-color: #111;
+                                div {
+                                    article {
+                                        margin: 15px 0;
+                                        .img-calendar {
+                                            display: none;
+                                        }
+                                        P {
+                                            margin-bottom: 1vh;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                        // ====== CONTACT ====== //
+                        #section4 {
+                            section {
+                                div {
+                                    article {
+                                        form {
+                                            width: 100%;
+                                        }
+                                        iframe {
+                                            display: none;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                        // ====== PARTENAIRES ====== //
+                        #section5 {
+                            section {
+                                div {
+                                    article {
+                                        .logo-partenaire {
+                                            width: 25%;
+                                        }
+                                    }
+                                }
+                            }
+                            footer {
+                                position: inherit;
+                                opacity: 1;
+                                div {
+                                    .modal-dialog {
+                                        .modal-header {
+                                            display: flex;
+                                            justify-content: space-around;
+                                            align-items: center;
+                                        }
+                                        .modal-content {
+                                            background-color: rgba(0, 0, 0, 1);
+                                            button {
+                                                margin: 0px;
+                                            }
+                                            .modal-body {
+                                                height: auto;
+                                                h2 {
+                                                    font-size: 0.9em;
+                                                }
+                                                p {
+                                                    font-family: "Open Sans", sans-serif;
+                                                    margin: 0;
+                                                }
+                                            }
+                                            .modal-footer {
+                                                button {
+                                                    display: none;
+                                                }
+                                            }
+                                        }
                                     }
                                 }
                             }
                         }
                     }
-                }
-                // ====== PAGE HOME ====== //
-                #section1 {
-                    height: 100vh;
-                    display: flex;
-                    flex-direction: column;
-                    .logotype-header {
-                        width: 100%;
-                        background-color: transparent;
-                        div {
-                        background-color: transparent;
-                            height: auto;
-                            width: auto;
-                            img {
-                                width: 35%;
-                            }
-                        }
-                    }
-                    h1 {
-                        font-size: 2.5em;
-                        margin-top: 5vh;
-                    }
-                    h2 {
-                        font-size: 1em;
-                        width: 50%;
-                        margin: 0 auto;
-                        line-height: 5vh;
-                    }
-                    button:nth-child(4) {
-                    display: block;
-                }
-                    button:nth-child(5) {
-                    display: none;
-                }
-                
-                    h3 {
-                        font-size: 1.2em;
-                        padding: 2vh 0;
+                    #pp-nav {
+                        display: none;
                     }
                 }
-                // ====== PAGE PRÉSENTATION ====== //
-                #section2 {
-                    background-image: url(../assets/imgs/lol2.jpeg);
-                    section {
-                        div:last-child {
-                            iframe {
-                                max-height: 100%;
-                            }
-                        }
-                    }
-                }
-                // ====== PAGE CALENDRIER ====== //
-                #section3 {
-                    section {
-                        background-image: none;
-                        background-color: #111;
-                        div {
-                            article {
-                                margin: 15px 0;
-                                .img-calendar {
-                                    display: none;
-                                }
-                                P {
-                                    margin-bottom: 1vh;
-                                }
-                            }
-                        }
-                    }
-                }
-                // ====== CONTACT ====== //
-                #section4 {
-                    section {
-                        div {
-                            article {
-                                form {
-                                    width: 100%;
-                                }
-                                iframe {
-                                    display: none;
-                                }
-                            }
-                        }
-                    }
-                }
-                // ====== PARTENAIRES ====== //
-                #section5 {
-                    section {
-                        div {
-                            article {
-                                .logo-partenaire {
-                                    width: 25%;
-                                }
-                            }
-                        }
-                    }
-                }
-            }
-            #pp-nav {
-                display: none;
             }
         }
-    }
-}
-
-* html #pagepiling .section section div,
-* body #pagepiling .section section div,
-* html #pagepiling .section section div,
-* body #pagepiling .section section div {
-    width: auto !important;
-}
+        
+        * html #pagepiling .section section div,
+        * body #pagepiling .section section div,
+        * html #pagepiling .section section div,
+        * body #pagepiling .section section div {
+            width: auto !important;
+        }
