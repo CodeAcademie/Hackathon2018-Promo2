@@ -1,9 +1,7 @@
  // SLIDE
  var deleteLog = false;
  console.log($(window).width());
-
- //function refresh() {
-     if ($(window).width() > 1026) {
+ if ($(window).width() > 1026) {
          $('#pagepiling').pagepiling({
              menu: '#menu',
              anchors: ['page1', 'page2', 'page3', 'page4', 'page5'],
@@ -12,22 +10,9 @@
              loopBottom: true
          });
 	};
-/*
-     } else {
-         PP.destroy('all');
-     };
-*/
- 
-
- /*$(window).on("resize", function () {
-     console.log("Merde");
-     refresh();
- })*/
-
 
  //NAVBAR
  $(function () {
-     /* START OF DEMO JS - NOT NEEDED */
      if (window.location == window.parent.location) {
          $('#fullscreen').html('<span class="glyphicon glyphicon-resize-small"></span>');
      }
@@ -48,7 +33,7 @@
          if (i > myText.length - 1) {
              clearInterval(typeWriter);
          }
-     }, 150);
+     }, 125);
  };
 
 
