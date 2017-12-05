@@ -113,34 +113,40 @@
                 <div class="row">
                     <article class="col-md-4">
                         <img src="assets/imgs/lorem-ipsum1.jpg" alt="" class="img-calendar">
-                        <h3><img src="assets/imgs/001-square-button.svg" alt=""> JOUR 1</h3>
+                        <h3><img src="assets/imgs/001-square-button.svg" alt=""> Vendredi 16 Février</h3>
                         <div id="pink"></div>
                         <h4><img src="assets/imgs/invaders.svg" alt="">17:00</h4>
-                        <p>Lorem ipsum dolor sit amet consectetur.</p>
-                        <h4><img src="assets/imgs/invaders.svg" alt="">19:00</h4>
-                        <p>Lorem ipsum dolor sit amet consectetur.</p>
+                        <p>Ouverture du Hackathon</p>
+                        <h4><img src="assets/imgs/invaders.svg" alt="">18:00</h4>
+                        <p>Définition des groupes</p>
+                        <h4><img src="assets/imgs/invaders.svg" alt="">21:00</h4>
+                        <p>Repas</p>
+                        <h4><img src="assets/imgs/invaders.svg" alt="">22:00</h4>
+                        <p>Bilan de la journée</p>
                         <h4><img src="assets/imgs/invaders.svg" alt="">23:00</h4>
                         <p>Fermeture des locaux</p>
                     </article>
                     <article class="col-md-4">
                         <img src="assets/imgs/lorem-ipsum1.jpg" alt="" class="img-calendar">
-                        <h3><img src="assets/imgs/003-triangle-button.svg" alt=""> JOUR 2</h3>
+                        <h3><img src="assets/imgs/003-triangle-button.svg" alt=""> Samedi 17 Février</h3>
 
                         <div id="green"></div>
                         <h4><img src="assets/imgs/invaders.svg" alt="">09:00</h4>
-                        <p>Lorem ipsum dolor sit amet consectetur.</p>
-                        <h4><img src="assets/imgs/invaders.svg" alt="">23:00</h4>
-                        <p>Fermeture des locaux</p>
+                        <p>Ouverture des locaux</p>
+                        <h4><img src="assets/imgs/invaders.svg" alt="">09:15</h4>
+                        <p>Petit déjeuner</p>
+                        <h4><img src="assets/imgs/invaders.svg" alt="">21:00</h4>
+                        <p>Bilan de la journée</p>
                     </article>
                     <article class="col-md-4">
                         <img src="assets/imgs/lorem-ipsum1.jpg" alt="" class="img-calendar">
-                        <h3><img src="assets/imgs/004-circle-button.svg" alt=""> JOUR 3</h3>
+                        <h3><img src="assets/imgs/004-circle-button.svg" alt=""> Dimanche 18 Février</h3>
                         <div id="red"></div>
-                        <h4><img src="assets/imgs/invaders.svg" alt="">09:00</h4>
-                        <p>Lorem ipsum dolor sit amet consectetur.</p>
-                        <h4><img src="assets/imgs/invaders.svg" alt="">21:00</h4>
-                        <p>Lorem ipsum dolor sit amet consectetur.</p>
-                        <h4><img src="assets/imgs/invaders.svg" alt="">23:00</h4>
+                        <h4><img src="assets/imgs/invaders.svg" alt="">09:15</h4>
+                        <p>Petit déjeuner</p>
+                        <h4><img src="assets/imgs/invaders.svg" alt="">13:30</h4>
+                        <p>Présentation du projet au jury</p>
+                        <h4><img src="assets/imgs/invaders.svg" alt="">15:00</h4>
                         <p>Fermeture des locaux</p>
                     </article>
                 </div>
