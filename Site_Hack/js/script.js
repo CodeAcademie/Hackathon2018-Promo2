@@ -3,7 +3,7 @@
  console.log($(window).width());
 
  //function refresh() {
-     if ($(window).width() > 701) {
+     if ($(window).width() > 1026) {
          $('#pagepiling').pagepiling({
              menu: '#menu',
              anchors: ['page1', 'page2', 'page3', 'page4', 'page5'],
@@ -11,12 +11,13 @@
              loopTop: true,
              loopBottom: true
          });
+	};
 /*
      } else {
          PP.destroy('all');
      };
 */
- }
+ 
 
  /*$(window).on("resize", function () {
      console.log("Merde");
@@ -91,7 +92,13 @@
  }, 1000);
 
 
-//FORMULAIRE
-function validerForm(){
-    document.getElementById("formulaire").submit();
-}
+//Scroll fluid pour l'ancre
+$(document).ready(function() {
+		$('.js-scrollTo').on('click', function() { // Au clic sur un élément
+			var page = $(this).attr('href'); // Page cible
+			var speed = 750; // Durée de l'animation (en ms)
+			$('html, body').animate( { scrollTop: $(page).offset().top }, speed ); // Go
+			return false;
+		});
+	});
+

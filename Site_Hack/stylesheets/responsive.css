@@ -1,4 +1,4 @@
-@media (max-width: 700px) {
+@media (max-width: 1025px) {
   /* COLORS */
   * html .navbar,
   * body .navbar {
@@ -62,25 +62,32 @@
     flex-direction: column; }
     * html #pagepiling #section1 .logotype-header,
     * body #pagepiling #section1 .logotype-header {
-      width: 60vw;
-      background: transparent; }
+      width: 100%;
+      background-color: transparent; }
       * html #pagepiling #section1 .logotype-header div,
       * body #pagepiling #section1 .logotype-header div {
-        background-color: rgba(0, 0, 0, 0.7); }
+        background-color: transparent;
+        height: auto;
+        width: auto; }
         * html #pagepiling #section1 .logotype-header div img,
         * body #pagepiling #section1 .logotype-header div img {
-          width: 50vw;
-          padding: 2vh; }
+          width: 35%; }
     * html #pagepiling #section1 h1,
     * body #pagepiling #section1 h1 {
       font-size: 2.5em;
-      margin-top: 8vh; }
+      margin-top: 5vh; }
     * html #pagepiling #section1 h2,
     * body #pagepiling #section1 h2 {
       font-size: 1em;
       width: 50%;
       margin: 0 auto;
       line-height: 5vh; }
+    * html #pagepiling #section1 button:nth-child(4),
+    * body #pagepiling #section1 button:nth-child(4) {
+      display: block; }
+    * html #pagepiling #section1 button:nth-child(5),
+    * body #pagepiling #section1 button:nth-child(5) {
+      display: none; }
     * html #pagepiling #section1 h3,
     * body #pagepiling #section1 h3 {
       font-size: 1.2em;
@@ -104,9 +111,15 @@
       * html #pagepiling #section3 section div article P,
       * body #pagepiling #section3 section div article P {
         margin-bottom: 1vh; }
-  * html #pagepiling #section4 section iframe,
-  * body #pagepiling #section4 section iframe {
+  * html #pagepiling #section4 section div article form,
+  * body #pagepiling #section4 section div article form {
+    width: 100%; }
+  * html #pagepiling #section4 section div article iframe,
+  * body #pagepiling #section4 section div article iframe {
     display: none; }
+  * html #pagepiling #section5 section div article .logo-partenaire,
+  * body #pagepiling #section5 section div article .logo-partenaire {
+    width: 25%; }
   * html #pp-nav,
   * body #pp-nav {
     display: none; } }

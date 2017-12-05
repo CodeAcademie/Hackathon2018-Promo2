@@ -12,8 +12,8 @@
     <link rel="icon" type="image/png" href="assets/imgs/invaders.png" />
 
     <!-- CSS -->
-    <link rel="stylesheet" href="bibli/bootstrap-3.3.7-dist/css/bootstrap.css">
-    <link rel="stylesheet" type="text/css" href="stylesheets/jquery.pagepiling.css" media="screen and (min-width: 700px)" />
+    <link rel="stylesheet" href="lib/bootstrap-3.3.7-dist/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="stylesheets/jquery.pagepiling.css" media="screen and (min-width: 1025px)" />
     <link rel="stylesheet" href="stylesheets/style.css">
     <link rel="stylesheet" href="stylesheets/responsive.css">
 
@@ -71,6 +71,13 @@
             </div>
             <h1>hackathon</h1>
             <h2 id="text"></h2>
+         <!--  ============================= -->
+         <!--  A DÉCOMMENTER POUR ACTIVER !! -->
+         <!--  ============================= -->
+         <!--   
+               <button type="button"><a href="#inscription" class="js-scrollTo">Inscription</a></button>
+                <button type="button"><a href="#page4">Inscription</a></button>
+         -->
             <h3 id="count">
                 <span id="day"></span>
                 <span id="hour"></span>
@@ -147,13 +154,19 @@
             </section>
         </div>
         <div class="section" id="section4">
-            <section>
+            <section id="inscription">
                 <div class="row">
                     <article class="col-md-6">
                         <h3><img src="assets/imgs/001-square-button.svg" alt=""> formulaire d'inscription</h3>
                         <div id="pink"></div>
-                        <p>Les inscriptions sont obligatoires ! Veuilez vous inscire au sein du formulaire ci-dessous.</p>
-                        <form id="inscription" name="inscription" method="POST" action="validation.php">
+                    <!--  ============================= -->
+                    <!--  A RETIRER POUR ACTIVER !! -->
+                    <!--  ============================= -->
+                        <h1>Les inscriptions ne sont pas encores ouvertes.</h1>
+                    <!--  ============================= -->
+                    <!--  A DÉCOMMENTER POUR ACTIVER !! -->
+                    <!--  ============================= -->
+                    <!--    <form name="inscription" method="POST" action="validation.php">
                             <label for="name">Nom</label>
                             <input type="text" name="name" value="" required>
                             <label for="firstname">Prénom</label>
@@ -162,17 +175,15 @@
                             <input type="email" name="mail" value="" required/>
                             <label for="Ecole">École</label>
                             <select name="école">
-                                <option value="Ecole 1">Ecole 1</option>
-                                <option value="Ecole 2"><h5>Ecole 1</h5></option>
-                                <option value="Ecole 3">Ecole 3</option>
-                                <option value="Ecole 4">Ecole 4</option>
-                                <option value="Ecole 5">Ecole 5</option>
-                                <option value="Ecole 6">Ecole 6</option>
+                                <option value="Ecole 1">Code Académie</option>
+                                <option value="Ecole 2"><h5>Digital Campus</h5></option>
+                                <option value="Ecole 3">École Digital de la Nouvelle Chance</option>
+                                <option value="Ecole 4">Epita</option>
                             </select>
                             <label for="Commentaire">Commentaire</label>
-                            <textarea type="text" name="sujet" value="" cols="40" rows="20" maxlength="200"></textarea>
+                            <textarea type="text" name="sujet" value="" cols="40" rows="10" maxlength="200"></textarea>
                             <button type="submit" name="envoyer" value="Envoyer">Envoyer</button>
-                        </form>
+                        </form>-->
                     </article>
                     <article class="col-md-6">
                         <h3><img src="assets/imgs/003-triangle-button.svg" alt=""> Lieu de matchmaking</h3>
@@ -187,43 +198,19 @@
         <div class="section" id="section5">
             <section>
                 <div class="row">
-                    <article class="col-md-4">
-                        <h3><img src="assets/imgs/001-square-button.svg" alt=""> Part 1</h3>
+                    <article class="col-md-12">
+                        <h3><img src="assets/imgs/001-square-button.svg" alt=""> Nos Partenaires</h3>
                         <div id="pink"></div>
-                        <img src="assets/imgs/logo_rennes.png" alt="" class="logo-partenaire">
-                        <img src="assets/imgs/logo_rennes.png" alt="" class="logo-partenaire">
-                        <img src="assets/imgs/logo_rennes.png" alt="" class="logo-partenaire">
-                        <img src="assets/imgs/logo_rennes.png" alt="" class="logo-partenaire">
-                        <img src="assets/imgs/logo_rennes.png" alt="" class="logo-partenaire">
-                        <img src="assets/imgs/logo_rennes.png" alt="" class="logo-partenaire">
-                        <img src="assets/imgs/logo_rennes.png" alt="" class="logo-partenaire">
+                        <img src="assets/imgs/logos/logo_face_white.svg" alt="" class="logo-partenaire">
+                        <img src="assets/imgs/logos/logo-codeacademie.svg" alt="" class="logo-partenaire">
+                        <img src="assets/imgs/logos/EPITA_LOGO_DEF.png" alt="" class="logo-partenaire">
+                        <img src="assets/imgs/logos/digital_campus.png" alt="" class="logo-partenaire">
+                        <img src="assets/imgs/logos/Logo_Mediaveille.svg" alt="" class="logo-partenaire">
+                        <img src="assets/imgs/logos/logo-sabella.jpg" alt="" class="logo-partenaire">
+                        <img src="assets/imgs/logos/TP%20logo%20white.svg" alt="" class="logo-partenaire">
+                        <img src="assets/imgs/logos/claranet.png" alt="" class="logo-partenaire">
                     </article>
-                    <article class="col-md-4">
-                        <h3><img src="assets/imgs/002-cross-button.svg" alt=""> Partenaires 2</h3>
-                        <div id="blue"></div>
-                        <img src="assets/imgs/logo_rennes.png" alt="" class="logo-partenaire">
-                        <img src="assets/imgs/logo_rennes.png" alt="" class="logo-partenaire">
-                        <img src="assets/imgs/logo_rennes.png" alt="" class="logo-partenaire">
-                        <img src="assets/imgs/logo_rennes.png" alt="" class="logo-partenaire">
-                        <img src="assets/imgs/logo_rennes.png" alt="" class="logo-partenaire">
-                        <img src="assets/imgs/logo_rennes.png" alt="" class="logo-partenaire">
-                        <img src="assets/imgs/logo_rennes.png" alt="" class="logo-partenaire">
-                        <img src="assets/imgs/logo_rennes.png" alt="" class="logo-partenaire">
-                        <img src="assets/imgs/logo_rennes.png" alt="" class="logo-partenaire">
-                        <img src="assets/imgs/logo_rennes.png" alt="" class="logo-partenaire">
-                        <img src="assets/imgs/logo_rennes.png" alt="" class="logo-partenaire">
-                        <img src="assets/imgs/logo_rennes.png" alt="" class="logo-partenaire">
-                    </article>
-                    <article class="col-md-4">
-                        <h3><img src="assets/imgs/003-triangle-button.svg" alt=""> Partenaires 3</h3>
-                        <div id="green"></div>
-                        <img src="assets/imgs/logo_rennes.png" alt="" class="logo-partenaire">
-                        <img src="assets/imgs/logo_rennes.png" alt="" class="logo-partenaire">
-                        <img src="assets/imgs/logo_rennes.png" alt="" class="logo-partenaire">
-                        <img src="assets/imgs/logo_rennes.png" alt="" class="logo-partenaire">
-                        <img src="assets/imgs/logo_rennes.png" alt="" class="logo-partenaire">
-                        <img src="assets/imgs/logo_rennes.png" alt="" class="logo-partenaire">
-                        <img src="assets/imgs/logo_rennes.png" alt="" class="logo-partenaire">
+                    <article class="col-md-6">
                     </article>
                 </div>
             </section>
@@ -232,7 +219,7 @@
 
     <!-- SCRIPT -->
     <script type="text/javascript" src="js/jquery-3.2.1.js"></script>
-    <script type="text/javascript" src="bibli/bootstrap-3.3.7-dist/js/bootstrap.js"></script>
+    <script type="text/javascript" src="lib/bootstrap-3.3.7-dist/js/bootstrap.js"></script>
     <script type="text/javascript" src="js/jquery.pagepiling.min.js"></script>
     <script type="text/javascript" src="js/script.js"></script>
 </body>

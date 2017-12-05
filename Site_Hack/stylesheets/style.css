@@ -238,22 +238,42 @@
           * html #pagepiling #section1 .logotype-header div img,
           * body #pagepiling #section1 .logotype-header div img {
             margin: 0px;
-            width: 18vw; }
+            width: 17vw; }
           * html #pagepiling #section1 .logotype-header div img:first-child,
           * body #pagepiling #section1 .logotype-header div img:first-child {
             padding-top: 4vh;
             padding-bottom: 4vh; }
       * html #pagepiling #section1 h1,
       * body #pagepiling #section1 h1 {
-        font-size: 8em;
+        font-size: 7em;
         text-transform: uppercase;
-        margin-top: 10vh; }
+        margin-top: 6vh; }
       * html #pagepiling #section1 h2,
       * body #pagepiling #section1 h2 {
         margin: 0;
         padding: 0;
         font-size: 2em;
         opacity: 0.8; }
+      * html #pagepiling #section1 button,
+      * body #pagepiling #section1 button {
+        padding: 10px;
+        margin: 20px;
+        background-color: transparent;
+        border: 1px solid whitesmoke; }
+        * html #pagepiling #section1 button a,
+        * body #pagepiling #section1 button a {
+          color: whitesmoke;
+          text-decoration: none;
+          text-transform: uppercase; }
+          * html #pagepiling #section1 button a:hover,
+          * body #pagepiling #section1 button a:hover {
+            color: black; }
+        * html #pagepiling #section1 button:hover,
+        * body #pagepiling #section1 button:hover {
+          background-color: whitesmoke; }
+      * html #pagepiling #section1 button:nth-child(4),
+      * body #pagepiling #section1 button:nth-child(4) {
+        display: none; }
       * html #pagepiling #section1 h3,
       * body #pagepiling #section1 h3 {
         font-family: "Open Sans";
@@ -294,6 +314,12 @@
     * html #pagepiling #section4,
     * body #pagepiling #section4 {
       background-image: url(../assets/imgs/mouse-439593_1920.jpg); }
+      * html #pagepiling #section4 section div article h1,
+      * body #pagepiling #section4 section div article h1 {
+        font-size: 1em;
+        padding: 30px;
+        margin: 5vh;
+        border: 2px solid #00458B; }
       * html #pagepiling #section4 section div article form,
       * body #pagepiling #section4 section div article form {
         width: 90%; }
@@ -366,8 +392,8 @@
       background-image: url(../assets/imgs/boxer-1984344_1920.jpg); }
       * html #pagepiling #section5 section div article .logo-partenaire,
       * body #pagepiling #section5 section div article .logo-partenaire {
-        width: 40%;
+        width: 15%;
         display: inline-block;
-        margin: 2vh 2.5%; }
+        margin: 2%; }
 
 /*# sourceMappingURL=style.css.map */
