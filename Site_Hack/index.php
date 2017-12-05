@@ -16,10 +16,6 @@
     <link rel="stylesheet" type="text/css" href="stylesheets/jquery.pagepiling.css" media="screen and (min-width: 1025px)" />
     <link rel="stylesheet" href="stylesheets/style.css">
     <link rel="stylesheet" href="stylesheets/responsive.css">
-
-    <!-- TYPOGRAPHIE -->
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
 </head>
 
 <body class="container-fluid">

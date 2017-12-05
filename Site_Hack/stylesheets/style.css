@@ -1,4 +1,10 @@
 /* COLORS */
+@font-face {
+  font-family: Open Sans;
+  src: url(../assets/typo/Open_Sans/OpenSans-Regular.woff); }
+@font-face {
+  font-family: 'Press Start 2P';
+  src: url(../assets/typo/Press_Start_2P/pressstart-webfont.woff); }
 * {
   box-sizing: border-box;
   margin: 0px; }
