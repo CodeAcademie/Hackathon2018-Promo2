@@ -11,7 +11,7 @@
 $white: whitesmoke;
 $orange: #ff9520;
 $blue: #00458B;
-$pink: deeppink;
+$pink: darkmagenta;
 $green: seagreen;
 $brick: firebrick;
 $degrade: linear-gradient(to bottom, rgba(255, 86, 34, 1) 0%, rgba(255, 20, 145, 1) 25%, rgba(0, 70, 139, 1) 50%, rgba(46, 139, 86, 1) 75%, rgba(178, 34, 34, 1) 100%);
@@ -56,7 +56,7 @@ $degrade: linear-gradient(to bottom, rgba(255, 86, 34, 1) 0%, rgba(255, 20, 145,
         }
         .navbar-minimal.open>.navbar-toggler,
         .navbar-minimal>.navbar-toggler:hover {
-            background-color: $orange;
+            background-color: $pink;
         }
         .navbar-minimal>.navbar-toggler>span {
             position: absolute;
@@ -110,7 +110,7 @@ $degrade: linear-gradient(to bottom, rgba(255, 86, 34, 1) 0%, rgba(255, 20, 145,
             border-bottom-width: 0px;
         }
         .navbar-minimal>.navbar-menu>li>a:hover {
-            background-color: $orange;
+            background-color: $pink;
         }
         .navbar-minimal>.navbar-menu>li>a>.glyphicon {
             float: right;
@@ -254,7 +254,7 @@ $degrade: linear-gradient(to bottom, rgba(255, 86, 34, 1) 0%, rgba(255, 20, 145,
                     align-items: center;
                     width: 30%;
                     margin: 0 auto;
-                    background: $white;
+                    background: darkmagenta;
                     div {
                         width: 99.5%;
                         height: 100%;
@@ -273,12 +273,13 @@ $degrade: linear-gradient(to bottom, rgba(255, 86, 34, 1) 0%, rgba(255, 20, 145,
                     font-size: 7em;
                     text-transform: uppercase;
                     margin-top: 6vh;
+                    text-shadow: 3px 0px 0px darkmagenta;
                 }
                 h2 {
                     margin: 0;
                     padding: 0;
                     font-size: 2em;
-                    opacity: 0.8;
+                    color: lightgrey;
                 }
                 button {
                     padding: 10px;
@@ -289,12 +290,9 @@ $degrade: linear-gradient(to bottom, rgba(255, 86, 34, 1) 0%, rgba(255, 20, 145,
                         color: $white;
                         text-decoration: none;
                         text-transform: uppercase;
-                        &:hover {
-                            color: black;
-                        }
                     }
                     &:hover {
-                        background-color: $white;
+                        background-color: darkmagenta;
                     }
                 }
                 button:nth-child(4) {
@@ -327,11 +325,12 @@ $degrade: linear-gradient(to bottom, rgba(255, 86, 34, 1) 0%, rgba(255, 20, 145,
             // ====== PAGE CALENDRIER ====== //
             #section3 {
                 background-image: url(../assets/imgs/joystick-2346237_1920.jpg);
+                background-position: right;
                 section {
                     div {
                         article {
                             .img-calendar {
-                                width: 50%;
+                                width: 60%;
                                 margin-bottom: 2vh;
                             }
                             h4 {
@@ -352,7 +351,8 @@ $degrade: linear-gradient(to bottom, rgba(255, 86, 34, 1) 0%, rgba(255, 20, 145,
             }
             // ====== CONTACT ====== //
             #section4 {
-                background-image: url(../assets/imgs/mouse-439593_1920.jpg);
+                background-position: right;
+                background-image: url(../assets/imgs/lol_flirck.jpg);
                 section {
                     div {
                         article {
