@@ -70,10 +70,10 @@
             <!--  ============================= -->
             <!--  A DÉCOMMENTER POUR ACTIVER !! -->
             <!--  ============================= -->
-               
-         <!--      <button type="button"><a href="#inscription" class="js-scrollTo">Inscription</a></button>
-                <button type="button"><a href="#page4">Inscription</a></button>-->
-         
+            <!--   
+               <button type="button"><a href="#inscription" class="js-scrollTo">Inscription</a></button>
+                <button type="button"><a href="#page4">Inscription</a></button>
+         -->
             <h3 id="count">
                 <span id="day"></span>
                 <span id="hour"></span>

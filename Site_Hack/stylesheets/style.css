@@ -45,7 +45,7 @@
     * html .navbar-minimal > .navbar-toggler:hover,
     * body .navbar-minimal.open > .navbar-toggler,
     * body .navbar-minimal > .navbar-toggler:hover {
-      background-color: darkmagenta; }
+      background-color: #ff9520; }
     * html .navbar-minimal > .navbar-toggler > span,
     * body .navbar-minimal > .navbar-toggler > span {
       position: absolute;
@@ -99,7 +99,7 @@
       border-bottom-width: 0px; }
     * html .navbar-minimal > .navbar-menu > li > a:hover,
     * body .navbar-minimal > .navbar-menu > li > a:hover {
-      background-color: darkmagenta; }
+      background-color: #ff9520; }
     * html .navbar-minimal > .navbar-menu > li > a > .glyphicon,
     * body .navbar-minimal > .navbar-menu > li > a > .glyphicon {
       float: right; }
@@ -193,7 +193,7 @@
             background-color: #ff9520; }
           * html #pagepiling .section section div article #pink,
           * body #pagepiling .section section div article #pink {
-            background-color: darkmagenta; }
+            background-color: deeppink; }
           * html #pagepiling .section section div article #blue,
           * body #pagepiling .section section div article #blue {
             background-color: #00458B; }
@@ -235,7 +235,7 @@
         align-items: center;
         width: 30%;
         margin: 0 auto;
-        background: darkmagenta; }
+        background: whitesmoke; }
         * html #pagepiling #section1 .logotype-header div,
         * body #pagepiling #section1 .logotype-header div {
           width: 99.5%;
@@ -253,14 +253,13 @@
       * body #pagepiling #section1 h1 {
         font-size: 7em;
         text-transform: uppercase;
-        margin-top: 6vh;
-        text-shadow: 3px 0px 0px darkmagenta; }
+        margin-top: 6vh; }
       * html #pagepiling #section1 h2,
       * body #pagepiling #section1 h2 {
         margin: 0;
         padding: 0;
         font-size: 2em;
-        color: lightgrey; }
+        opacity: 0.8; }
       * html #pagepiling #section1 button,
       * body #pagepiling #section1 button {
         padding: 10px;
@@ -272,9 +271,12 @@
           color: whitesmoke;
           text-decoration: none;
           text-transform: uppercase; }
+          * html #pagepiling #section1 button a:hover,
+          * body #pagepiling #section1 button a:hover {
+            color: black; }
         * html #pagepiling #section1 button:hover,
         * body #pagepiling #section1 button:hover {
-          background-color: darkmagenta; }
+          background-color: whitesmoke; }
       * html #pagepiling #section1 button:nth-child(4),
       * body #pagepiling #section1 button:nth-child(4) {
         display: none; }
@@ -298,11 +300,10 @@
         max-height: 70%; }
     * html #pagepiling #section3,
     * body #pagepiling #section3 {
-      background-image: url(../assets/imgs/joystick-2346237_1920.jpg);
-      background-position: right; }
+      background-image: url(../assets/imgs/joystick-2346237_1920.jpg); }
       * html #pagepiling #section3 section div article .img-calendar,
       * body #pagepiling #section3 section div article .img-calendar {
-        width: 60%;
+        width: 50%;
         margin-bottom: 2vh; }
       * html #pagepiling #section3 section div article h4,
       * body #pagepiling #section3 section div article h4 {
@@ -318,8 +319,7 @@
           vertical-align: baseline; }
     * html #pagepiling #section4,
     * body #pagepiling #section4 {
-      background-position: right;
-      background-image: url(../assets/imgs/lol_flirck.jpg); }
+      background-image: url(../assets/imgs/mouse-439593_1920.jpg); }
       * html #pagepiling #section4 section div article h1,
       * body #pagepiling #section4 section div article h1 {
         font-size: 1em;
@@ -359,7 +359,7 @@
           background-color: transparent; }
         * html #pagepiling #section4 section div article form input:nth-child(4),
         * body #pagepiling #section4 section div article form input:nth-child(4) {
-          border: 1px solid darkmagenta;
+          border: 1px solid deeppink;
           background-color: transparent; }
         * html #pagepiling #section4 section div article form input:nth-child(6),
         * body #pagepiling #section4 section div article form input:nth-child(6) {
