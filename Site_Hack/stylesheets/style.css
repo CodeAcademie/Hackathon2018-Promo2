@@ -45,7 +45,7 @@
     * html .navbar-minimal > .navbar-toggler:hover,
     * body .navbar-minimal.open > .navbar-toggler,
     * body .navbar-minimal > .navbar-toggler:hover {
-      background-color: #ff9520; }
+      background-color: #cf5920ff; }
     * html .navbar-minimal > .navbar-toggler > span,
     * body .navbar-minimal > .navbar-toggler > span {
       position: absolute;
@@ -99,7 +99,7 @@
       border-bottom-width: 0px; }
     * html .navbar-minimal > .navbar-menu > li > a:hover,
     * body .navbar-minimal > .navbar-menu > li > a:hover {
-      background-color: #ff9520; }
+      background-color: #cf5920ff; }
     * html .navbar-minimal > .navbar-menu > li > a > .glyphicon,
     * body .navbar-minimal > .navbar-menu > li > a > .glyphicon {
       float: right; }
@@ -138,8 +138,6 @@
         white-space: nowrap;
         padding: 10px 13px;
         border-width: 0px !important;
-        background-color: #333333;
-        background-color: rgba(51, 51, 51, 0.8);
         opacity: 0; }
       * html .navbar-minimal > .navbar-menu > li > a > .desc:after,
       * body .navbar-minimal > .navbar-menu > li > a > .desc:after {
@@ -153,8 +151,8 @@
         height: 0;
         border-top: 10px solid transparent;
         border-bottom: 10px solid transparent;
-        border-right: 10px solid #333333;
-        border-right-color: rgba(51, 51, 51, 0.8); }
+        border-right: 10px solid #054A45;
+        border-right-color: #054A45; }
       * html .navbar-minimal > .navbar-menu > li > a:hover > .desc,
       * body .navbar-minimal > .navbar-menu > li > a:hover > .desc {
         left: 60px;
@@ -190,19 +188,19 @@
               width: 1.5vw; }
           * html #pagepiling .section section div article #orange,
           * body #pagepiling .section section div article #orange {
-            background-color: #ff9520; }
+            background-color: #cf5920ff; }
           * html #pagepiling .section section div article #pink,
           * body #pagepiling .section section div article #pink {
-            background-color: deeppink; }
+            background-color: crimson; }
           * html #pagepiling .section section div article #blue,
           * body #pagepiling .section section div article #blue {
             background-color: #00458B; }
           * html #pagepiling .section section div article #green,
           * body #pagepiling .section section div article #green {
-            background-color: seagreen; }
+            background-color: #054A45; }
           * html #pagepiling .section section div article #red,
           * body #pagepiling .section section div article #red {
-            background-color: firebrick; }
+            background-color: #760F05; }
           * html #pagepiling .section section div article div,
           * body #pagepiling .section section div article div {
             width: 90%;
@@ -218,7 +216,7 @@
             * html #pagepiling .section section div article p a,
             * body #pagepiling .section section div article p a {
               text-decoration: none;
-              color: #ff9520;
+              color: #cf5920ff;
               font-weight: bold; }
     * html #pagepiling #section1,
     * body #pagepiling #section1 {
@@ -235,7 +233,7 @@
         align-items: center;
         width: 30%;
         margin: 0 auto;
-        background: whitesmoke; }
+        background: linear-gradient(to bottom, #cf5920 0%, crimson 25%, #00468b 50%, #054a45 75%, #760e05 100%); }
         * html #pagepiling #section1 .logotype-header div,
         * body #pagepiling #section1 .logotype-header div {
           width: 99.5%;
@@ -248,7 +246,8 @@
           * html #pagepiling #section1 .logotype-header div img:first-child,
           * body #pagepiling #section1 .logotype-header div img:first-child {
             padding-top: 4vh;
-            padding-bottom: 4vh; }
+            padding-bottom: 4vh;
+            opacity: 0.6; }
       * html #pagepiling #section1 h1,
       * body #pagepiling #section1 h1 {
         font-size: 7em;
@@ -259,7 +258,7 @@
         margin: 0;
         padding: 0;
         font-size: 2em;
-        opacity: 0.8; }
+        color: #054A45; }
       * html #pagepiling #section1 button,
       * body #pagepiling #section1 button {
         padding: 10px;
@@ -271,12 +270,9 @@
           color: whitesmoke;
           text-decoration: none;
           text-transform: uppercase; }
-          * html #pagepiling #section1 button a:hover,
-          * body #pagepiling #section1 button a:hover {
-            color: black; }
         * html #pagepiling #section1 button:hover,
         * body #pagepiling #section1 button:hover {
-          background-color: whitesmoke; }
+          background-color: #054A45; }
       * html #pagepiling #section1 button:nth-child(4),
       * body #pagepiling #section1 button:nth-child(4) {
         display: none; }
@@ -288,7 +284,7 @@
         position: absolute;
         bottom: 0px;
         background-color: rgba(20, 20, 20, 0.5);
-        border-top: 1px solid #555;
+        border-top: 1px solid #054A45;
         margin-bottom: 0px;
         width: 100%;
         opacity: 0.5; }
@@ -300,7 +296,7 @@
         max-height: 70%; }
     * html #pagepiling #section3,
     * body #pagepiling #section3 {
-      background-image: url(../assets/imgs/joystick-2346237_1920.jpg); }
+      background-image: url(../assets/imgs/mouse-439593_1920.jpg); }
       * html #pagepiling #section3 section div article .img-calendar,
       * body #pagepiling #section3 section div article .img-calendar {
         width: 50%;
@@ -319,7 +315,7 @@
           vertical-align: baseline; }
     * html #pagepiling #section4,
     * body #pagepiling #section4 {
-      background-image: url(../assets/imgs/mouse-439593_1920.jpg); }
+      background-image: url(../assets/imgs/9657441886_9d7c91850b_k.jpg); }
       * html #pagepiling #section4 section div article h1,
       * body #pagepiling #section4 section div article h1 {
         font-size: 1em;
@@ -355,11 +351,11 @@
           padding: 5px; }
         * html #pagepiling #section4 section div article form input:nth-child(2),
         * body #pagepiling #section4 section div article form input:nth-child(2) {
-          border: 1px solid #ff9520;
+          border: 1px solid #cf5920ff;
           background-color: transparent; }
         * html #pagepiling #section4 section div article form input:nth-child(4),
         * body #pagepiling #section4 section div article form input:nth-child(4) {
-          border: 1px solid deeppink;
+          border: 1px solid crimson;
           background-color: transparent; }
         * html #pagepiling #section4 section div article form input:nth-child(6),
         * body #pagepiling #section4 section div article form input:nth-child(6) {
@@ -367,7 +363,7 @@
           background-color: transparent; }
         * html #pagepiling #section4 section div article form select,
         * body #pagepiling #section4 section div article form select {
-          border: 1px solid seagreen;
+          border: 1px solid #054A45;
           background-color: transparent; }
           * html #pagepiling #section4 section div article form select option,
           * body #pagepiling #section4 section div article form select option {
@@ -375,7 +371,7 @@
             font-size: 1.5em; }
         * html #pagepiling #section4 section div article form textarea,
         * body #pagepiling #section4 section div article form textarea {
-          border: 1px solid firebrick;
+          border: 1px solid #760F05;
           background-color: transparent; }
         * html #pagepiling #section4 section div article form button,
         * body #pagepiling #section4 section div article form button {
