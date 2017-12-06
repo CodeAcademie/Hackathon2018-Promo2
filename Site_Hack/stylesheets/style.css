@@ -299,29 +299,46 @@
       background-image: url(../assets/imgs/mouse-439593_1920.jpg); }
       * html #pagepiling #section3 section div article .img-calendar,
       * body #pagepiling #section3 section div article .img-calendar {
-        width: 50%;
-        margin-bottom: 2vh; }
-      * html #pagepiling #section3 section div article h4,
-      * body #pagepiling #section3 section div article h4 {
-        vertical-align: baseline;
-        font-size: 0.9em;
-        color: whitesmoke;
         width: 100%;
-        text-align: left; }
-        * html #pagepiling #section3 section div article h4 img,
-        * body #pagepiling #section3 section div article h4 img {
-          margin-right: 15px;
-          width: 24px;
-          vertical-align: baseline; }
+        margin-bottom: 2vh; }
+      * html #pagepiling #section3 section div article ul,
+      * body #pagepiling #section3 section div article ul {
+        margin-left: 0;
+        padding-left: 0;
+        width: 100%;
+        margin: 0px;
+        padding: 0px; }
+        * html #pagepiling #section3 section div article ul li,
+        * body #pagepiling #section3 section div article ul li {
+          background: #222;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          list-style: none;
+          margin: 3px 0; }
+          * html #pagepiling #section3 section div article ul li img,
+          * body #pagepiling #section3 section div article ul li img {
+            width: 10%;
+            height: 100%;
+            padding: 2%;
+            background-color: #111; }
+          * html #pagepiling #section3 section div article ul li h4,
+          * body #pagepiling #section3 section div article ul li h4 {
+            font-family: "Open Sans";
+            padding: 0 20px;
+            font-size: 1em;
+            color: whitesmoke;
+            width: 90%;
+            text-align: left; }
     * html #pagepiling #section4,
     * body #pagepiling #section4 {
       background-image: url(../assets/imgs/9657441886_9d7c91850b_k.jpg); }
       * html #pagepiling #section4 section div article h1,
       * body #pagepiling #section4 section div article h1 {
-        font-size: 1em;
+        font-size: 0.9em;
         padding: 30px;
         margin: 5vh;
-        border: 2px solid #00458B; }
+        background-color: #054A45; }
       * html #pagepiling #section4 section div article form,
       * body #pagepiling #section4 section div article form {
         width: 90%; }
@@ -344,51 +361,32 @@
         * body #pagepiling #section4 section div article form input,
         * body #pagepiling #section4 section div article form select,
         * body #pagepiling #section4 section div article form textarea {
-          margin-top: 0; }
+          margin-top: 0;
+          border: 1px solid #555;
+          background-color: transparent; }
         * html #pagepiling #section4 section div article form textarea,
         * body #pagepiling #section4 section div article form textarea {
           width: 100%;
           padding: 5px; }
-        * html #pagepiling #section4 section div article form input:nth-child(2),
-        * body #pagepiling #section4 section div article form input:nth-child(2) {
-          border: 1px solid #cf5920ff;
-          background-color: transparent; }
-        * html #pagepiling #section4 section div article form input:nth-child(4),
-        * body #pagepiling #section4 section div article form input:nth-child(4) {
-          border: 1px solid crimson;
-          background-color: transparent; }
-        * html #pagepiling #section4 section div article form input:nth-child(6),
-        * body #pagepiling #section4 section div article form input:nth-child(6) {
-          border: 1px solid #00458B;
-          background-color: transparent; }
-        * html #pagepiling #section4 section div article form select,
-        * body #pagepiling #section4 section div article form select {
-          border: 1px solid #054A45;
-          background-color: transparent; }
-          * html #pagepiling #section4 section div article form select option,
-          * body #pagepiling #section4 section div article form select option {
-            background-color: black;
-            font-size: 1.5em; }
-        * html #pagepiling #section4 section div article form textarea,
-        * body #pagepiling #section4 section div article form textarea {
-          border: 1px solid #760F05;
-          background-color: transparent; }
         * html #pagepiling #section4 section div article form button,
         * body #pagepiling #section4 section div article form button {
-          font-weight: bold;
-          padding: 20px;
-          margin-top: 15px;
-          margin-bottom: 25px;
-          border: 1px solid whitesmoke;
-          background-color: transparent; }
+          padding: 10px;
+          margin-top: 20px;
+          background-color: transparent;
+          border: 1px solid whitesmoke; }
           * html #pagepiling #section4 section div article form button:hover,
           * body #pagepiling #section4 section div article form button:hover {
-            background-color: #111; }
+            background-color: #054A45; }
       * html #pagepiling #section4 section div iframe,
       * body #pagepiling #section4 section div iframe {
         -webkit-filter: invert(100%);
         filter: invert(100%);
         margin-bottom: 20px; }
+      * html #pagepiling #section4 section div p,
+      * body #pagepiling #section4 section div p {
+        margin-bottom: 5px;
+        padding-bottom: 5px;
+        font-size: 1.5em; }
     * html #pagepiling #section5,
     * body #pagepiling #section5 {
       background-image: url(../assets/imgs/boxer-1984344_1920.jpg); }
@@ -442,7 +440,7 @@
           margin: 0px; }
         * html #pagepiling footer div .modal-dialog .modal-content .modal-body,
         * body #pagepiling footer div .modal-dialog .modal-content .modal-body {
-          height: 50vh; }
+          height: 60vh; }
           * html #pagepiling footer div .modal-dialog .modal-content .modal-body h2,
           * body #pagepiling footer div .modal-dialog .modal-content .modal-body h2 {
             font-size: 0.9em; }

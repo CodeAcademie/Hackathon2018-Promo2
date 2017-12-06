@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="50"
+   height="50"
+   viewBox="0 0 50.000001 50.000001"
+   id="svg4941"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="invaders2.svg">
+  <defs
+     id="defs4943" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="5.1351562"
+     inkscape:cx="46.299535"
+     inkscape:cy="-33.014692"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     units="px"
+     inkscape:window-width="1863"
+     inkscape:window-height="1056"
+     inkscape:window-x="57"
+     inkscape:window-y="24"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata4946">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Calque 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-1002.3622)">
+    <path
+       inkscape:connector-curvature="0"
+       id="path4236"
+       style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       d="m 44.321265,1033.0407 -10.941808,0 0,-11.3575 10.941808,0 0,11.3575 z m -38.6425302,-11.3575 10.9412672,0 0,11.3575 -10.9412672,0 0,-11.3575 z m 38.7809042,-5.6787 0,-5.6782 -11.080182,0 0,-5.6788 -5.678735,0 0,5.6788 -5.401444,0 0,-5.6788 -5.679276,0 0,5.6788 -11.0796412,0 0,5.6782 -5.54036100000002,0 0,22.7144 5.54036100000002,0 0,5.6793 5.5403612,0 0,5.6787 5.678195,0 0,-5.6787 5.401446,0 0,5.6787 5.678733,0 0,-5.6787 5.401987,0 0,5.6787 5.678735,0 0,-5.6787 5.539821,0 0,-5.6793 5.540361,0 0,-22.7144 -5.540361,0" />
+  </g>
+</svg>

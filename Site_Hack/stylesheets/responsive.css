@@ -63,7 +63,7 @@
     * html #pagepiling #section1 .logotype-header,
     * body #pagepiling #section1 .logotype-header {
       width: 100%;
-      background-color: transparent; }
+      background: transparent; }
       * html #pagepiling #section1 .logotype-header div,
       * body #pagepiling #section1 .logotype-header div {
         background-color: transparent;
@@ -108,9 +108,6 @@
       * html #pagepiling #section3 section div article .img-calendar,
       * body #pagepiling #section3 section div article .img-calendar {
         display: none; }
-      * html #pagepiling #section3 section div article P,
-      * body #pagepiling #section3 section div article P {
-        margin-bottom: 1vh; }
   * html #pagepiling #section4 section div article form,
   * body #pagepiling #section4 section div article form {
     width: 100%; }

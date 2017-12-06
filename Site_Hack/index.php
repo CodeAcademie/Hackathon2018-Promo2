@@ -118,39 +118,102 @@
                         <img src="assets/imgs/lorem-ipsum1.jpg" alt="" class="img-calendar">
                         <h3><img src="assets/imgs/001-square-button.svg" alt=""> Vendredi 16 Février</h3>
                         <div id="pink"></div>
-                        <h4><img src="assets/imgs/invaders.svg" alt="">17:00</h4>
-                        <p>Ouverture du Hackathon</p>
-                        <h4><img src="assets/imgs/invaders.svg" alt="">18:00</h4>
-                        <p>Définition des groupes</p>
-                        <h4><img src="assets/imgs/invaders.svg" alt="">21:00</h4>
-                        <p>Repas</p>
-                        <h4><img src="assets/imgs/invaders.svg" alt="">22:00</h4>
-                        <p>Bilan de la journée</p>
-                        <h4><img src="assets/imgs/invaders.svg" alt="">23:00</h4>
-                        <p>Fermeture des locaux</p>
+                        <ul class="timeline">
+                            <li>
+                                <img src="assets/imgs/invaders/invaders1.svg" alt="">
+                                <h4>17:00 &#45; Ouverture du Hackathon</h4>
+                            </li>
+                            <li>
+                                <img src="assets/imgs/invaders/invaders2.svg" alt="">
+                                <h4>18:00 &#45; Définition des groupes</h4>
+                            </li>
+                            <li>
+                                <img src="assets/imgs/invaders/invaders3.svg" alt="">
+                                <h4>21:00 &#45; Repas</h4>
+                            </li>
+                            <li>
+                                <img src="assets/imgs/invaders/invaders3.svg" alt="">
+                                <h4>?:? &#45; Lorem Ipsum</h4>
+                            </li>
+                            <li>
+                                <img src="assets/imgs/invaders/invaders4.svg" alt="">
+                                <h4>?:? &#45; Lorem Ipsum</h4>
+                            </li>
+                            <li>
+                                <img src="assets/imgs/invaders/invaders5.svg" alt="">
+                                <h4>?:? &#45; Lorem Ipsum</h4>
+                            </li>
+                            <li>
+                                <img src="assets/imgs/invaders/invaders4.svg" alt="">
+                                <h4>22:00 &#45; Bilan de la journée</h4>
+                            </li>
+                            <li>
+                                <img src="assets/imgs/invaders/invaders5.svg" alt="">
+                                <h4>23:00 &#45; Fermeture des locaux</h4>
+                            </li>
+                        </ul>
                     </article>
                     <article class="col-md-4">
                         <img src="assets/imgs/lorem-ipsum1.jpg" alt="" class="img-calendar">
                         <h3><img src="assets/imgs/003-triangle-button.svg" alt=""> Samedi 17 Février</h3>
-
                         <div id="green"></div>
-                        <h4><img src="assets/imgs/invaders.svg" alt="">09:00</h4>
-                        <p>Ouverture des locaux</p>
-                        <h4><img src="assets/imgs/invaders.svg" alt="">09:15</h4>
-                        <p>Petit déjeuner</p>
-                        <h4><img src="assets/imgs/invaders.svg" alt="">21:00</h4>
-                        <p>Bilan de la journée</p>
+                        <ul class="timeline">
+                            <li>
+                                <img src="assets/imgs/invaders/invaders6.svg" alt="">
+                                <h4>09:00 &#45; Ouverture des locaux</h4>
+                            </li>
+                            <li>
+                                <img src="assets/imgs/invaders/invaders7.svg" alt="">
+                                <h4>09:15 &#45; Petit déjeuner</h4>
+                            </li>
+                            <li>
+                                <img src="assets/imgs/invaders/invaders4.svg" alt="">
+                                <h4>?:? &#45; Lorem Ipsum</h4>
+                            </li>
+                            <li>
+                                <img src="assets/imgs/invaders/invaders5.svg" alt="">
+                                <h4>?:? &#45; Lorem Ipsum</h4>
+                            </li>
+                            <li>
+                                <img src="assets/imgs/invaders/invaders8.svg" alt="">
+                                <h4>21:00 &#45; Bilan de la journée</h4>
+                            </li>
+                        </ul>
                     </article>
                     <article class="col-md-4">
                         <img src="assets/imgs/lorem-ipsum1.jpg" alt="" class="img-calendar">
                         <h3><img src="assets/imgs/004-circle-button.svg" alt=""> Dimanche 18 Février</h3>
                         <div id="red"></div>
-                        <h4><img src="assets/imgs/invaders.svg" alt="">09:15</h4>
-                        <p>Petit déjeuner</p>
-                        <h4><img src="assets/imgs/invaders.svg" alt="">13:30</h4>
-                        <p>Présentation du projet au jury</p>
-                        <h4><img src="assets/imgs/invaders.svg" alt="">15:00</h4>
-                        <p>Fermeture des locaux</p>
+                        <ul class="timeline">
+                            <li>
+                                <img src="assets/imgs/invaders/invaders9.svg" alt="">
+                                <h4>09:15 &#45; Petit déjeuner</h4>
+                            </li>
+                            <li>
+                                <img src="assets/imgs/invaders/invaders4.svg" alt="">
+                                <h4>?:? &#45; Lorem Ipsum</h4>
+                            </li>
+                            <li>
+                                <img src="assets/imgs/invaders/invaders4.svg" alt="">
+                                <h4>?:? &#45; Lorem Ipsum</h4>
+                            </li>
+                            <li>
+                                <img src="assets/imgs/invaders/invaders4.svg" alt="">
+                                <h4>?:? &#45; Lorem Ipsum</h4>
+                            </li>
+                            <li>
+                                <img src="assets/imgs/invaders/invaders5.svg" alt="">
+                                <h4>?:? &#45; Lorem Ipsum</h4>
+                            </li>
+                            <li>
+                                <img src="assets/imgs/invaders/invaders10.svg" alt="">
+                                <h4>13:30 &#45; Présentation du projet au jury</h4>
+                            </li>
+                            <li>
+                                <img src="assets/imgs/invaders/invaders11.svg" alt="">
+                                <h4>15:00 &#45; Fermeture des locaux</h4>
+                            </li>
+                        </ul>
                     </article>
                 </div>
             </section>
@@ -191,7 +254,9 @@
                         <h3><img src="assets/imgs/003-triangle-button.svg" alt=""> Lieu de matchmaking</h3>
                         <div id="green"></div>
                         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2626.9101187507667!2d-1.691041700000001!3d48.10357770000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x480edfd3c61bdc0b%3A0x233abe41efa1abc9!2sEPITA+Rennes!5e0!3m2!1sfr!2sfr!4v1511795691748" width="90%" height="480" frameborder="0" style="border:0" allowfullscreen></iframe>
-                        <p>ADRESSE Lorem ipsum dolor &#8226; Lorem ipsum dolor &#8226; Lorem ipsum dolor &#8226;</p>
+                        <p>19-22 Boulevard Saint-Conwoïon</p>
+                        <p>35000 Rennes</p>
+                        <p>Tél : 02 57 22 08 11 </p>
                     </article>
                 </div>
             </section>
@@ -247,6 +312,11 @@
 
                                 <h2>Indisponibilité du site</h2>
                                 <p>la code académie s’engage à faire ses meilleurs efforts pour assurer aux utilisateurs une accessibilité du site à tout moment. La code académie ne pourra être tenue pour responsable, en cas d’indisponibilité du site, pour quelque cause que ce soit.</p>
+                                
+                                <h2>Images</h2>
+                                <p>Pixabay et Flirck</p>
+                                <h2>Pictogrammes</h2>
+                                <p>Flaticons</p>
                             </div>
                             <div class="modal-footer">
                                 <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
