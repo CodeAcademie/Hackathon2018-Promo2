@@ -242,12 +242,13 @@
           * html #pagepiling #section1 .logotype-header div img,
           * body #pagepiling #section1 .logotype-header div img {
             margin: 0px;
-            width: 17vw; }
+            width: 17vw;
+            opacity: 0.8; }
           * html #pagepiling #section1 .logotype-header div img:first-child,
           * body #pagepiling #section1 .logotype-header div img:first-child {
             padding-top: 4vh;
             padding-bottom: 4vh;
-            opacity: 0.6; }
+            opacity: 1; }
       * html #pagepiling #section1 h1,
       * body #pagepiling #section1 h1 {
         font-size: 7em;
@@ -386,7 +387,7 @@
       * body #pagepiling #section4 section div p {
         margin-bottom: 5px;
         padding-bottom: 5px;
-        font-size: 1.5em; }
+        font-size: 1.2em; }
     * html #pagepiling #section5,
     * body #pagepiling #section5 {
       background-image: url(../assets/imgs/boxer-1984344_1920.jpg); }
