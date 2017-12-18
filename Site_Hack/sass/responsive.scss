@@ -154,6 +154,7 @@
                         #section5 {
                             section {
                                 div {
+                                    width: auto;
                                     article {
                                         .logo-partenaire {
                                             width: 25%;
@@ -208,5 +209,5 @@
         * body #pagepiling .section section div,
         * html #pagepiling .section section div,
         * body #pagepiling .section section div {
-            width: auto !important;
+            width: auto;
         }

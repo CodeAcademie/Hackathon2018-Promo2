@@ -114,9 +114,12 @@
   * html #pagepiling #section4 section div article iframe,
   * body #pagepiling #section4 section div article iframe {
     display: none; }
-  * html #pagepiling #section5 section div article .logo-partenaire,
-  * body #pagepiling #section5 section div article .logo-partenaire {
-    width: 25%; }
+  * html #pagepiling #section5 section div,
+  * body #pagepiling #section5 section div {
+    width: auto; }
+    * html #pagepiling #section5 section div article .logo-partenaire,
+    * body #pagepiling #section5 section div article .logo-partenaire {
+      width: 25%; }
   * html #pagepiling #section5 footer,
   * body #pagepiling #section5 footer {
     position: inherit;
@@ -152,6 +155,6 @@
 * body #pagepiling .section section div,
 * html #pagepiling .section section div,
 * body #pagepiling .section section div {
-  width: auto !important; }
+  width: auto; }
 
 /*# sourceMappingURL=responsive.css.map */

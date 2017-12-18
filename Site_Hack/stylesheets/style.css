@@ -393,9 +393,9 @@
       background-image: url(../assets/imgs/boxer-1984344_1920.jpg); }
       * html #pagepiling #section5 section div article .logo-partenaire,
       * body #pagepiling #section5 section div article .logo-partenaire {
-        width: 15%;
+        width: 30%;
         display: inline-block;
-        margin: 2%; }
+        margin: 2% 8%; }
     * html #pagepiling footer,
     * body #pagepiling footer {
       position: absolute;

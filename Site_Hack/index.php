@@ -266,7 +266,7 @@
         <div class="section" id="section5">
             <section>
                 <div class="row">
-                    <article class="col-md-12">
+                    <article class="col-md-6">
                         <h3><img src="assets/imgs/001-square-button.svg" alt="Square Button"> Nos Partenaires</h3>
                         <div id="pink"></div>
                         <img src="assets/imgs/logos/logo_face_white.svg" alt="FACE RENNES" class="logo-partenaire">
