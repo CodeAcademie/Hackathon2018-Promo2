@@ -186,26 +186,14 @@
             * body #pagepiling .section section div article h3 img {
               vertical-align: baseline;
               width: 1.5vw; }
-          * html #pagepiling .section section div article #orange,
-          * body #pagepiling .section section div article #orange {
-            background-color: #ed6100; }
-          * html #pagepiling .section section div article #pink,
-          * body #pagepiling .section section div article #pink {
-            background-color: #ed6100; }
-          * html #pagepiling .section section div article #blue,
-          * body #pagepiling .section section div article #blue {
-            background-color: #ed6100; }
-          * html #pagepiling .section section div article #green,
-          * body #pagepiling .section section div article #green {
-            background-color: #ed6100; }
-          * html #pagepiling .section section div article #red,
-          * body #pagepiling .section section div article #red {
-            background-color: #ed6100; }
           * html #pagepiling .section section div article div,
           * body #pagepiling .section section div article div {
             width: 90%;
             height: 2px;
             margin-bottom: 2vh; }
+          * html #pagepiling .section section div article .orange,
+          * body #pagepiling .section section div article .orange {
+            background-color: #ed6100; }
           * html #pagepiling .section section div article p,
           * body #pagepiling .section section div article p {
             text-align: left;
@@ -298,11 +286,15 @@
           max-height: 70%; }
     * html #pagepiling #section3,
     * body #pagepiling #section3 {
-      background-image: url(../assets/imgs/mouse-439593_1920.jpg); }
+      background-image: url(../assets/imgs/mouse-2.jpeg); }
       * html #pagepiling #section3 section div article .img-calendar,
       * body #pagepiling #section3 section div article .img-calendar {
         width: 100%;
         margin-bottom: 2vh; }
+      * html #pagepiling #section3 section div article iframe,
+      * body #pagepiling #section3 section div article iframe {
+        -webkit-filter: invert(100%);
+        filter: invert(100%); }
       * html #pagepiling #section3 section div article ul,
       * body #pagepiling #section3 section div article ul {
         margin-left: 0;

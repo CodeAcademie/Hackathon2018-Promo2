@@ -12,7 +12,6 @@
 
 $white: whitesmoke;
 $orange: #ed6100;
-
 * {
     box-sizing: border-box;
     margin: 0px;
@@ -200,25 +199,13 @@ $orange: #ed6100;
                                     width: 1.5vw;
                                 }
                             }
-                            #orange {
-                                background-color: $orange;
-                            }
-                            #pink {
-                                background-color: $orange;
-                            }
-                            #blue {
-                                background-color: $orange;
-                            }
-                            #green {
-                                background-color: $orange;
-                            }
-                            #red {
-                                background-color: $orange;
-                            }
                             div {
                                 width: 90%;
                                 height: 2px;
                                 margin-bottom: 2vh;
+                            }
+                            .orange {
+                                background-color: $orange;
                             }
                             p {
                                 text-align: left;
@@ -323,13 +310,17 @@ $orange: #ed6100;
             }
             // ====== PAGE CALENDRIER ====== //
             #section3 {
-                background-image: url(../assets/imgs/mouse-439593_1920.jpg);
+                background-image: url(../assets/imgs/mouse-2.jpeg);
                 section {
                     div {
                         article {
                             .img-calendar {
                                 width: 100%;
                                 margin-bottom: 2vh;
+                            }
+                            iframe {
+                                   -webkit-filter: invert(100%);
+                            filter: invert(100%);
                             }
                             ul {
                                 margin-left: 0;
