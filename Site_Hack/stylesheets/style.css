@@ -300,8 +300,8 @@
         margin-left: 0;
         padding-left: 0;
         width: 100%;
-        margin: 0px;
-        padding: 0px; }
+        padding: 0px;
+        margin: 0px 0px 20px 0px; }
         * html #pagepiling #section3 section div article ul li,
         * body #pagepiling #section3 section div article ul li {
           background: #222;
@@ -383,12 +383,12 @@
         font-size: 0.85em; }
     * html #pagepiling #section5,
     * body #pagepiling #section5 {
-      background-image: url(../assets/imgs/boxer-1984344_1920.jpg); }
+      background-image: url(../assets/imgs/boxer-1984344_1920.jpeg); }
       * html #pagepiling #section5 section div article .logo-partenaire,
       * body #pagepiling #section5 section div article .logo-partenaire {
-        width: 30%;
-        display: inline-block;
-        margin: 2% 8%; }
+        width: 50%;
+        display: block;
+        margin: 6% auto; }
     * html #pagepiling footer,
     * body #pagepiling footer {
       position: absolute;
@@ -401,8 +401,8 @@
       height: 8vh;
       width: 100%;
       font-family: "Open Sans", sans-serif;
-      background-color: rgba(20, 20, 20, 0.5);
-      opacity: 0.5; }
+      background-color: rgba(0, 0, 0, 0.5);
+      /*                opacity: 0.5;*/ }
       * html #pagepiling footer button,
       * body #pagepiling footer button {
         width: auto;

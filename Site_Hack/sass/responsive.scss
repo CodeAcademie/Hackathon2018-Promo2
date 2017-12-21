@@ -131,6 +131,10 @@
                                         .img-calendar {
                                             display: none;
                                         }
+                                        iframe {
+                                            height: 600px;
+                                            overflow: hidden !important;
+                                        }
                                     }
                                 }
                             }
@@ -157,7 +161,7 @@
                                     width: auto;
                                     article {
                                         .logo-partenaire {
-                                            width: 25%;
+                                            width: 70%;
                                         }
                                     }
                                 }

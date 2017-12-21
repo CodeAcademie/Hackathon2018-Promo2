@@ -116,12 +116,12 @@
                 <div class="row">
                      <article class="col-md-4">
                         <img src="assets/imgs/lorem-ipsum1.jpg" alt="alt-?" class="img-calendar">
-                        <h3><img src="assets/imgs/004-circle-button.svg" alt="Circle Button"> Voter pour vos thèmes !</h3>
+                        <h3><img src="assets/imgs/game-controller.svg" alt="Circle Button"> Voter pour vos thèmes !</h3>
                         <div class="orange"></div>
                         <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSc8pKQatOejthE8gc_SBsae8eXGMBRSXncwmoIWpGkfvriSJQ/viewform?embedded=true" width="100%" height="350" frameborder="0" marginheight="0" marginwidth="0">Chargement en cours...</iframe>
                     </article>
                     <article class="col-md-4">
-                        <h3><img src="assets/imgs/001-square-button.svg" alt="Square Button"> Vendredi 16 Fevrier</h3>
+                        <h3><img src="assets/imgs/002-cross-button.svg" alt="Square Button"> Samedi 17 février</h3>
                         <div class="orange"></div>
                         <ul class="timeline">
                             <li>
@@ -145,7 +145,7 @@
                                 <h4>23:00 &#45; Fermeture des locaux</h4>
                             </li>
                         </ul>
-                           <h3><img src="assets/imgs/001-square-button.svg" alt="Square Button"> Vendredi 16 Fevrier</h3>
+                        <h3><img src="assets/imgs/001-square-button.svg" alt="Square Button"> Dimanche 18 Fevrier</h3>
                         <div class="orange"></div>
                         <ul class="timeline">
                             <li>
@@ -229,7 +229,7 @@
                         <!--  ============================= -->
                         <!--  A RETIRER POUR ACTIVER !! -->
                         <!--  ============================= -->
-                        <h1>Les inscriptions ne sont pas encores ouvertes.</h1>
+                        <h4>Les inscriptions ne sont pas encores ouvertes.</h4>
                         <!--  ============================= -->
                         <!--  A DÉCOMMENTER POUR ACTIVER !! -->
                         <!--  ============================= -->
@@ -268,18 +268,21 @@
         <div class="section" id="section5">
             <section>
                 <div class="row">
-                    <article class="col-md-6">
-                        <h3><img src="assets/imgs/001-square-button.svg" alt="Square Button"> Nos Partenaires</h3>
+                    <article class="col-md-4">
+                        <h3><img src="assets/imgs/004-circle-button.svg" alt="Square Button"> Nos Partenaires Majeurs</h3>
                         <div class="orange"></div>
-                        <img src="assets/imgs/logos/logo_face_white.svg" alt="FACE RENNES" class="logo-partenaire">
-                        <img src="assets/imgs/logos/logo-codeacademie.svg" alt="CODE ACADEMIE" class="logo-partenaire">
                         <img src="assets/imgs/logos/EPITA_LOGO_DEF.png" alt="EPITA" class="logo-partenaire">
                         <img src="assets/imgs/logos/digital_campus.png" alt="DIGITAL CAMPUS" class="logo-partenaire">
                         <img src="assets/imgs/logos/Logo_Mediaveille.svg" alt="MEDIAVEILLE" class="logo-partenaire">
                         <img src="assets/imgs/logos/logo-sabella.jpg" alt="SABELLA" class="logo-partenaire">
                         <img src="assets/imgs/logos/claranet.png" alt="Claranet" class="logo-partenaire">
                     </article>
-                    <article class="col-md-6">
+                    <article class="col-md-4">
+                     <h3><img src="assets/imgs/002-cross-button.svg" alt="Square Button"> Nos Partenaires Sponsors</h3>
+                        <div class="orange"></div>
+                        <img src="assets/imgs/lorem-ipsum1.jpg" alt="FACE RENNES" class="logo-partenaire">
+                        <img src="assets/imgs/lorem-ipsum1.jpg" alt="CODE ACADEMIE" class="logo-partenaire">
+                        <img src="assets/imgs/lorem-ipsum1.jpg" alt="EPITA" class="logo-partenaire">
                     </article>
                 </div>
             </section>
