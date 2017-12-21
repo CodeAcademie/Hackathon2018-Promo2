@@ -249,13 +249,13 @@
       * html #pagepiling #section1 h1,
       * body #pagepiling #section1 h1 {
         margin-top: 5vh;
-        font-size: 10em;
+        font-size: 8em;
         text-transform: uppercase; }
       * html #pagepiling #section1 h2,
       * body #pagepiling #section1 h2 {
         margin: 0;
         padding: 0;
-        font-size: 3em;
+        font-size: 2em;
         color: #ed6100; }
       * html #pagepiling #section1 button,
       * body #pagepiling #section1 button {
