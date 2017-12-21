@@ -223,7 +223,7 @@ $orange: #ed6100;
                             p {
                                 text-align: left;
                                 width: 90%;
-                                font-size: 1em;
+                                font-size: 0.85vw;
                                 margin-bottom: 3vh;
                                 font-family: "Open Sans";
                                 a {
@@ -314,11 +314,11 @@ $orange: #ed6100;
                     background-color: rgba(0, 0, 0, 0.7);
                     article {
                     }
-            /*        div:last-child {
+                    div:last-child {
                         iframe {
                             max-height: 70%;
                         }
-                    }*/
+                    }
                 }
             }
             // ====== PAGE CALENDRIER ====== //

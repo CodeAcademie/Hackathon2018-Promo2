@@ -210,7 +210,7 @@
           * body #pagepiling .section section div article p {
             text-align: left;
             width: 90%;
-            font-size: 1em;
+            font-size: 0.85vw;
             margin-bottom: 3vh;
             font-family: "Open Sans"; }
             * html #pagepiling .section section div article p a,
@@ -292,12 +292,10 @@
       background-image: url(../assets/imgs/lo3l.jpeg); }
       * html #pagepiling #section2 section,
       * body #pagepiling #section2 section {
-        background-color: rgba(0, 0, 0, 0.7);
-        /*        div:last-child {
-                    iframe {
-                        max-height: 70%;
-                    }
-                }*/ }
+        background-color: rgba(0, 0, 0, 0.7); }
+        * html #pagepiling #section2 section div:last-child iframe,
+        * body #pagepiling #section2 section div:last-child iframe {
+          max-height: 70%; }
     * html #pagepiling #section3,
     * body #pagepiling #section3 {
       background-image: url(../assets/imgs/mouse-439593_1920.jpg); }
