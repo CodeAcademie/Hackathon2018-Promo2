@@ -169,7 +169,7 @@
         width: 95%;
         height: 92vh;
         margin: 0 0 0 2.5%;
-        padding: 5%; }
+        padding: 3%; }
         * html #pagepiling .section section div,
         * body #pagepiling .section section div {
           width: 100%;
@@ -210,7 +210,7 @@
           * body #pagepiling .section section div article p {
             text-align: left;
             width: 90%;
-            font-size: 0.8vw;
+            font-size: 0.85em;
             margin-bottom: 3vh;
             font-family: "Open Sans"; }
             * html #pagepiling .section section div article p a,
@@ -382,12 +382,12 @@
       * body #pagepiling #section4 section div iframe {
         -webkit-filter: invert(100%);
         filter: invert(100%);
-        margin-bottom: 20px; }
+        margin-bottom: 10px; }
       * html #pagepiling #section4 section div p,
       * body #pagepiling #section4 section div p {
-        margin-bottom: 5px;
+        margin-bottom: 0px;
         padding-bottom: 5px;
-        font-size: 1.2em; }
+        font-size: 0.85em; }
     * html #pagepiling #section5,
     * body #pagepiling #section5 {
       background-image: url(../assets/imgs/boxer-1984344_1920.jpg); }
