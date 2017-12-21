@@ -118,17 +118,7 @@
                         <img src="assets/imgs/lorem-ipsum1.jpg" alt="alt-?" class="img-calendar">
                         <h3><img src="assets/imgs/004-circle-button.svg" alt="Circle Button"> Voter pour vos thèmes !</h3>
                         <div class="orange"></div>
-                        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSc8pKQatOejthE8gc_SBsae8eXGMBRSXncwmoIWpGkfvriSJQ/viewform?embedded=true" width="100%" height="325" frameborder="0" marginheight="0" marginwidth="0">Chargement en cours...</iframe>
-                        <ul class="timeline">
-                            <li>
-                                <img src="assets/imgs/invaders/invaders4.svg" alt="Space Invaders">
-                                <h4>?:? &#45; Lorem Ipsum</h4>
-                            </li>
-                            <li>
-                                <img src="assets/imgs/invaders/invaders5.svg" alt="Space Invaders">
-                                <h4>?:? &#45; Lorem Ipsum</h4>
-                            </li>
-                        </ul>
+                        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSc8pKQatOejthE8gc_SBsae8eXGMBRSXncwmoIWpGkfvriSJQ/viewform?embedded=true" width="100%" height="350" frameborder="0" marginheight="0" marginwidth="0">Chargement en cours...</iframe>
                     </article>
                     <article class="col-md-4">
                         <h3><img src="assets/imgs/001-square-button.svg" alt="Square Button"> Vendredi 16 Fevrier</h3>
