@@ -11,7 +11,7 @@
 }
 
 $white: whitesmoke;
-$orange: #cf5920ff;
+$orange: #ed6100;
 $pink: crimson;
 $blue: #00458B;
 $green: #054A45;
@@ -243,44 +243,41 @@ $degrade: linear-gradient(to bottom, rgba(207, 89, 32, 1) 0%, rgba(220, 20, 60, 
             // ====== PAGE HOME ====== //
             #section1 {
                 background-image: url(../assets/imgs/overwatch-1610865_1920.jpg);
-                text-transform: uppercase;
-                text-align: center;
                 display: flex;
                 justify-content: center;
                 align-items: center;
+                text-align: center;
+                text-transform: uppercase;
                 .logotype-header {
                     display: flex;
                     flex-direction: column;
                     align-items: center;
-                    width: 30%;
                     margin: 0 auto;
-                    background: $degrade;
+                    width: 30%;
+                    background: $orange;
                     div {
-                        width: 99.5%;
                         height: 100%;
+                        width: 99%;
                         background-color: black;
                         img {
+                            width: 15vw;
                             margin: 0px;
-                            width: 17vw;
-                            opacity: 0.8;
                         }
                         img:first-child {
-                            padding-top: 4vh;
-                            padding-bottom: 4vh;
-                            opacity: 1;
+                            padding: 5vh 0vh;
                         }
                     }
                 }
                 h1 {
-                    font-size: 7em;
+                    margin-top: 5vh;
+                    font-size: 10em;
                     text-transform: uppercase;
-                    margin-top: 6vh;
                 }
                 h2 {
                     margin: 0;
                     padding: 0;
-                    font-size: 2em;
-                    color: $green;
+                    font-size: 3em;
+                    color: $orange;
                 }
                 button {
                     padding: 10px;
@@ -293,7 +290,7 @@ $degrade: linear-gradient(to bottom, rgba(207, 89, 32, 1) 0%, rgba(220, 20, 60, 
                         text-transform: uppercase;
                     }
                     &:hover {
-                        background-color: $green;
+                        background-color: $orange;
                     }
                 }
                 button:nth-child(4) {
@@ -302,14 +299,14 @@ $degrade: linear-gradient(to bottom, rgba(207, 89, 32, 1) 0%, rgba(220, 20, 60, 
                 h3 {
                     font-family: "Open Sans";
                     font-size: 2em;
+                    font-weight: bold;
                     padding: 3vh 0 2vh 0;
                     position: absolute;
                     bottom: 0px;
                     background-color: rgba(20, 20, 20, 0.5);
-                    border-top: 1px solid $green;
+                    border-top: 1px solid $orange;
                     margin-bottom: 0px;
                     width: 100%;
-                    opacity: 0.5;
                 }
             }
             // ====== PAGE PRÉSENTATION ====== //
@@ -474,7 +471,7 @@ $degrade: linear-gradient(to bottom, rgba(207, 89, 32, 1) 0%, rgba(220, 20, 60, 
                             justify-content: space-around;
                             align-items: center;
                             button {
-                                font-size: 3em;
+                                font-size: 2em;
                                 border: 0;
                             }
                         }

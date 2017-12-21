@@ -45,7 +45,7 @@
     * html .navbar-minimal > .navbar-toggler:hover,
     * body .navbar-minimal.open > .navbar-toggler,
     * body .navbar-minimal > .navbar-toggler:hover {
-      background-color: #cf5920ff; }
+      background-color: #ed6100; }
     * html .navbar-minimal > .navbar-toggler > span,
     * body .navbar-minimal > .navbar-toggler > span {
       position: absolute;
@@ -99,7 +99,7 @@
       border-bottom-width: 0px; }
     * html .navbar-minimal > .navbar-menu > li > a:hover,
     * body .navbar-minimal > .navbar-menu > li > a:hover {
-      background-color: #cf5920ff; }
+      background-color: #ed6100; }
     * html .navbar-minimal > .navbar-menu > li > a > .glyphicon,
     * body .navbar-minimal > .navbar-menu > li > a > .glyphicon {
       float: right; }
@@ -188,7 +188,7 @@
               width: 1.5vw; }
           * html #pagepiling .section section div article #orange,
           * body #pagepiling .section section div article #orange {
-            background-color: #cf5920ff; }
+            background-color: #ed6100; }
           * html #pagepiling .section section div article #pink,
           * body #pagepiling .section section div article #pink {
             background-color: crimson; }
@@ -216,50 +216,47 @@
             * html #pagepiling .section section div article p a,
             * body #pagepiling .section section div article p a {
               text-decoration: none;
-              color: #cf5920ff;
+              color: #ed6100;
               font-weight: bold; }
     * html #pagepiling #section1,
     * body #pagepiling #section1 {
       background-image: url(../assets/imgs/overwatch-1610865_1920.jpg);
-      text-transform: uppercase;
-      text-align: center;
       display: flex;
       justify-content: center;
-      align-items: center; }
+      align-items: center;
+      text-align: center;
+      text-transform: uppercase; }
       * html #pagepiling #section1 .logotype-header,
       * body #pagepiling #section1 .logotype-header {
         display: flex;
         flex-direction: column;
         align-items: center;
-        width: 30%;
         margin: 0 auto;
-        background: linear-gradient(to bottom, #cf5920 0%, crimson 25%, #00468b 50%, #054a45 75%, #760e05 100%); }
+        width: 30%;
+        background: #ed6100; }
         * html #pagepiling #section1 .logotype-header div,
         * body #pagepiling #section1 .logotype-header div {
-          width: 99.5%;
           height: 100%;
+          width: 99%;
           background-color: black; }
           * html #pagepiling #section1 .logotype-header div img,
           * body #pagepiling #section1 .logotype-header div img {
-            margin: 0px;
-            width: 17vw;
-            opacity: 0.8; }
+            width: 15vw;
+            margin: 0px; }
           * html #pagepiling #section1 .logotype-header div img:first-child,
           * body #pagepiling #section1 .logotype-header div img:first-child {
-            padding-top: 4vh;
-            padding-bottom: 4vh;
-            opacity: 1; }
+            padding: 5vh 0vh; }
       * html #pagepiling #section1 h1,
       * body #pagepiling #section1 h1 {
-        font-size: 7em;
-        text-transform: uppercase;
-        margin-top: 6vh; }
+        margin-top: 5vh;
+        font-size: 10em;
+        text-transform: uppercase; }
       * html #pagepiling #section1 h2,
       * body #pagepiling #section1 h2 {
         margin: 0;
         padding: 0;
-        font-size: 2em;
-        color: #054A45; }
+        font-size: 3em;
+        color: #ed6100; }
       * html #pagepiling #section1 button,
       * body #pagepiling #section1 button {
         padding: 10px;
@@ -273,7 +270,7 @@
           text-transform: uppercase; }
         * html #pagepiling #section1 button:hover,
         * body #pagepiling #section1 button:hover {
-          background-color: #054A45; }
+          background-color: #ed6100; }
       * html #pagepiling #section1 button:nth-child(4),
       * body #pagepiling #section1 button:nth-child(4) {
         display: none; }
@@ -281,14 +278,14 @@
       * body #pagepiling #section1 h3 {
         font-family: "Open Sans";
         font-size: 2em;
+        font-weight: bold;
         padding: 3vh 0 2vh 0;
         position: absolute;
         bottom: 0px;
         background-color: rgba(20, 20, 20, 0.5);
-        border-top: 1px solid #054A45;
+        border-top: 1px solid #ed6100;
         margin-bottom: 0px;
-        width: 100%;
-        opacity: 0.5; }
+        width: 100%; }
     * html #pagepiling #section2,
     * body #pagepiling #section2 {
       background-image: url(../assets/imgs/lol2.jpeg); }
@@ -431,7 +428,7 @@
         align-items: center; }
         * html #pagepiling footer div .modal-dialog .modal-header button,
         * body #pagepiling footer div .modal-dialog .modal-header button {
-          font-size: 3em;
+          font-size: 2em;
           border: 0; }
       * html #pagepiling footer div .modal-dialog .modal-content,
       * body #pagepiling footer div .modal-dialog .modal-content {
