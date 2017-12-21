@@ -272,6 +272,7 @@ $degrade: linear-gradient(to bottom, rgba(207, 89, 32, 1) 0%, rgba(220, 20, 60, 
                     margin-top: 5vh;
                     font-size: 8em;
                     text-transform: uppercase;
+                    text-shadow: 4px 1px 0px rgba(0, 0, 0, 1);
                 }
                 h2 {
                     margin: 0;
@@ -300,11 +301,11 @@ $degrade: linear-gradient(to bottom, rgba(207, 89, 32, 1) 0%, rgba(220, 20, 60, 
                     font-family: "Open Sans";
                     font-size: 2em;
                     font-weight: bold;
-                    padding: 3vh 0 2vh 0;
+                    padding: 2vh 0 2vh 0;
                     position: absolute;
                     bottom: 0px;
-                    background-color: rgba(20, 20, 20, 0.5);
-                    border-top: 1px solid $orange;
+                    background-color: rgba(0, 0, 0, 0.8);
+                    border-top: 2px solid $orange;
                     margin-bottom: 0px;
                     width: 100%;
                 }
