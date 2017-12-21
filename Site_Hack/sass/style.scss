@@ -12,11 +12,7 @@
 
 $white: whitesmoke;
 $orange: #ed6100;
-$pink: crimson;
-$blue: #00458B;
-$green: #054A45;
-$brick: #760F05;
-$degrade: linear-gradient(to bottom, rgba(207, 89, 32, 1) 0%, rgba(220, 20, 60, 1) 25%, rgba(0, 70, 139, 1) 50%, rgba(5, 74, 69, 1) 75%, rgba(118, 14, 5, 1) 100%);
+
 * {
     box-sizing: border-box;
     margin: 0px;
@@ -164,8 +160,8 @@ $degrade: linear-gradient(to bottom, rgba(207, 89, 32, 1) 0%, rgba(220, 20, 60, 
                 height: 0;
                 border-top: 10px solid transparent;
                 border-bottom: 10px solid transparent;
-                border-right: 10px solid $green;
-                border-right-color: $green;
+                border-right: 10px solid $orange;
+                border-right-color: $orange;
             }
             .navbar-minimal>.navbar-menu>li>a:hover>.desc {
                 left: 60px;
@@ -208,16 +204,16 @@ $degrade: linear-gradient(to bottom, rgba(207, 89, 32, 1) 0%, rgba(220, 20, 60, 
                                 background-color: $orange;
                             }
                             #pink {
-                                background-color: $pink;
+                                background-color: $orange;
                             }
                             #blue {
-                                background-color: $blue;
+                                background-color: $orange;
                             }
                             #green {
-                                background-color: $green;
+                                background-color: $orange;
                             }
                             #red {
-                                background-color: $brick;
+                                background-color: $orange;
                             }
                             div {
                                 width: 90%;
@@ -227,7 +223,7 @@ $degrade: linear-gradient(to bottom, rgba(207, 89, 32, 1) 0%, rgba(220, 20, 60, 
                             p {
                                 text-align: left;
                                 width: 90%;
-                                font-size: 0.85em;
+                                font-size: 1em;
                                 margin-bottom: 3vh;
                                 font-family: "Open Sans";
                                 a {
@@ -312,13 +308,17 @@ $degrade: linear-gradient(to bottom, rgba(207, 89, 32, 1) 0%, rgba(220, 20, 60, 
             }
             // ====== PAGE PRÉSENTATION ====== //
             #section2 {
-                background-image: url(../assets/imgs/lol2.jpeg);
+                background-image: url(../assets/imgs/lo3l.jpeg);
                 section {
-                    div:last-child {
+                        
+                    background-color: rgba(0, 0, 0, 0.7);
+                    article {
+                    }
+            /*        div:last-child {
                         iframe {
                             max-height: 70%;
                         }
-                    }
+                    }*/
                 }
             }
             // ====== PAGE CALENDRIER ====== //
@@ -374,7 +374,7 @@ $degrade: linear-gradient(to bottom, rgba(207, 89, 32, 1) 0%, rgba(220, 20, 60, 
                                 font-size: 0.9em;
                                 padding: 30px;
                                 margin: 5vh;
-                                background-color: $green;
+                                background-color: $orange;
                             }
                             form {
                                 width: 90%;
@@ -405,7 +405,7 @@ $degrade: linear-gradient(to bottom, rgba(207, 89, 32, 1) 0%, rgba(220, 20, 60, 
                                     background-color: transparent;
                                     border: 1px solid $white;
                                     &:hover {
-                                        background-color: $green;
+                                        background-color: $orange;
                                     }
                                 }
                             }

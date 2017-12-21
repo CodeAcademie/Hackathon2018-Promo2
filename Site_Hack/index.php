@@ -105,7 +105,7 @@
                         <div id="red"></div>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo fuga sit recusandae? Cupiditate vero autem, consequatur optio temporibus quam dolor. Minima, laudantium incidunt eius optio placeat sint consequatur? Nihil, tempore! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis aperiam incidunt fuga eius pariatur architecto facilis asperiores harum ullam repellendus maxime vitae accusamus voluptates illo, eos, iste dolor. Cumque, debitis.</p>
                         <div class="embed-responsive embed-responsive-16by9">
-                            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Zg46755sSdk" frameborder="0" allowfullscreen></iframe>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/PF4bsRzwQZU" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
                         </div>
                     </article>
                 </div>

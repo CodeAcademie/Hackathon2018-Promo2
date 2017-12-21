@@ -151,8 +151,8 @@
         height: 0;
         border-top: 10px solid transparent;
         border-bottom: 10px solid transparent;
-        border-right: 10px solid #054A45;
-        border-right-color: #054A45; }
+        border-right: 10px solid #ed6100;
+        border-right-color: #ed6100; }
       * html .navbar-minimal > .navbar-menu > li > a:hover > .desc,
       * body .navbar-minimal > .navbar-menu > li > a:hover > .desc {
         left: 60px;
@@ -191,16 +191,16 @@
             background-color: #ed6100; }
           * html #pagepiling .section section div article #pink,
           * body #pagepiling .section section div article #pink {
-            background-color: crimson; }
+            background-color: #ed6100; }
           * html #pagepiling .section section div article #blue,
           * body #pagepiling .section section div article #blue {
-            background-color: #00458B; }
+            background-color: #ed6100; }
           * html #pagepiling .section section div article #green,
           * body #pagepiling .section section div article #green {
-            background-color: #054A45; }
+            background-color: #ed6100; }
           * html #pagepiling .section section div article #red,
           * body #pagepiling .section section div article #red {
-            background-color: #760F05; }
+            background-color: #ed6100; }
           * html #pagepiling .section section div article div,
           * body #pagepiling .section section div article div {
             width: 90%;
@@ -210,7 +210,7 @@
           * body #pagepiling .section section div article p {
             text-align: left;
             width: 90%;
-            font-size: 0.85em;
+            font-size: 1em;
             margin-bottom: 3vh;
             font-family: "Open Sans"; }
             * html #pagepiling .section section div article p a,
@@ -289,10 +289,15 @@
         width: 100%; }
     * html #pagepiling #section2,
     * body #pagepiling #section2 {
-      background-image: url(../assets/imgs/lol2.jpeg); }
-      * html #pagepiling #section2 section div:last-child iframe,
-      * body #pagepiling #section2 section div:last-child iframe {
-        max-height: 70%; }
+      background-image: url(../assets/imgs/lo3l.jpeg); }
+      * html #pagepiling #section2 section,
+      * body #pagepiling #section2 section {
+        background-color: rgba(0, 0, 0, 0.7);
+        /*        div:last-child {
+                    iframe {
+                        max-height: 70%;
+                    }
+                }*/ }
     * html #pagepiling #section3,
     * body #pagepiling #section3 {
       background-image: url(../assets/imgs/mouse-439593_1920.jpg); }
@@ -337,7 +342,7 @@
         font-size: 0.9em;
         padding: 30px;
         margin: 5vh;
-        background-color: #054A45; }
+        background-color: #ed6100; }
       * html #pagepiling #section4 section div article form,
       * body #pagepiling #section4 section div article form {
         width: 90%; }
@@ -375,7 +380,7 @@
           border: 1px solid whitesmoke; }
           * html #pagepiling #section4 section div article form button:hover,
           * body #pagepiling #section4 section div article form button:hover {
-            background-color: #054A45; }
+            background-color: #ed6100; }
       * html #pagepiling #section4 section div iframe,
       * body #pagepiling #section4 section div iframe {
         -webkit-filter: invert(100%);
