@@ -382,12 +382,11 @@
       * body #pagepiling #section4 section div iframe {
         -webkit-filter: invert(100%);
         filter: invert(100%);
-        margin-bottom: 10px;
-        height: 90%; }
+        margin-bottom: 10px; }
       * html #pagepiling #section4 section div p,
       * body #pagepiling #section4 section div p {
         margin-bottom: 0px;
-        padding-bottom: 5px;
+        padding-bottom: 2.5px;
         font-size: 0.85em; }
     * html #pagepiling #section5,
     * body #pagepiling #section5 {
