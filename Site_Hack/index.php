@@ -115,7 +115,7 @@
             <section>
                 <div class="row">
                      <article class="col-md-4">
-                        <img src="assets/imgs/lorem-ipsum1.jpg" alt="alt-?" class="img-calendar">
+                        <img src="assets/imgs/calendar-face.jpeg" alt="alt-?" class="img-calendar">
                         <h3><img src="assets/imgs/game-controller.svg" alt="Circle Button"> Voter pour vos thèmes !</h3>
                         <div class="orange"></div>
                         <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSc8pKQatOejthE8gc_SBsae8eXGMBRSXncwmoIWpGkfvriSJQ/viewform?embedded=true" width="100%" height="350" frameborder="0" marginheight="0" marginwidth="0">Chargement en cours...</iframe>
@@ -179,7 +179,7 @@
                         </ul>
                     </article>
                     <article class="col-md-4">
-                        <img src="assets/imgs/lorem-ipsum1.jpg" alt="" class="img-calendar">
+                        <img src="assets/imgs/calendar-face2.jpeg" alt="" class="img-calendar">
                         <h3><img src="assets/imgs/003-triangle-button.svg" alt="Triangle Button"> Samedi 17 Fevrier</h3>
                         <div class="orange"></div>
                         <ul class="timeline">
