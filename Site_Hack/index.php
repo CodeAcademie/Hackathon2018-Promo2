@@ -121,7 +121,7 @@
                         <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSc8pKQatOejthE8gc_SBsae8eXGMBRSXncwmoIWpGkfvriSJQ/viewform?embedded=true" width="100%" height="350" frameborder="0" marginheight="0" marginwidth="0">Chargement en cours...</iframe>
                     </article>
                     <article class="col-md-4">
-                        <h3><img src="assets/imgs/002-cross-button.svg" alt="Square Button"> Samedi 17 février</h3>
+                        <h3><img src="assets/imgs/002-cross-button.svg" alt="Square Button"> Vendredi 16 février</h3>
                         <div class="orange"></div>
                         <ul class="timeline">
                             <li>
@@ -130,90 +130,74 @@
                             </li>
                             <li>
                                 <img src="assets/imgs/invaders/invaders2.svg" alt="Space Invaders">
-                                <h4>18:00 &#45; Définition des groupes</h4>
+                                <h4>18:30 &#45; Définition des groupes</h4>
                             </li>
                             <li>
                                 <img src="assets/imgs/invaders/invaders3.svg" alt="Space Invaders">
-                                <h4>21:00 &#45; Repas</h4>
-                            </li>
-                            <li>
-                                <img src="assets/imgs/invaders/invaders4.svg" alt="Space Invaders">
-                                <h4>22:00 &#45; Bilan de la journée</h4>
-                            </li>
-                            <li>
-                                <img src="assets/imgs/invaders/invaders5.svg" alt="Space Invaders">
-                                <h4>23:00 &#45; Fermeture des locaux</h4>
+                                <h4>19:00 &#45; Fermeture des locaux</h4>
                             </li>
                         </ul>
-                        <h3><img src="assets/imgs/001-square-button.svg" alt="Square Button"> Dimanche 18 Fevrier</h3>
+                        <h3><img src="assets/imgs/001-square-button.svg" alt="Square Button"> Samedi 17 Fevrier</h3>
                         <div class="orange"></div>
                         <ul class="timeline">
                             <li>
                                 <img src="assets/imgs/invaders/invaders9.svg" alt="Space Invaders">
-                                <h4>09:15 &#45; Petit déjeuner</h4>
+                                <h4>09:00 &#45; Ouvertures des locaux</h4>
                             </li>
                             <li>
                                 <img src="assets/imgs/invaders/invaders4.svg" alt="Space Invaders">
-                                <h4>?:? &#45; Lorem Ipsum</h4>
+                                <h4>9h15 &#45; Démarrage avec Café</h4>
                             </li>
                             <li>
                                 <img src="assets/imgs/invaders/invaders4.svg" alt="Space Invaders">
-                                <h4>?:? &#45; Lorem Ipsum</h4>
+                                <h4>9:30 &#45; Lancement des travaux de groupes</h4>
                             </li>
                             <li>
                                 <img src="assets/imgs/invaders/invaders4.svg" alt="Space Invaders">
-                                <h4>?:? &#45; Lorem Ipsum</h4>
+                                <h4>14:00 - 17:00 &#45; Ouverture Public</h4>
                             </li>
                             <li>
                                 <img src="assets/imgs/invaders/invaders5.svg" alt="Space Invaders">
-                                <h4>?:? &#45; Lorem Ipsum</h4>
+                                <h4>20:00 &#45; Repas</h4>
                             </li>
                             <li>
                                 <img src="assets/imgs/invaders/invaders10.svg" alt="Space Invaders">
-                                <h4>13:30 &#45; Présentation du projet au jury</h4>
-                            </li>
-                            <li>
-                                <img src="assets/imgs/invaders/invaders11.svg" alt="Space Invaders">
-                                <h4>15:00 &#45; Fermeture des locaux</h4>
+                                <h4>Locaux ouvert toute la nuit</h4>
                             </li>
                         </ul>
                     </article>
                     <article class="col-md-4">
                         <img src="assets/imgs/calendar-face2.jpeg" alt="" class="img-calendar">
-                        <h3><img src="assets/imgs/003-triangle-button.svg" alt="Triangle Button"> Samedi 17 Fevrier</h3>
+                        <h3><img src="assets/imgs/003-triangle-button.svg" alt="Triangle Button"> Dimanche 18 Fevrier</h3>
                         <div class="orange"></div>
                         <ul class="timeline">
                             <li>
                                 <img src="assets/imgs/invaders/invaders6.svg" alt="Space Invaders">
-                                <h4>09:00 &#45; Ouverture des locaux</h4>
-                            </li>
-                            <li>
-                                <img src="assets/imgs/invaders/invaders7.svg" alt="Space Invaders">
-                                <h4>09:15 &#45; Petit déjeuner</h4>
+                                <h4>09:00 &#45; Ouverture des locaux / Petit déjeuner</h4>
                             </li>
                             <li>
                                 <img src="assets/imgs/invaders/invaders4.svg" alt="Space Invaders">
-                                <h4>?:? &#45; Lorem Ipsum</h4>
+                                <h4>10:30 &#45; Sélection des finalistes</h4>
                             </li>
                             <li>
                                 <img src="assets/imgs/invaders/invaders5.svg" alt="Space Invaders">
-                                <h4>?:? &#45; Lorem Ipsum</h4>
+                                <h4>11:00 &#45; Bilan des travaux de groupe</h4>
                             </li>
                             <li>
                                 <img src="assets/imgs/invaders/invaders4.svg" alt="Space Invaders">
-                                <h4>?:? &#45; Lorem Ipsum</h4>
+                                <h4>12:00 &#45; Repas</h4>
                             </li>
                             <li>
                                 <img src="assets/imgs/invaders/invaders5.svg" alt="Space Invaders">
-                                <h4>?:? &#45; Lorem Ipsum</h4>
+                                <h4>13:30 &#45; Présentation jury</h4>
                             </li>
                             <li>
                                 <img src="assets/imgs/invaders/invaders5.svg" alt="Space Invaders">
-                                <h4>?:? &#45; Lorem Ipsum</h4>
+                                <h4>14:30 &#45; Remise de prix</h4>
                             </li>
                             <li>
                                 <img src="assets/imgs/invaders/invaders8.svg" alt="Space Invaders">
-                                <h4>21:00 &#45; Bilan de la journée</h4>
+                                <h4>15:00 &#45; Fermeture des locaux</h4>
                             </li>
                         </ul>
                     </article>
