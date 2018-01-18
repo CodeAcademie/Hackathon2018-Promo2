@@ -105,7 +105,7 @@
                         <div class="orange"></div>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo fuga sit recusandae? Cupiditate vero autem, consequatur optio temporibus quam dolor. Minima, laudantium incidunt eius optio placeat sint consequatur? Nihil, tempore! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis aperiam incidunt fuga eius pariatur architecto facilis asperiores harum ullam repellendus maxime vitae accusamus voluptates illo, eos, iste dolor. Cumque, debitis.</p>
                         <div class="embed-responsive embed-responsive-16by9">
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/PF4bsRzwQZU" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/PF4bsRzwQZU" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
                         </div>
                     </article>
                 </div>
@@ -114,7 +114,7 @@
         <div class="section" id="section3">
             <section>
                 <div class="row">
-                     <article class="col-md-4">
+                    <article class="col-md-4">
                         <img src="assets/imgs/calendar-face.jpeg" alt="alt-?" class="img-calendar">
                         <h3><img src="assets/imgs/game-controller.svg" alt="Circle Button"> Voter pour vos thèmes !</h3>
                         <div class="orange"></div>
@@ -262,7 +262,7 @@
                         <img src="assets/imgs/logos/claranet.png" alt="Claranet" class="logo-partenaire">
                     </article>
                     <article class="col-md-4">
-                     <h3><img src="assets/imgs/002-cross-button.svg" alt="Square Button"> Nos Partenaires Sponsors</h3>
+                        <h3><img src="assets/imgs/002-cross-button.svg" alt="Square Button"> Nos Partenaires Sponsors</h3>
                         <div class="orange"></div>
                         <img src="assets/imgs/lorem-ipsum1.jpg" alt="FACE RENNES" class="logo-partenaire">
                         <img src="assets/imgs/lorem-ipsum1.jpg" alt="CODE ACADEMIE" class="logo-partenaire">
@@ -280,32 +280,19 @@
                         <div class="modal-content">
                             <div class="modal-header">
                                 <h4 class="modal-title">Mentions légales</h4>
-                                <button type="button" class="close" data-dismiss="modal">&times;</button>
                             </div>
                             <div class="modal-body">
-                                <h2>Editeur du site</h2>
-                                <p>Association FACE Rennes : 23 rue d’Aiguillon, 35200 Rennes</p>
-                                <p>E-mail : codeacademie@fondationface.org</p>
-                                <p>Site Web : www.face.bzh</p>
-                                <p>Siret : 42894713900047</p>
+                                <p>Editeur du site Association FACE Rennes : 23 rue d’Aiguillon, 35200 Rennes</p>
+                                <p> E-mail : codeacademie@fondationface.org</p>
+                                <p>Site Web : www.face.bzh Siret : 42894713900047</p>
                                 <p>Tel : 02.99.86.89.26</p>
                                 <p>Directeur de publication : Erwann DUCLOS</p>
-
-                                <h2>Hébergement :</h2>
-                                <p>OVH</p>
-                                <p>2 rue Kellermann</p>
-                                <p>BP 80157</p>
-                                <p>59053 ROUBAIX Cedex 1</p>
+                                <p>Développeur : Lise Poirier &#8226; <a href="http://lise-poirier.fr/">lise-poirier.fr</a></p>
+                                <p>Hébergement : OVH 2 rue Kellermann BP 80157 59053 ROUBAIX Cedex 1</p>
                                 <p>Tél : +33 (0)8 203 203 63</p>
                                 <p>mail : support@ovh.com</p>
-
-                                <h2>Indisponibilité du site</h2>
-                                <p>la code académie s’engage à faire ses meilleurs efforts pour assurer aux utilisateurs une accessibilité du site à tout moment. La code académie ne pourra être tenue pour responsable, en cas d’indisponibilité du site, pour quelque cause que ce soit.</p>
-                                
-                                <h2>Images</h2>
-                                <p>Pixabay et Flirck</p>
-                                <h2>Pictogrammes</h2>
-                                <p>Flaticons</p>
+                                <p>Indisponibilité du site la code académie s’engage à faire ses meilleurs efforts pour assurer aux utilisateurs une accessibilité du site à tout moment. La code académie ne pourra être tenue pour responsable, en cas d’indisponibilité du site, pour quelque cause que ce soit.</p>
+                                <p>Images Pixabay et Flirck Pictogrammes Flaticons</p>
                             </div>
                             <div class="modal-footer">
                                 <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>

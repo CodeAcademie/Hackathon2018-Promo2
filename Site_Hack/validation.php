@@ -14,5 +14,4 @@
      mail($to, $name, $firstname, $mail, $school, $subject, $headers);
  echo "Votre message à bien été envoyé.";
 header('Location: index.php');
-
 ?>

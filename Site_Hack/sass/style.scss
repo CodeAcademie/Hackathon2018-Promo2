@@ -458,6 +458,7 @@ $orange: #ed6100;
                 }
                 div {
                     .modal-dialog {
+                        border: 1px solid $white;
                         .modal-header {
                             display: flex;
                             justify-content: space-around;
@@ -473,12 +474,9 @@ $orange: #ed6100;
                                 margin: 0px;
                             }
                             .modal-body {
-                                height: 60vh;
-                                h2 {
-                                    font-size: 0.9em;
-                                }
+                                height: 80vh;
                                 p {
-                                    margin: 0;
+                                    margin: 1.5vh;
                                 }
                             }
                         }
