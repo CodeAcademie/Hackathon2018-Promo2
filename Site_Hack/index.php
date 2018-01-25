@@ -87,7 +87,7 @@
                     <article class="col-md-6">
                         <h3><img src="assets/imgs/game-controller.svg" alt="pictogram Game"> Presentation </h3>
                         <div class="orange"></div>
-                        <p>Bienvenue à la seconde édition de ce Hackathon qui vous est proposé par <a href="http://code-academie.fr/" target="_blank">la Code Académie</a> et <a href="http://www.epita.fr/">l'EPITA</a>. Rejoignez-nous le temps d'un week-end pour exploiter les données de l'e-sport : innovons et concevons des applications à loisir ! C'est un challenge multi-compétences qui fait la part belle au travail d'équipe, à la communication et à la créativité... Sans oublier une bonne dose de technique pour donner vie à vos projets. Le meilleur projet aura droit à une distinction et un cadeau mystère... A vos ordis, prêt ? Inscrivez-vous !</p>
+                        <p>Bienvenue à la seconde édition de ce Hackathon qui vous est proposée par <a href="http://code-academie.fr/" target="_blank">la Code Académie</a> et <a href="http://www.epita.fr/">l'EPITA</a>. Rejoignez-nous le temps d'un week-end pour exploiter les données de l'e-sport : innovons et concevons des applications à loisir ! C'est un challenge multi-compétences qui fait la part belle au travail d'équipe, à la communication et à la créativité... Sans oublier une bonne dose de technique pour donner vie à vos projets. Le meilleur projet aura droit à une distinction et un cadeau mystère... A vos ordis, prêt ? Inscrivez-vous !</p>
                         <h3><img src="assets/imgs/001-square-button.svg" alt="Square Button"> Un Hackathon ? C'est quoi ? </h3>
                         <div class="orange"></div>
                         <p>Le mot Hackathon est la combinaison de deux notions : hack et marathon. Un hack, en dépit de sa connotation négative initiale, est désormais le fait de détourner un objet/principe de son utilisation basique pour nous faciliter la vie (d'ailleurs on vous recommande fortement de faire un petit tour sur youtube et de chercher des <a href="https://www.youtube.com/watch?v=567Hkus_MVs" target="_blank">life hack</a>... ça pourrait vous changer la vie dans certaines occasions!). Dans notre cadre, ce sont les données de l'e-sport à hacker pour en tirer applications peut-être? Vous n'êtes pas limité.e.s dans la finalité de vos applications. La deuxième notion derrière le hackathon est le marathon. Vous allez devoir coder/designer/échanger/créer et surtout vous éclater pendant 48h non-stop! (sisi, vous avez le droit de dormir quand même). Le but est que vous fournissiez le projet le plus abouti dans un laps de temps très court et que vous le présentiez à un jury et devant les autres participant.e.s.</p>
@@ -95,15 +95,12 @@
                         <div class="orange"></div>
                         <p><a href="http://code-academie.fr/" target="_blank">La Code Académie</a> et <a href="http://www.epita.fr/">l'EPITA</a> s'occupent de l'aspect logistique et de la communication sur l'événement. </p>
                         <p>
-                            Nous sommes deux centres de formation qui avons pour but de former nos élèves aux technologies et techniques professionnelles IT. Notre objectif : permettre à nos apprenant.e.s de se confronter au monde professionnel,développer les passerelles entre écoles, mais aussi et surtout pour qu'ils se fassent connaître sur le bassin rennais.</p>
+                            Nous sommes un centre de formation et une école d'ingénieurs qui avons pour but de former nos élèves aux technologies et techniques professionnelles IT. Notre objectif : permettre à nos apprenant.e.s de se confronter au monde professionnel,développer les passerelles entre écoles, mais aussi et surtout pour qu'ils se fassent connaître sur le bassin rennais.</p>
                     </article>
                     <article class="col-md-6">
                         <h3><img src="assets/imgs/003-triangle-button.svg" alt="Triangle Button"> Qui et Comment participer ?</h3>
                         <div class="orange"></div>
-                        <p>Ce challenge s'adresse à des étudiants de première et deuxième année, tou.te.s ceux.celles qui souhaitent travailler en équipe sur l'élaboration d'un nouveau concept à partir de données réelles. Découvrez l'univers des start-up ou partagez votre expérience pendant cet événement. Vous pouvez même pérenniser votre projet suite à ce week-end ou lui donner vie uniquement le temps de ces deux jours... Libre à vous d'en décider! Tous les profils sont les bienvenus. Inscrivez-vous au sein du fomulaire ci-dessous ou envoyez-nous un email à <a href="mailto:codeacademie@fondationface.org">codeacademie@fondationface.org</a> et nous vous ferons un retour (n'oubliez pas votre nom, prénom et domaine d'activité). Le public pourra venir à l'inauguration du projet ou à la cérémonie de remise des prix.</p>
-                        <h3><img src="assets/imgs/004-circle-button.svg" alt="Circle Button"> public </h3>
-                        <div class="orange"></div>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo fuga sit recusandae? Cupiditate vero autem, consequatur optio temporibus quam dolor. Minima, laudantium incidunt eius optio placeat sint consequatur? Nihil, tempore! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis aperiam incidunt fuga eius pariatur architecto facilis asperiores harum ullam repellendus maxime vitae accusamus voluptates illo, eos, iste dolor. Cumque, debitis.</p>
+                        <p>Ce challenge s'adresse à des étudiants de première et deuxième année, tou.te.s ceux.celles qui souhaitent travailler en équipe sur l'élaboration d'un nouveau concept à partir de données réelles. Les étudiant.e.s cible étant ceux de Digital Campus, l'Ecole Digitale de la deuxième chance, la code académie, l'epita et 3 Axes.</p>
                         <div class="embed-responsive embed-responsive-16by9">
                             <iframe width="560" height="315" src="https://www.youtube.com/embed/PF4bsRzwQZU" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
                         </div>
@@ -115,12 +112,12 @@
             <section>
                 <div class="row">
                     <article class="col-md-4">
-                        <img src="assets/imgs/calendar-face.jpeg" alt="alt-?" class="img-calendar">
                         <h3><img src="assets/imgs/game-controller.svg" alt="Circle Button"> Voter pour vos thèmes !</h3>
                         <div class="orange"></div>
-                        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSc8pKQatOejthE8gc_SBsae8eXGMBRSXncwmoIWpGkfvriSJQ/viewform?embedded=true" width="100%" height="350" frameborder="0" marginheight="0" marginwidth="0">Chargement en cours...</iframe>
+                        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSc8pKQatOejthE8gc_SBsae8eXGMBRSXncwmoIWpGkfvriSJQ/viewform?embedded=true" width="100%" height="350" frameborder="0" marginheight="0" marginwidth="0" style='height:100vh'>Chargement en cours...</iframe>
                     </article>
                     <article class="col-md-4">
+                    <img src="assets/imgs/calendar-face.jpeg" alt="alt-?" class="img-calendar">
                         <h3><img src="assets/imgs/002-cross-button.svg" alt="Square Button"> Vendredi 16 février</h3>
                         <div class="orange"></div>
                         <ul class="timeline">
@@ -128,13 +125,17 @@
                                 <img src="assets/imgs/invaders/invaders1.svg" alt="Space Invaders">
                                 <h4>17:00 &#45; Ouverture du Hackathon</h4>
                             </li>
+                             <li>
+                                <img src="assets/imgs/invaders/invaders2.svg" alt="Space Invaders">
+                                <h4>18:00 &#45; Visio-conf de Remy Chanson</h4>
+                            </li>
                             <li>
                                 <img src="assets/imgs/invaders/invaders2.svg" alt="Space Invaders">
                                 <h4>18:30 &#45; Définition des groupes</h4>
                             </li>
                             <li>
                                 <img src="assets/imgs/invaders/invaders3.svg" alt="Space Invaders">
-                                <h4>19:00 &#45; Fermeture des locaux</h4>
+                                <h4>20:00 &#45; Fermeture des locaux</h4>
                             </li>
                         </ul>
                         <h3><img src="assets/imgs/001-square-button.svg" alt="Square Button"> Samedi 17 Fevrier</h3>
@@ -142,11 +143,7 @@
                         <ul class="timeline">
                             <li>
                                 <img src="assets/imgs/invaders/invaders9.svg" alt="Space Invaders">
-                                <h4>09:00 &#45; Ouvertures des locaux</h4>
-                            </li>
-                            <li>
-                                <img src="assets/imgs/invaders/invaders4.svg" alt="Space Invaders">
-                                <h4>9h15 &#45; Démarrage avec Café</h4>
+                                <h4>09:00 &#45; Démarrage avec Café</h4>
                             </li>
                             <li>
                                 <img src="assets/imgs/invaders/invaders4.svg" alt="Space Invaders">
@@ -154,11 +151,11 @@
                             </li>
                             <li>
                                 <img src="assets/imgs/invaders/invaders4.svg" alt="Space Invaders">
-                                <h4>14:00 - 17:00 &#45; Ouverture Public</h4>
+                                <h4>14:00 - 17:00 &#45; Ouverture au public sur invitation</h4>
                             </li>
                             <li>
                                 <img src="assets/imgs/invaders/invaders5.svg" alt="Space Invaders">
-                                <h4>20:00 &#45; Repas</h4>
+                                <h4>20:00 &#45; Soirée Pizza</h4>
                             </li>
                             <li>
                                 <img src="assets/imgs/invaders/invaders10.svg" alt="Space Invaders">
@@ -173,19 +170,15 @@
                         <ul class="timeline">
                             <li>
                                 <img src="assets/imgs/invaders/invaders6.svg" alt="Space Invaders">
-                                <h4>09:00 &#45; Ouverture des locaux / Petit déjeuner</h4>
+                                <h4>09:00 &#45; Démarrage avec Café</h4>
                             </li>
                             <li>
                                 <img src="assets/imgs/invaders/invaders4.svg" alt="Space Invaders">
-                                <h4>10:30 &#45; Sélection des finalistes</h4>
-                            </li>
-                            <li>
-                                <img src="assets/imgs/invaders/invaders5.svg" alt="Space Invaders">
-                                <h4>11:00 &#45; Bilan des travaux de groupe</h4>
+                                <h4>11:00 &#45; Sélection des finalistes</h4>
                             </li>
                             <li>
                                 <img src="assets/imgs/invaders/invaders4.svg" alt="Space Invaders">
-                                <h4>12:00 &#45; Repas</h4>
+                                <h4>12:00 &#45; Brunch</h4>
                             </li>
                             <li>
                                 <img src="assets/imgs/invaders/invaders5.svg" alt="Space Invaders">
@@ -193,7 +186,11 @@
                             </li>
                             <li>
                                 <img src="assets/imgs/invaders/invaders5.svg" alt="Space Invaders">
-                                <h4>14:30 &#45; Remise de prix</h4>
+                                <h4>14:30 &#45; Remise des prix</h4>
+                            </li>
+                            <li>
+                                <img src="assets/imgs/invaders/invaders5.svg" alt="Space Invaders">
+                                <h4>14:45 &#45; Mot de clôture</h4>
                             </li>
                             <li>
                                 <img src="assets/imgs/invaders/invaders8.svg" alt="Space Invaders">
@@ -208,12 +205,17 @@
             <section id="inscription">
                 <div class="row">
                     <article class="col-md-6">
-                        <h3><img src="assets/imgs/001-square-button.svg" alt="Square Button"> formulaire d'inscription</h3>
+                        <h3><img src="assets/imgs/001-square-button.svg" alt="Square Button"> Campus </h3>
                         <div class="orange"></div>
+                        <img src="assets/imgs/epita.png" class='img-responsive'>
+                        <p>Code Academie &#8226; Epita &#8226; Digital Campus &#8226; École Digital de la Nouvelle Chance &#8226; 3Axes</p>
+                        <p>19-22 Boulevard Saint-Conwoïon</p>
+                        <p>35000 Rennes</p>
+                        <p>Tél : 02 57 22 08 11 </p>
                         <!--  ============================= -->
                         <!--  A RETIRER POUR ACTIVER !! -->
                         <!--  ============================= -->
-                        <h4>Les inscriptions ne sont pas encores ouvertes.</h4>
+                        <!-- <h4>Les inscriptions ne sont pas encores ouvertes.</h4> -->
                         <!--  ============================= -->
                         <!--  A DÉCOMMENTER POUR ACTIVER !! -->
                         <!--  ============================= -->
@@ -240,10 +242,7 @@
                         <h3><img src="assets/imgs/003-triangle-button.svg" alt="Triangle Button"> Lieu de matchmaking</h3>
                         <div class="orange"></div>
                         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2626.9101187507667!2d-1.691041700000001!3d48.10357770000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x480edfd3c61bdc0b%3A0x233abe41efa1abc9!2sEPITA+Rennes!5e0!3m2!1sfr!2sfr!4v1511795691748" width="90%" height="480" frameborder="0" style="border:0" allowfullscreen></iframe>
-                        <p>Code Academie &#8226; Epita &#8226; Digital Campus &#8226; École Digital de la Nouvelle Chance</p>
-                        <p>19-22 Boulevard Saint-Conwoïon</p>
-                        <p>35000 Rennes</p>
-                        <p>Tél : 02 57 22 08 11 </p>
+                        
                     </article>
                 </div>
             </section>
@@ -252,21 +251,45 @@
         <div class="section" id="section5">
             <section>
                 <div class="row">
-                    <article class="col-md-4">
-                        <h3><img src="assets/imgs/004-circle-button.svg" alt="Square Button"> Nos Partenaires Majeurs</h3>
+                    <article class="col-md-4" style='text-align: center;'>
+                        <h3><img src="assets/imgs/004-circle-button.svg" alt="Square Button"> Les écoles participantes </h3>
                         <div class="orange"></div>
-                        <img src="assets/imgs/logos/EPITA_LOGO_DEF.png" alt="EPITA" class="logo-partenaire">
-                        <img src="assets/imgs/logos/digital_campus.png" alt="DIGITAL CAMPUS" class="logo-partenaire">
-                        <img src="assets/imgs/logos/Logo_Mediaveille.svg" alt="MEDIAVEILLE" class="logo-partenaire">
-                        <img src="assets/imgs/logos/logo-sabella.jpg" alt="SABELLA" class="logo-partenaire">
-                        <img src="assets/imgs/logos/claranet.png" alt="Claranet" class="logo-partenaire">
+                        <a href="https://www.epita.fr"><img src="assets/imgs/logos/EPITA_LOGO_DEF.png" alt="EPITA" class="logo-partenaire"></a>
+                        <a href="https://www.digital-campus.fr/">
+                        <img src="assets/imgs/logos/digital_campus.png" alt="DIGITAL CAMPUS" class="logo-partenaire"></a>
+                        <a href="https://www.mediaveille.com">
+                        <img src="assets/imgs/logos/Logo_Mediaveille.svg" alt="MEDIAVEILLE" class="logo-partenaire"></a>
+                        <a href="http://face.bzh">
+                            <img src="assets/imgs/logos/logo_face_white.svg" alt="FACE Rennes" class="logo-partenaire">
+                        </a>
+                        <a href="http://3axes-institut.com">
+                            <img src="assets/imgs/logos/3axes.png" alt="3 Axes" class="logo-partenaire">
+                        </a>
                     </article>
                     <article class="col-md-4">
-                        <h3><img src="assets/imgs/002-cross-button.svg" alt="Square Button"> Nos Partenaires Sponsors</h3>
+                        <h3><img src="assets/imgs/002-cross-button.svg" alt="Square Button"> Nos Partenaires Gold</h3>
                         <div class="orange"></div>
-                        <img src="assets/imgs/lorem-ipsum1.jpg" alt="FACE RENNES" class="logo-partenaire">
-                        <img src="assets/imgs/lorem-ipsum1.jpg" alt="CODE ACADEMIE" class="logo-partenaire">
-                        <img src="assets/imgs/lorem-ipsum1.jpg" alt="EPITA" class="logo-partenaire">
+                       
+                        <a href="https://www.sabella.fr">
+                        <img src="assets/imgs/logos/logo-sabella.jpg" alt="SABELLA" class="logo-partenaire"></a>
+
+                        
+                    </article>
+                    <article class="col-md-4">
+                        <h3><img src="assets/imgs/001-square-button.svg" alt="Square Button"> Nos Partenaires Silver</h3>
+                        <div class="orange"></div>
+                        
+                        <a href="https://pandascore.co/">
+                            <img src="assets/imgs/logos/pandascore.png" alt="Pandascore" class="logo-partenaire" style='background-color: white; padding:3px'>
+                        </a>
+
+                        <a href="#">
+                            <img src="assets/imgs/logos/okawa.png" alt="Okawa" class="logo-partenaire" style='background-color: white'>
+                        </a>
+
+                         <a href="https://www.orange.fr/">
+                        <img src="assets/imgs/logos/logo-orange.png" alt="Orange" class="logo-partenaire"></a>
+
                     </article>
                 </div>
             </section>
