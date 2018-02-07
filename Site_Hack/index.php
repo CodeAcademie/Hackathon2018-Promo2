@@ -4,9 +4,9 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta property="og:title" content="HACKATHON 16 - 19 FÉVRIER" />
+    <meta property="og:title" content="HACKATHON 16 - 18 FÉVRIER" />
     <meta property="og:type" content="SiteWeb" />
-    <meta property="og:url" content="??" />
+    <meta property="og:url" content="http://www.hackathon.code-academie.fr/" />
     <meta property="og:image" content="assets/imgs/opengraph.png" />
     <title>HACKATHON 16-18 Fevrier 2018</title>
     <link rel="icon" type="image/png" href="assets/imgs/invaders.png" />
@@ -70,7 +70,7 @@
             <!--  ============================= -->
             <!--  A DÉCOMMENTER POUR ACTIVER !! -->
             <!--  ============================= -->
-            <!--   
+            <!--
                <button type="button"><a href="#inscription" class="js-scrollTo">Inscription</a></button>
                 <button type="button"><a href="#page4">Inscription</a></button>
          -->
@@ -114,11 +114,8 @@
                     <article class="col-md-4">
                         <h3><img src="assets/imgs/game-controller.svg" alt="Circle Button"> Voter pour vos thèmes !</h3>
                         <div class="orange"></div>
-                        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSc8pKQatOejthE8gc_SBsae8eXGMBRSXncwmoIWpGkfvriSJQ/viewform?embedded=true" width="100%" height="350" frameborder="0" marginheight="0" marginwidth="0" style='height:100vh'>Chargement en cours...</iframe>
-                    </article>
-                    <article class="col-md-4">
-                    <img src="assets/imgs/calendar-face.jpeg" alt="alt-?" class="img-calendar">
-                        <h3><img src="assets/imgs/002-cross-button.svg" alt="Square Button"> Vendredi 16 février</h3>
+                        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSc8pKQatOejthE8gc_SBsae8eXGMBRSXncwmoIWpGkfvriSJQ/viewform?embedded=true" width="100%" height="350" frameborder="0" marginheight="0" marginwidth="0" style='height:40vh'>Chargement en cours...</iframe>
+                        <h3><img src="assets/imgs/002-cross-button.svg" style="margin-top: 7px" alt="Square Button"> Vendredi 16 février</h3>
                         <div class="orange"></div>
                         <ul class="timeline">
                             <li>
@@ -138,6 +135,10 @@
                                 <h4>20:00 &#45; Fermeture des locaux</h4>
                             </li>
                         </ul>
+                    </article>
+                    <article class="col-md-4">
+                    <img src="assets/imgs/calendar-face.jpeg" alt="alt-?" class="img-calendar">
+
                         <h3><img src="assets/imgs/001-square-button.svg" alt="Square Button"> Samedi 17 Fevrier</h3>
                         <div class="orange"></div>
                         <ul class="timeline">
@@ -242,7 +243,7 @@
                         <h3><img src="assets/imgs/003-triangle-button.svg" alt="Triangle Button"> Lieu de matchmaking</h3>
                         <div class="orange"></div>
                         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2626.9101187507667!2d-1.691041700000001!3d48.10357770000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x480edfd3c61bdc0b%3A0x233abe41efa1abc9!2sEPITA+Rennes!5e0!3m2!1sfr!2sfr!4v1511795691748" width="90%" height="480" frameborder="0" style="border:0" allowfullscreen></iframe>
-                        
+
                     </article>
                 </div>
             </section>
@@ -254,7 +255,7 @@
                     <article class="col-md-4" style='text-align: center;'>
                         <h3><img src="assets/imgs/004-circle-button.svg" alt="Square Button"> Les écoles participantes </h3>
                         <div class="orange"></div>
-                        <a href="https://www.epita.fr"><img src="assets/imgs/logos/EPITA_LOGO_DEF.png" alt="EPITA" class="logo-partenaire"></a>
+                        <a href="http://www.epita.fr"><img src="assets/imgs/logos/EPITA_LOGO_DEF.png" alt="EPITA" class="logo-partenaire"></a>
                         <a href="https://www.digital-campus.fr/">
                         <img src="assets/imgs/logos/digital_campus.png" alt="DIGITAL CAMPUS" class="logo-partenaire"></a>
                         <a href="https://www.mediaveille.com">
@@ -269,27 +270,40 @@
                     <article class="col-md-4">
                         <h3><img src="assets/imgs/002-cross-button.svg" alt="Square Button"> Nos Partenaires Gold</h3>
                         <div class="orange"></div>
-                       
-                        <a href="https://www.sabella.fr">
-                        <img src="assets/imgs/logos/logo-sabella.jpg" alt="SABELLA" class="logo-partenaire"></a>
 
-                        
+                        <a href="http://www.sabella.fr">
+                          <img src="assets/imgs/logos/logo-sabella.jpg" alt="SABELLA" class="logo-partenaire">
+                        </a>
+                        <a href="https://www.claranet.fr/">
+                          <img src="assets/imgs/logos/logo-claranet.jpg" alt="Claranet" class="logo-partenaire">
+                        </a>
+
                     </article>
                     <article class="col-md-4">
                         <h3><img src="assets/imgs/001-square-button.svg" alt="Square Button"> Nos Partenaires Silver</h3>
                         <div class="orange"></div>
-                        
-                        <a href="https://pandascore.co/">
-                            <img src="assets/imgs/logos/pandascore.png" alt="Pandascore" class="logo-partenaire" style='background-color: white; padding:3px'>
+
+
+
+
+                        <a class="col-md-6" href="http://www.happybluefish.fr/">
+                          <img src="assets/imgs/logos/logo-happybluefish.png" alt="Happy Blue Fish" class="logo-partenaire-big" style="background-color: white; padding:3px">
                         </a>
 
-                        <a href="#">
-                            <img src="assets/imgs/logos/okawa.png" alt="Okawa" class="logo-partenaire" style='background-color: white'>
+                        <a class="col-md-6" href="https://pandascore.co/">
+                            <img src="assets/imgs/logos/pandascore.png" alt="Pandascore" class="logo-partenaire-big" style='background-color: white; padding:3px'>
                         </a>
-
-                         <a href="https://www.orange.fr/">
-                        <img src="assets/imgs/logos/logo-orange.png" alt="Orange" class="logo-partenaire"></a>
-
+                        <a class="col-md-6" href="http://www.3hitcombo.fr/">
+                          <img src="assets/imgs/logos/logo-3hc.png" alt="3 Hit combo" class="logo-partenaire-big" style="background-color: white; padding:3px"
+                        </a>
+                        <a class="col-md-6" href="https://group.bnpparibas/">
+                          <img src="assets/imgs/logos/bnp.png" alt="BNP Paribas" class="logo-partenaire-big" style="background-color: white; padding:3px"
+                        </a>
+                        <a class="col-md-6" href="https://www.orange.fr/">
+                       <img src="assets/imgs/logos/logo-orange.png" alt="Orange" class="logo-partenaire-big"></a>
+                       <a class="col-md-6">
+                           <img src="assets/imgs/logos/okawa.png" alt="Okawa" class="logo-partenaire-big" style='background-color: white'>
+                       </a>
                     </article>
                 </div>
             </section>
